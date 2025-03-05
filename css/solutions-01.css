@@ -1,0 +1,354 @@
+body {
+  font-family: 'Noto Sans JP';
+}
+
+@media screen and (min-width: 320px) {
+  /* スマホ用レイアウト 320px以上の範囲に収めるデザインはこの中に記述 */
+  .link-list {
+    padding: 25px 20px;
+  }
+  /*==============================================================
+  　　管理システム
+  ==============================================================*/
+  .content-bg-01 {
+    background-color: #FBF6EE;
+    padding: 40px 10px 110px;
+  }
+
+  .content-bg-02 {
+    background-color: #FFFFFF;
+    padding: 40px 20px 65px;
+    line-height: 1.5;
+    letter-spacing: 0.1em;
+  }
+
+  .sol-title {
+    border-top: solid 2px #333333;
+    border-bottom: solid 2px #333333;
+    padding: 30px 0;
+    font-weight: bold;
+  }
+
+  .sol-title p {
+    padding: 6px 15px;
+    font-size: 10px;
+    color: #FFFFFF;
+    background-color: #4689E3;
+    display: inline-block; /* 文字のみ背景（1行のみ対応） */
+    border-radius: 25px;
+    margin-bottom: 10px;
+  }
+
+  .sol-title h2 {
+    font-size: 20px;
+  }
+
+  .sol-heading {
+    margin: 20px 0 15px;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.8;
+  }
+
+  .sol-text {
+    font-size: 14px;
+    line-height: 1.8;
+  }
+
+  /* ==================== 提案 ================== */
+  .suggestion, .problem {
+    margin-top: 42px;
+  }
+
+  .sug-title, .pro-title {
+    font-size: 18px;
+    color: #FFFFFF;
+    background-color: #5EB47C;
+    display: flex;
+    align-items: center;
+    padding: 16px 20px;
+    border-radius: 10px;
+  }
+
+  .pro-title {
+    background-color: #4689E3;
+  }
+
+  .sug-title span, .pro-title span {
+    font-size: 11px;
+    margin-left: 20px;
+    font-weight: bold;
+  }
+
+  .title-triangle {
+    margin-left: 75px;
+    margin-bottom: 12px;
+    width:0;
+    height:0;
+    border-style:solid;
+    border-width: 8px 7.5px 0 7.5px;
+    border-color: #5EB47C transparent transparent transparent;
+  }
+
+  .pro-triangle {
+    border-color: #4689E3 transparent transparent transparent;
+  }
+
+  .sug-text-box {
+    border: solid 2px #5EB47C;
+    padding: 20px 10px 0 20px;
+  }
+
+  .sug-text {
+    display: grid;
+    grid-template-columns: 35px 1fr;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 14px;
+  }
+
+  .sug-num {
+    font-family: 'Noto Sans';
+    width: 35px;
+    height: 35px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 50%;
+    color: #FFFFFF;
+    background-color: #5EB47C;
+    text-align: center;
+    align-content: center;
+  }
+
+  /* ==================== 課題 ================== */
+  .problem .sol-heading {
+    color: #4689E3;
+  }
+
+  .pro-text-box {
+    margin-top: 32px;
+    padding: 20px 20px 2px;
+    background-color: #EFF6FF;
+  }
+
+  .pro-text-box p {
+    display: grid;
+    grid-template-columns: 16px 1fr;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 18px;
+  }
+
+  .pro-text {
+    font-size: 14px;
+  }
+
+  .pro-text-title {
+    font-size: 16px;
+    font-weight: bold;
+    color: #4689E3;
+  }
+
+  .icon-pro {
+    width: 18px;
+    height: 18px;
+  }
+
+  .icon-check {
+    width: 16px;
+  }
+}
+
+@media screen and (min-width: 601px) {
+  /* タブレット用レイアウト 601px以上の範囲に収めるデザインはこの中に記述 */
+  .link-list {
+    padding: 27px 70px;
+  }
+  /*==============================================================
+    　　TB_管理システム
+  ==============================================================*/
+  .content-bg-01 {
+    padding: 50px 70px 90px;
+  }
+
+  .content-bg-02 {
+    padding: 55px 55px 60px;
+  }
+
+  .sol-title {
+    display: grid;
+    grid-template-columns: 131px auto;
+    gap: 25px;
+    align-items: center;
+  }
+
+  .sol-title p {
+    font-size: 11px;
+    margin-bottom: 0;
+    height: 30px;
+  }
+
+  .sol-title h2 {
+    font-size: 24px;
+  }
+
+  .sol-heading {
+    margin: 28px 0 20px;
+    font-size: 18px;
+  }
+
+  /* ==================== 提案 ================== */
+  .suggestion {
+    margin-top: 52px;
+  }
+
+  .sug-title, .pro-title {
+    font-size: 20px;
+    padding: 16px 23px;
+  }
+
+  .sug-title span, .pro-title span {
+    font-size: 12px;
+    margin-left: 25px;
+  }
+
+  .sug-text-box {
+    padding: 27px 35px 13px;
+  }
+
+  .sug-text {
+    grid-template-columns: 36px 1fr;
+    margin-bottom: 15px;
+  }
+
+  .sug-num {
+    width: 36px;
+    height: 36px;
+  }
+
+  /* ==================== 課題 ================== */
+  .problem {
+    margin-top: 48px;
+  }
+
+  .problem .sol-heading {
+    margin-top: 5px;
+  }
+
+  .pro-text-box {
+    padding: 23px 33px 5px;
+  }
+}
+
+@media screen and (min-width: 1081px) {
+  /* パソコン用レイアウト 1081px以上の範囲に収めるデザインはこの中に記述 */
+  .link-list {
+    padding: 40px 0;
+  }
+
+  /*==============================================================
+  　　PC_管理システム
+  ==============================================================*/
+  .content-bg-01 {
+    padding: 75px 0 165px;
+    justify-items: center;
+  }
+
+  .content-bg-02 {
+    padding: 80px 57px 90px;
+    width: 1060px;
+  }
+
+  .sol-title {
+    grid-template-columns: 153px auto;
+    gap: 30px;
+    padding: 35px 0;
+  }
+
+  .sol-title p {
+    font-size: 14px;
+    font-weight: normal;
+    height: 34px;
+  }
+
+  .sol-title h2 {
+    font-size: 28px;
+  }
+
+  .sol-heading {
+    margin: 45px 0 25px;
+    font-size: 20px;
+  }
+
+  .sol-text {
+    font-size: 16px;
+    line-height: 2;
+  }
+
+  /* ==================== 提案 ================== */
+  .suggestion, .problem {
+    margin-top: 95px;
+  }
+
+  .sug-title, .pro-title {
+    font-size: 22px;
+    padding: 20px 30px;
+
+  }
+
+  .sug-title span, .pro-title span {
+    font-size: 14px;
+  }
+
+  .title-triangle {
+    margin-left: 90px;
+    margin-bottom: 25px;
+  }
+
+  .sug-text-box {
+    padding: 33px 60px 15px;
+  }
+
+  .sug-text {
+    font-size: 16px;
+    gap: 15px;
+
+  }
+
+  .sug-num {
+    width: 40px;
+    height: 40px;
+  }
+
+  /* ==================== 課題 ================== */
+  .pro-text-box {
+    margin-top: 32px;
+    padding: 30px 57px 15px;
+    background-color: #EFF6FF;
+  }
+
+  .pro-text-box p {
+    grid-template-columns: 23px 1fr;
+    gap: 10px;
+    margin-bottom: 15px;
+  }
+
+  .pro-text {
+    font-size: 16px;
+  }
+
+  .pro-text-title {
+    font-size: 20px;
+  }
+
+  .icon-pro {
+    width: 23px;
+    height: 23px;
+  }
+
+  .icon-check {
+    width: 18px;
+  }
+
+}

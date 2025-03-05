@@ -1,0 +1,73 @@
+body {
+  font-family: 'Noto Sans JP';
+}
+
+@media screen and (min-width: 320px) {
+  /* スマホ用レイアウト 320px以上の範囲に収めるデザインはこの中に記述 */
+  /*==============================================================
+  　　経営理念
+  ==============================================================*/
+  .text-box {
+    padding: 35px 20px 90px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    line-height: 1.5;
+  }
+
+  .item-title {
+    font-size: 14px;
+    color: #4689E3;
+    margin-bottom: 18px;
+    border-bottom: solid 1px #4689E3;
+    display: inline-block; /* 文字の幅（下線） */
+    padding-bottom: 9px;
+  }
+
+  .item-text {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.6;
+  }
+
+  .text-box p:nth-of-type(2){
+    margin-bottom: 60px;
+  }
+
+}
+
+@media screen and (min-width: 601px) {
+  /* タブレット用レイアウト 601px以上の範囲に収めるデザインはこの中に記述 */
+  /*==============================================================
+    　　TB_経営理念
+  ==============================================================*/
+  .text-box {
+    padding: 37px 20px 100px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    line-height: 1.5;
+  }
+
+  .item-text {
+    font-size: 22px;
+    line-height: 2;
+  }
+}
+
+@media screen and (min-width: 1081px) {
+  /* パソコン用レイアウト 1081px以上の範囲に収めるデザインはこの中に記述 */
+  /*==============================================================
+    　　PC_経営理念
+  ==============================================================*/
+  .text-box {
+    padding: 55px 70px 220px;
+  }
+
+  .item-title {
+    font-size: 15px;
+    padding-bottom: 7px;
+  }
+
+  .item-text {
+    font-size: 25px;
+  }
+}

@@ -1,0 +1,339 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="サイトの概要文が入ります。">
+    <meta name="format-detection" content="telephone=no, address=no, email=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>AND-1｜会社情報</title>
+
+    <meta http-equiv="Cache-Control" content="no-store"> <!-- キャッシュ無効 -->
+
+    <link rel="shortcut icon" href="./img/favicon.ico"> <!-- ファビコン -->
+    <link rel="stylesheet" href="css/destyle.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/company-info.css">
+  </head>
+
+  <body>
+
+    <header>
+      <!-- {{-- PCヘッダー --}} -->
+      <nav class="pc-nav">
+        <div class="header">
+          <a class="logo-box" href="index.html">
+            <img class="logo-img" src="img/logo.png" alt="AND-1ロゴ">
+            <p class="header-logo">and-1</p>
+          </a>
+          <ul id="nav_list" class="nav-list">
+            <li class="nav-item min"><a href="#">選ばれる理由</a></li>
+            <li class="nav-item min"><a href="index.html#sec-service">サービス紹介</a></li>
+            <li class="nav-item min"><a href="index.html#sec-solutions">ソリューション</a></li>
+            <li class="nav-item min"><a href="company-info.html">会社情報</a></li>
+            <li class="nav-item min"><a href="index.html#sec-news">ニュース</a></li>
+            <li class="nav-item min"><a href="#sec-contact" class="nav-contact">お問い合わせ</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <!-- {{-- SPヘッダー --}} -->
+      <nav class="sp-nav">
+        <div class="header">
+          <a class="logo-box" href="index.html">
+            <img class="logo-img" src="img/logo.png" alt="AND-1ロゴ">
+            <p class="header-logo">and-1</p>
+          </a>
+          <p class="sp-none nav-contact"><a href="#sec-contact">お問い合わせ</a></p>
+          <div id="btn" class="btn">
+            <i></i>
+            <i></i>
+            <i></i>
+          </div>
+        </div>
+        <div class="container">
+          <figure class="nav-img">
+            <img src="img/test_img.webp" alt="#">
+          </figure>
+          <ul id="nav-list" class="nav-list">
+            <div class="nav-box img-items box_01">
+              <input type="checkbox" id="toggle1" class="toggle">
+              <label class="title" for="toggle1">
+                <div class="nav-title">
+                  <p class="title-text">選ばれる理由</p>
+                  <img class="icon_toggle" src="img/icon_toggle.png" alt="トグルアイコン">
+                </div>
+              </label>
+              <div class="content">
+                <p class="nav-link">
+                  <a href="#">- ダミーテキスト</a>
+                </p>
+              </div>
+            </div>
+
+            <div class="nav-box img-items box_02">
+              <input type="checkbox" id="toggle2" class="toggle">
+              <label class="title" for="toggle2">
+                <div class="nav-title">
+                  <p class="title-text">サービス紹介</p>
+                  <img class="icon_toggle" src="img/icon_toggle.png" alt="トグルアイコン">
+                </div>
+              </label>
+              <div class="content">
+                <p class="nav-link">
+                  <a href="service-web.html">- 　Web開発</a>
+                  <a href="#">- 　映像制作</a>
+                  <a href="#">- 　福祉事業</a>
+                </p>
+              </div>
+            </div>
+
+            <div class="nav-box img-items box_03">
+              <input type="checkbox" id="toggle3" class="toggle">
+              <label class="title" for="toggle3">
+                <div class="nav-title">
+                  <p class="title-text">ソリューション</p>
+                  <img class="icon_toggle" src="img/icon_toggle.png" alt="トグルアイコン">
+                </div>
+              </label>
+              <div class="content">
+                <p class="nav-link">
+                  <a href="solutions-01.html">- 　ご相談</a>
+                </p>
+              </div>
+            </div>
+
+            <div class="nav-box img-items box_04">
+              <input type="checkbox" id="toggle4" class="toggle">
+              <label class="title" for="toggle4">
+                <div class="nav-title">
+                  <p class="title-text">会社情報</p>
+                  <img class="icon_toggle" src="img/icon_toggle.png" alt="トグルアイコン">
+                </div>
+              </label>
+              <div class="content">
+                <p class="nav-link">
+                  <a href="company-philosophy.html">- 　経営理念</a>
+                  <a href="company-info.html">- 　会社概要</a>
+                  <a href="#">- 　社長挨拶</a>
+                </p>
+              </div>
+            </div>
+
+            <div class="nav-box img-items box_05">
+              <input type="checkbox" id="toggle5" class="toggle">
+              <label class="title" for="toggle5">
+                <div class="nav-title">
+                  <p class="title-text">ニュース</p>
+                  <img class="icon_toggle" src="img/icon_toggle.png" alt="トグルアイコン">
+                </div>
+              </label>
+              <div class="content">
+                <p class="nav-link">
+                  <a href="index.html#sec-news">- 　最新情報</a>
+                </p>
+              </div>
+            </div>
+          </ul>
+          <div class="cover"></div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+			<article id="page-title" class="page-title">
+				<h1>COMPANY</h1>
+				<p>会社情報</p>
+			</article>
+			<div class="link-list">
+				<a href="index.html">TOP</a>
+				<div class="link-arrow"></div>
+				<p>会社情報</p>
+			</div>
+
+			<article class="info">
+				<dl class="info-item">
+					<dt>会社名</dt>
+					<dd>AND-1</dd>
+				</dl>
+				<dl class="info-item">
+					<dt>本社所在地</dt>
+					<dd>
+						〒811-4239<br class="sp-br">
+						福岡県遠賀郡岡垣町野間南5-1 ルシオーレ302号室
+					</dd>
+				</dl>
+				<dl class="info-item">
+					<dt>電話番号</dt>
+					<dd>093-980-5231</dd>
+				</dl>
+				<dl class="info-item">
+					<dt>創立年月日</dt>
+					<dd>2023年5月18日</dd>
+				</dl>
+				<dl class="info-item">
+					<dt>代表取締役</dt>
+					<dd>大塚陽子</dd>
+				</dl>
+				<dl class="info-item">
+					<dt>事業内容</dt>
+					<dd class="info-service">
+						<p>- IT事業</p>
+						<p>- 映像制作</p>
+						<p>- 福祉事業</p>
+					</dd>
+				</dl>
+			</article>
+
+			<figure class="map">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6627.600361912061!2d130.6055182!3d33.8432634!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x354232be1c86f99d%3A0x99d67ee02a3db387!2z44CSODExLTQyMzkg56aP5bKh55yM6YGg6LOA6YOh5bKh5Z6j55S66YeO6ZaT5Y2X77yV4oiS77yRIOODq-OCt-OCquODvOODrA!5e0!3m2!1sja!2sjp!4v1739772210160!5m2!1sja!2sjp" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+			</figure>
+			<article class="company-link-box">
+				<a href="company-philosophy.html">
+					<article class="company-link">
+						<div class="link-name">
+							<p>経営理念</p>
+							<p class="name-sub">PHILOSOPHY</p>
+						</div>
+						<img src="img/white_arrow.png" alt="矢印">
+					</article>
+				</a>
+				<a href="#">
+					<article class="company-link">
+						<div class="link-name">
+							<p>社長挨拶</p>
+							<p class="name-sub">MESSAGE</p>
+						</div>
+						<img src="img/white_arrow.png" alt="矢印">
+					</article>
+				</a>
+			</article>
+
+      <section id="sec-contact" class="sec-contact">
+        <div class="sec-con-title">
+          <h2>CONTACT</h2>
+          <p>お問い合わせ</p>
+        </div>
+
+        <article class="con-box-all">
+          <article class="con-box">
+            <a href="contact-form.html">
+              <p class="sab-title">CONTACT</p>
+              <article class="con-title-item">
+                <p class="con-box-title">メールでお問い合わせ</p>
+                <figure class="triangle-box">
+                  <span class="triangle"></span>
+                  <span class="triangle"></span>
+                </figure>
+              </article>
+              <article class="con-info-box">
+                <p class="con-info">詳しくはこちら</p>
+                <img src="img/blue_arrow.png" alt="矢印">
+              </article>
+              <figure class="con-img">
+                <img src="img/mail.png" alt="メールのイラスト">
+              </figure>
+            </a>
+          </article>
+          <article class="con-box">
+            <a href="#">
+              <p class="sab-title">CONTACT</p>
+              <article class="con-title-item">
+                <p class="con-box-title">電話でお問い合わせ</p>
+                <figure class="triangle-box">
+                  <span class="triangle"></span>
+                  <span class="triangle"></span>
+                </figure>
+              </article>
+              <article class="con-info-box">
+                <p class="con-info">詳しくはこちら</p>
+                <img src="img/blue_arrow.png" alt="矢印">
+              </article>
+              <figure class="con-img">
+                <img src="img/phone.png" alt="電話のイラスト">
+              </figure>
+            </a>
+          </article>
+        </article>
+      </section>
+
+    <footer class="footer-bg">
+      <article class="footer">
+        <figure class="footer-logo foot-box-01">
+          <img src="img/logo_white.png" alt="AND-1ロゴ">
+          <p>AND-1</p>
+        </figure>
+        <article class="foot-info-box foot-box-02">
+          <article>
+            <p class="address">〒811-4239　福岡県遠賀郡岡垣町野間南5-1</p>
+            <div class="tel">
+              <img src="img/icon_tel.png" alt="電話アイコン">
+              <p>093-980-5231</p>
+            </div>
+          </article>
+          <!-- {{-- ポリシー_スマホ版 --}} -->
+          <p class="policy sp">
+            <a href="policy-use.html">サイトのご利用について</a><span>|</span>
+            <a href="policy-privacy.html">プライバシーポリシー</a><span>|</span><br>
+            <a href="policy-security.html">セキュリティポリシー</a>
+          </p>
+          <a href="#sec-contact">
+            <div class="contact-link">
+              <P>お問い合わせ</P>
+              <img src="img/white_arrow.png" alt="矢印">
+            </div>
+          </a>
+        </article>
+        <article class="footer-link-box foot-box-03">
+          <div class="footer-link footer-link-01">
+            <p>選ばれる理由</p>
+            <a href="#">- ダミーテキスト</a>
+          </div>
+          <div class="footer-link">
+            <p>サービス紹介</p>
+            <div>
+              <a href="service-web.html">- Web開発</a>
+              <a href="#">- 映像制作</a>
+              <a href="#">- 福祉事業</a>
+            </div>
+          </div>
+          <div class="footer-link">
+            <p>ソリューション</p>
+            <a href="index.html#sec-solutions">- ご相談</a>
+          </div>
+          <div class="footer-link">
+            <p>会社情報</p>
+            <div>
+              <a href="company-philosophy.html">- 経営理念</a>
+              <a href="company-info.html">- 会社概要</a>
+              <a href="#">- 社長挨拶</a>
+            </div>
+          </div>
+          <div class="footer-link">
+            <p>ニュース</p>
+            <a href="index.html#sec-news">- 最新情報</a>
+          </div>
+        </article>
+
+        <div class="foot-bottom foot-box-04">
+          <!-- {{-- ポリシー_タブレット版 --}} -->
+          <p class="policy tb-pc">
+            <a href="policy-use.html">サイトのご利用について</a><span>|</span>
+            <a href="policy-privacy.html">プライバシーポリシー</a><span>|</span><br class="sp-tb-br">
+            <a href="policy-security.html">セキュリティポリシー</a>
+          </p>
+          <div class="footer-copy">
+            <P class="copy">Copyright &copy; AND-1 All rights reserved.</P>
+            <div class="to-top-box">
+              <a href="#page-title">
+                <div class="to-top"></div>
+              </a>
+            </div>
+          </div>
+        </div>
+      <article>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>

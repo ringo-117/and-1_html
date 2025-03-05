@@ -1,0 +1,120 @@
+body {
+  font-family: 'Noto Sans JP';
+}
+
+@media screen and (min-width: 320px) {
+  /* スマホ用レイアウト 320px以上の範囲に収めるデザインはこの中に記述 */
+  /*==============================================================
+  　　トップ
+  ==============================================================*/
+  .text-box {
+    margin-top: 63px;
+    padding: 0 20px;
+    line-height: 1.5em;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+    margin-bottom: 120px;
+  }
+
+  .text-box h2 {
+    font-size: 15px;
+    font-weight: bold;
+    color: #4689E3;
+    position: relative;
+    margin-bottom: 30px;
+    letter-spacing: 0.2em;
+  }
+
+  /*下線のスタイリング*/
+  .text-box h2::after {
+    position: absolute;
+    content: "";
+    background-color: #4689E3; /*下線の色*/
+    width: 25px; /*線の幅*/
+    height: 2.5px; /*線の太さ*/
+    top: 30px;
+    left: 0;  /*線のヨコ位置*/
+  }
+
+  .text-box p {
+    margin-bottom: 22px;
+  }
+
+  .text-box ul {
+    margin-left: 20px;
+    margin-top: -10px;
+  }
+
+
+}
+
+@media screen and (min-width: 601px) {
+  /* タブレット用レイアウト 601px以上の範囲に収めるデザインはこの中に記述 */
+  /*==============================================================
+  　　TB_トップ
+  ==============================================================*/
+  .text-box {
+    margin-top: 85px;
+    padding: 0 70px;
+    margin-bottom: 120px;
+    line-height: 1.7em;
+  }
+
+  .text-box h2 {
+    font-size: 16px;
+  }
+
+  /*下線のスタイリング*/
+  .text-box h2::after {
+    width: 32px;
+  }
+
+  .text-box p {
+    margin-bottom: 25px;
+  }
+
+  .text-box ul {
+    margin-left: 20px;
+    margin-top: -15px;
+  }
+}
+
+@media screen and (min-width: 1081px) {
+  /* パソコン用レイアウト 1081px以上の範囲に収めるデザインはこの中に記述 */
+  /*==============================================================
+  　　PC_トップ
+  ==============================================================*/
+  .text-box {
+    margin-top: 123px;
+    max-width: 1060px;
+    justify-self: center;
+    padding: 0;
+    margin-bottom: 230px;
+  }
+
+  .text-box h2 {
+    font-size: 20px;
+    margin-bottom: 50px;
+  }
+
+  /*下線のスタイリング*/
+  .text-box h2::after {
+    width: 48px;
+    top: 35px;
+  }
+
+  .text-box p {
+    margin-bottom: 45px;
+    font-size: 16px;
+    line-height: 1.8;
+  }
+
+  .text-box ul {
+    margin-left: 22px;
+    font-size: 16px;
+    line-height: 1.8;
+    margin-top: -30px;
+  }
+
+
+}

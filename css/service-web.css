@@ -1,0 +1,385 @@
+body {
+  font-family: 'Noto Sans JP';
+}
+
+@media screen and (min-width: 320px) {
+  /* スマホ用レイアウト 320px以上の範囲に収めるデザインはこの中に記述 */
+  .link-list {
+    margin-top: 55px;
+    padding-top: 30px;
+  }
+  /*==============================================================
+  　　開発の特徴
+  ==============================================================*/
+  .sec-point {
+    line-height: 1.5;
+    padding: 0 20px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .web-img {
+    position: absolute;
+    top: 15px;
+    right: -40px;
+    width: 350px;
+  }
+
+  .web-img img {
+    width: 100%;
+  }
+
+  .sec-point .sec-title {
+    margin: 385px 0 25px 45px;
+  }
+
+  /* スタイル共通 point/flow */
+  .sec-title h1 {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 13px;
+  }
+
+  .sec-title p {
+    font-size: 10px;
+    font-weight: bold;
+    color: #B4B7BA;
+    text-align: left;
+  }
+
+  .point-box {
+    margin-bottom: 42px;
+  }
+
+  .point-img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 5 / 3;
+    border-radius: 10px;
+  }
+
+  .point-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+
+  .point-title {
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+  }
+
+  .point-title span {
+    font-family: 'Noto Sans';
+    font-size: 60px;
+    font-weight: bold;
+    color: #4689E3;
+    margin-right: 17px;
+  }
+
+  .point-text {
+    line-height: 1.6;
+  }
+
+  /*==============================================================
+  　　開発のながれ
+  ==============================================================*/
+  .sec-flow {
+    line-height: 1.5;
+    padding: 0 20px 60px;
+    letter-spacing: 0.1;
+    position: relative;
+    /* overflow: hidden; */
+  }
+
+  .flow-img {
+    position: absolute;
+    top: -285px;
+    right: -10px;
+    width: 300px;
+  }
+
+  .flow-img img {
+    width: 100%;
+  }
+
+  .sec-flow .sec-title {
+    margin: 300px 0 25px 45px;
+  }
+
+  .step-num {
+    font-family: 'Noto Sans';
+    width: 80px;
+    height: 80px;
+    color: #FFFFFF;
+    background-color: #4689E3;
+    border-radius: 50%;
+    text-align: center;
+    align-content: center;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 0.15em;
+  }
+
+  .step-num span {
+    font-size: 22px;
+    letter-spacing: 0.1em;
+  }
+
+  .flow-item {
+    position: relative;
+    display: grid;
+    grid-template-columns: 80px 1fr;
+    gap: 20px;
+    z-index: 1;
+    margin-bottom: 36px;
+  }
+
+  .item-title {
+    font-size: 16px;
+    color: #4689E3;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  .item-text {
+    font-size: 14px;
+    line-height: 1.8em;
+  }
+
+  .step-line {
+    width: 2px;
+    height: 700px;
+    background-color: #4689E3;
+    position: absolute;
+    top: 140px;
+    left: 60px;
+  }
+}
+
+@media screen and (min-width: 601px) {
+  /* タブレット用レイアウト 601px以上の範囲に収めるデザインはこの中に記述 */
+  .link-list {
+    margin-top: 80px;
+  }
+  /*==============================================================
+    　　TB_開発の特徴
+  ==============================================================*/
+  .sec-point {
+    padding: 0  50px 0 70px;
+  }
+
+  .web-img {
+    top: 0px;
+    right: 30px;
+    width: 380px;
+  }
+
+  /* スタイル共通 point/flow */
+  .sec-title {
+    display: flex;
+    align-items: center;
+  }
+
+  .sec-point .sec-title {
+    display: flex;
+    align-items: center;
+    margin: 400px 0 10px;
+  }
+
+  .sec-title h1 {
+    font-size: 26px;
+    margin-bottom: 0;
+    margin-right: 13px;
+  }
+
+  .sec-title p {
+    font-size: 12px;
+  }
+
+  .point-box {
+    display: grid;
+    grid-template-columns: 281px 1fr;
+    gap: 25px;
+  }
+
+  .point-img {
+    margin-top: 30px;
+  }
+
+  .point-title {
+    font-size: 20px;
+  }
+
+  .point-title span {
+    font-size: 70px;
+    margin-right: 15px;
+  }
+
+  .point-text {
+    font-size: 15px;
+  }
+
+  /*==============================================================
+  　　TB_開発のながれ
+  ==============================================================*/
+  .sec-flow {
+    padding: 0 70px 140px;
+  }
+
+  .flow-img {
+    position: absolute;
+    top: -300px;
+    right: 30px;
+    width: 330px;
+  }
+
+  .sec-flow .sec-title {
+    margin: 300px 0 45px;
+  }
+
+  .step-num {
+    width: 100px;
+    height: 100px;
+    font-size: 14px;
+  }
+
+  .step-num span {
+    font-size: 30px;
+  }
+
+  .flow-item {
+    grid-template-columns: 100px 1fr;
+    gap: 25px;
+    align-items: center;
+  }
+
+  .step-line {
+    left: 120px;
+    height: 800px;
+  }
+}
+
+@media screen and (min-width: 1081px) {
+  /* パソコン用レイアウト 1081px以上の範囲に収めるデザインはこの中に記述 */
+  .link-list {
+    margin-top: 120px;
+  }
+
+  /*==============================================================
+  　　PC_開発の特徴
+  ==============================================================*/
+  .sec-point {
+   max-width: 1060px;
+   padding: 0;
+   margin: 0 auto;
+  }
+
+  .web-img {
+    top: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    margin-left: 300px;
+    width: 400px;
+  }
+
+  .sec-point .sec-title {
+    margin: 385px 0 30px 0;
+  }
+
+  /* スタイル共通 point/flow */
+  .sec-title h1 {
+    font-size: 32px;
+    margin-right: 20px;
+  }
+
+  .sec-title p {
+    font-size: 15px;
+  }
+
+  .point-box {
+    max-width: 960px;
+    grid-template-columns: 340px 1fr;
+    gap: 30px;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .point-img {
+    height: 215px;
+  }
+
+  .point-box:nth-of-type(2) {
+    margin-left: 95px;
+  }
+
+  .point-title span {
+    font-size: 80px;
+    margin-right: 25px;
+  }
+
+  .point-text {
+    font-size: 15px;
+    line-height: 2;
+  }
+
+   /*==============================================================
+  　　PC_開発のながれ
+  ==============================================================*/
+  .sec-flow {
+    padding: 0;
+    max-width: 1060px;
+    margin: 0 auto;
+    margin-bottom: 225px;
+  }
+
+  .flow-img {
+    top: -250px;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    margin-left: 300px;
+    width: 400px;
+  }
+
+  .sec-flow .sec-title {
+    margin: 300px 0 70px;
+  }
+
+  .step-num {
+    width: 135px;
+    height: 135px;
+    font-size: 16px;
+  }
+
+  .step-num span {
+    font-size: 40px;
+  }
+
+  .flow-item {
+    grid-template-columns: 135px 1fr;
+    gap: 37px;
+    margin-bottom: 40px;
+  }
+
+  .item-title {
+    font-size: 20px;
+  }
+
+  .item-text {
+    font-size: 16px;
+  }
+
+  .step-line {
+    left: 67px;
+    height: 1050px;
+  }
+
+
+
+
+}
