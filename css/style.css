@@ -318,12 +318,13 @@ html {
     font-family: 'Noto Sans';
     font-size: 50px;
     text-align: center;
-    color: #4689E3;
+    /* color: #4689E3; */
     font-weight: bold;
     letter-spacing: 0.03em;
   }
 
   .sec-con-title p {
+    color: #4689E3;
     font-size: 13px;
     text-align: center;
     font-weight: bold;
@@ -434,13 +435,14 @@ html {
 
   .address {
     margin: 9px 0 18px;
+    line-height: 2;
   }
 
   .tel {
     display: flex;
     margin-bottom: 24px;
     align-items: center;
-    font-size: 14px;
+    font-size: 13px;
   }
 
   .tel img {
@@ -451,6 +453,9 @@ html {
   .policy {
     line-height: 2.5em;
     margin-bottom: 30px;
+  
+    /* margin-bottom: 10px;
+    margin-top: 30px; */
   }
 
   .policy span {
@@ -475,6 +480,7 @@ html {
 
   .footer-link {
     margin-bottom: 30px;
+    /* margin-bottom: 20px; */
     display: flex;
     line-height: 2.5em;
   }
@@ -489,7 +495,8 @@ html {
   }
 
   .footer-link-01 {
-    margin-top: 20px;
+    /* margin-top: 20px; */
+    margin-top: 30px;
   }
 
   .copy {
@@ -752,6 +759,7 @@ html {
 
   .tel {
     margin-bottom: 0;
+    font-size: 14px;
   }
 
   .tel img {
@@ -956,11 +964,15 @@ html {
     font-size: 14px;
     display: grid;
     grid-template:
-      "foot-01 foot-03" auto
+      "foot-01 foot-03" 80px
       "foot-02 foot-03" auto
       "foot-04 foot-04" auto
-      / 345px 520px;
+    / 345px auto;
     column-gap: 170px;
+
+    /* パターン１ */
+    /* column-gap: 50px; */
+
     justify-self: center;
     /* max-width: 100vw; */
     overflow: hidden;
@@ -980,11 +992,13 @@ html {
   }
 
   .address {
-    margin: 13px 0 25px;
+    /* margin: 13px 0 25px; */
+
+    margin: 0px 0 25px;
   }
 
   .tel {
-    font-size: 18px;
+    font-size: 14px;
   }
 
   .tel img {
@@ -996,20 +1010,36 @@ html {
     display: grid;
     grid-template-columns: auto;
     gap: 75px;
+    row-gap: 0px;
   }
 
   .contact-link {
     padding: 20px 110px;
     max-width: 345px;
     border-radius: 30px;
+  
+    margin-top: 15px;
   }
 
   .footer-link {
-    margin-bottom: 35px;
+    /* margin-bottom: 35px; */
+
+
+    /* パターン２ */
+    margin-bottom: 20px;
+
+    /* margin-bottom: 25px; */
   }
 
   .footer-link-box {
-    grid-template-columns: 232px auto;
+    /* grid-template-columns: 232px auto; */
+    display: flex;
+
+    justify-content: right;
+    column-gap: 50px;
+    /* margin-top: 30px; */
+    margin-top: 83px;
+    /* margin-top: 55px; */
   }
 
 
@@ -1037,5 +1067,11 @@ html {
 
   .footer-copy {
     margin-top: 0;
+  }
+
+  /* パターン２ */
+  .link-margin-top {
+    margin: 0;
+    margin-top: 75px;
   }
 }

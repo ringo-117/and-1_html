@@ -22,8 +22,8 @@
     <link rel="stylesheet" href="slick/slick.css">
     <link rel="stylesheet" href="slick/slick-theme.css">
     <link rel="stylesheet" href="css/destyle.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/style.css?v=1">
+    <link rel="stylesheet" href="css/index.css?v=1">
   </head>
 
   <body>
@@ -123,8 +123,8 @@
               </label>
               <div class="content">
                 <p class="nav-link">
-                  <a href="company-philosophy.html">- 　経営理念</a>
                   <a href="company-info.html">- 　会社概要</a>
+                  <a href="company-philosophy.html">- 　経営理念</a>
                   <a href="#">- 　社長挨拶</a>
                 </p>
               </div>
@@ -159,16 +159,18 @@
             <img class="top-03 top-min" src="img/top/pc.png" alt="topイメージ">
             <img class="top-04 top-min" src="img/top/robot.png" alt="topイメージ">
             <img class="top-05" src="img/top/top_bg.png" alt="topイメージ">
-            <!-- {{-- <img class="top-06" src="img/top_img.png" alt="topイメージ"> --}} -->
+            <!-- <img class="top-06" src="img/top_img.png" alt="topイメージ"> -->
           </div>
         </figure>
 
         <article class="top-text-box">
-          <h1>映像の力を<br>Webへ</h1>
-          <p class="top-text">
-            情報革命の今の時代において動画などの映像は私たちの生活になくてはならない存在になりました。そんな私たちの生活に欠かせない映像とWebの技術、さらにはAI（人工知能）を使って、お客さまにとって最適なソリューションを提供し、共に「笑顔と喜び」の未来を創造します。
-          </p>
-          <button class="top-reason">選ばれる理由</button>
+          <div class="top-hiro-text">
+            <h1>映像の力を<br>Webへ</h1>
+            <p class="top-text">
+              情報革命の今の時代において動画などの映像は私たちの生活になくてはならない存在になりました。そんな私たちの生活に欠かせない映像とWebの技術、さらにはAI（人工知能）を使って、お客さまにとって最適なソリューションを提供し、共に「笑顔と喜び」の未来を創造します。
+            </p>
+            <button class="top-reason">選ばれる理由</button>
+          </div>
           <div class="news">
             <time class="news-time" datetime="2025-2-17">2025/02/17</time>
             <p class="news-text">ダミーテキストダミーテキスト</p>
@@ -230,7 +232,7 @@
               </div>
               <div class="ser-text">
                 <h3>映像制作</h3>
-                <p>プロモーション動画や企業PVの企画・撮影・制作を行います。</p>
+                <p>プロモーション動画や企業PVの企画・撮影・編集を行います。</p>
               </div>
             </div>
             <a href="#">
@@ -249,7 +251,7 @@
               </div>
               <div class="ser-text">
                 <h3>福祉事業</h3>
-                <p>社会生活に悩みを抱えた方へのサポートや技術習得を支援します。</p>
+                <p>社会生活に悩みを抱えた方へのサポートや技術習得をお手伝いします。</p>
               </div>
             </div>
             <a href="#">
@@ -266,7 +268,7 @@
         <h2>SOLUTIONS</h2>
         <p class="sol-text">「人材不足で困ってるんだよなぁ」<br class="sp-br">
           「お店の集客が課題なんだよね」<br>
-          そんなあなたのお悩みをAND-1が解決いたします。<br class="sp-br">知識がなくても大丈夫。<br>
+          そんなあなたのお悩みをand-1が解決いたします。<br class="sp-br">知識がなくても大丈夫。<br>
           私たちが1からしっかりサポートいたします。</p>
         <div id="slider" class="slider">
           <div class="slider-img-01 slider-item">
@@ -397,18 +399,12 @@
         </figure>
         <article class="foot-info-box foot-box-02">
           <article>
-            <p class="address">〒811-4239　福岡県遠賀郡岡垣町野間南5-1</p>
+            <p class="address">〒811-4239<br>福岡県遠賀郡岡垣町野間南5-1 ルシオーレ302号室</p>
             <div class="tel">
               <img src="img/icon_tel.png" alt="電話アイコン">
               <p>093-980-5231</p>
             </div>
           </article>
-          <!-- {{-- ポリシー_スマホ版 --}} -->
-          <p class="policy sp">
-            <a href="policy-use.html">サイトのご利用について</a><span>|</span>
-            <a href="policy-privacy.html">プライバシーポリシー</a><span>|</span><br>
-            <a href="policy-security.html">セキュリティポリシー</a>
-          </p>
           <a href="#sec-contact">
             <div class="contact-link">
               <P>お問い合わせ</P>
@@ -417,39 +413,43 @@
           </a>
         </article>
         <article class="footer-link-box foot-box-03">
-          <div class="footer-link footer-link-01">
-            <p>選ばれる理由</p>
-            <a href="#">- ダミーテキスト</a>
-          </div>
-          <div class="footer-link">
-            <p>サービス紹介</p>
-            <div>
-              <a href="service-web.html">- Web開発</a>
-              <a href="#">- 映像制作</a>
-              <a href="#">- 福祉事業</a>
+          <div>
+            <div class="footer-link footer-link-01">
+              <p>選ばれる理由</p>
+              <a href="#">- ダミーテキスト</a>
+            </div>
+            <div class="footer-link">
+              <p>サービス紹介</p>
+              <div>
+                <a href="service-web.html">- Web開発</a>
+                <a href="#">- 映像制作</a>
+                <a href="#">- 福祉事業</a>
+              </div>
+            </div>
+            <div class="footer-link">
+              <p>ソリューション</p>
+              <a href="index.html#sec-solutions">- ご相談</a>
             </div>
           </div>
-          <div class="footer-link">
-            <p>ソリューション</p>
-            <a href="index.html#sec-solutions">- ご相談</a>
-          </div>
-          <div class="footer-link">
-            <p>会社情報</p>
-            <div>
-              <a href="company-philosophy.html">- 経営理念</a>
-              <a href="company-info.html">- 会社概要</a>
-              <a href="#">- 社長挨拶</a>
+            <dev>
+            <div class="footer-link">
+              <p>会社情報</p>
+              <div>
+                <a href="company-info.html">- 会社概要</a>
+                <a href="company-philosophy.html">- 経営理念</a>
+                <a href="#">- 社長挨拶</a>
+              </div>
             </div>
-          </div>
-          <div class="footer-link">
-            <p>ニュース</p>
-            <a href="index.html#sec-news">- 最新情報</a>
-          </div>
+            <div class="footer-link link-margin-top">
+              <p>ニュース</p>
+              <a href="index.html#sec-news">- 最新情報</a>
+            </div>
+          </dev>
         </article>
 
         <div class="foot-bottom foot-box-04">
-          <!-- {{-- ポリシー_タブレット版 --}} -->
-          <p class="policy tb-pc">
+          <!-- {{-- ポリシー --}} -->
+          <p class="policy">
             <a href="policy-use.html">サイトのご利用について</a><span>|</span>
             <a href="policy-privacy.html">プライバシーポリシー</a><span>|</span><br class="sp-tb-br">
             <a href="policy-security.html">セキュリティポリシー</a>

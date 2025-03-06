@@ -18,21 +18,30 @@ body {
   ==============================================================*/
   .top-img {
     position: absolute;
-    width: 335px; /* APNGのサイズに合わせる */
+    width: 335px;
     height: 220px;
-    top: 60px;
+    top: 95px;
     right: 10px;
   }
+
 
   .top-img img{
     width: 100%; /* APNGのサイズに合わせる */
     height: 100%;
     object-fit: cover;
+
+    /* object-position: 8% 50%; */
+    /* object-position: 90% 50%; */
+    /* object-position: 45% 50%; */
   }
 
   /* topイラスト複数 */
   .top-img-container {
     position: relative;
+    /* width: 100vw; */
+    /* margin-top: 55px; */
+    /* height: 93vh; */
+    /* height: 92vh; */
   }
 
   .top-img .top-min{
@@ -75,11 +84,18 @@ body {
     padding: 0 15px 10px;
   }
 
+  .top-hiro-text {
+    height: 100svh;
+    align-content: end;
+  }
+
   .top-text-box h1 {
     position: relative;
     font-size: 45px;
     font-weight: bold;
     padding-top: 265px;
+    /* padding-top: 83vh; */
+    /* padding-top: 100vh; */
     margin-bottom: 11px;
     letter-spacing: 0.1em;
     line-height: 1.1em;
@@ -133,7 +149,8 @@ body {
 
   /* ==================== 企業アニメーション ================== */
   .company-logo {
-    padding: 10px 0;
+    /* padding: 10px 0; */
+    padding: 50px 0 0;
     background-color: #fff;
     position: relative;
     overflow: hidden;
@@ -186,7 +203,8 @@ body {
   ==============================================================*/
   .sec-service {
     font-family: 'Noto Sans JP';
-    padding: 100px 16px 50px 20px;
+    /* padding: 100px 16px 50px 20px; */
+    padding: 50px 16px 50px 20px;
   }
 
   .sec-title h2 {
@@ -216,11 +234,11 @@ body {
     font-weight: bold;
     color: #4689E3;
     z-index: 1;
-    margin-left: 6px;
+    margin-left: 15px;
   }
 
   .ser-02 .ser-img-box p {
-    color: #F44336;
+    color: #f57d62;
   }
 
   .ser-03 .ser-img-box p {
