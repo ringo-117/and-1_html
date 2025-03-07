@@ -323,12 +323,22 @@ body {
     background-color: #FBF6EE;
   }
 
-  .sec-solutions h2 {
-    margin-bottom: 20px;
-    font-size: 24px;
+  .sec-sol-title h2 {
+    margin-bottom: 18px;
+    font-size: 50px;
     letter-spacing: 0.08em;
     font-weight: bold;
     text-align: center;
+  }
+
+  .sec-sol-title p {
+    color: #4689E3;
+    font-size: 13px;
+    text-align: center;
+    font-weight: bold;
+    /* padding-top: 10px; */
+    letter-spacing: 0.1em;
+    margin-bottom: 40px;
   }
 
   .sol-text {
@@ -600,8 +610,12 @@ body {
     padding: 50px 0 65px;
   }
 
-  .sec-solutions h2 {
-    font-size: 26px;
+  .sec-sol-title h2 {
+    font-size: 55px;
+  }
+
+  .sec-sol-title p {
+    font-size: 15px;
   }
 
   .sol-text {
@@ -827,8 +841,18 @@ body {
   }
 
   .sec-solutions h2 {
-    font-size: 45px;
-    margin-bottom: 40px;
+    font-size: 75px;
+    /* margin-bottom: 40px; */
+  }
+
+  .sec-sol-title h2 {
+    font-size: 75px;
+    margin-bottom: 20px;
+  }
+
+  .sec-sol-title p {
+    font-size: 20px;
+    margin-bottom: 60px;
   }
 
   .slider {
@@ -837,6 +861,7 @@ body {
 
   .sol-text {
     font-size: 16px;
+    margin-bottom: 80px;
   }
 
   .sol-box {

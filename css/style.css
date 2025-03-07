@@ -23,7 +23,7 @@ html {
     　　共通（スマホ）
     ==============================================================*/
 
-  .tb-br, .tb-pc, .sp-none {
+  .tb-br, .tb-pc, .sp-none, .sp-tb {
     display: none;
   }
 
@@ -452,8 +452,9 @@ html {
 
   .policy {
     line-height: 2.5em;
-    margin-bottom: 30px;
-  
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-self: center;
     /* margin-bottom: 10px;
     margin-top: 30px; */
   }
@@ -479,8 +480,8 @@ html {
   }
 
   .footer-link {
-    margin-bottom: 30px;
-    /* margin-bottom: 20px; */
+    /* margin-bottom: 30px; */
+    margin-bottom: 15px;
     display: flex;
     line-height: 2.5em;
   }
@@ -767,6 +768,11 @@ html {
     margin-right: 15px;
   }
 
+  .policy {
+    justify-self: left;
+    margin-top: 0;
+  }
+
   .foot-info-box {
     display: grid;
     grid-template-columns: 315px auto;
@@ -784,7 +790,7 @@ html {
     column-gap: 75px;
     grid-auto-flow: column;
     grid-template-rows: repeat(3, auto);
-    margin-top: 45px;
+    margin-top: 20px;
   }
 
   .footer-link-01 {
@@ -816,8 +822,9 @@ html {
     display: none;
   }
 
-  .pc-nav {
+  .pc-nav, .sp-tb {
     display: block;
+    display: inline-block;
   }
 
   html {
