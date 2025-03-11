@@ -63,10 +63,10 @@ body {
     left: 105px;
   }
   .top-img .top-02 {
-    width: 130px;
-    height: 130px;
-    top: -20px;
-    left: 185px;
+    width: 145px;
+    height: 120px;
+    top: -5px;
+    left: 180px;
   }
   .top-img .top-03 {
     width: 180px;
@@ -79,6 +79,23 @@ body {
     height: 80px;
     top: 150px;
     left: 255px;
+    z-index: 2;
+  }
+
+  .top-img .top-05 {
+    width: 180px;
+    height: 180px;
+    top: 40px;
+    left: 135px;
+  }
+
+  .apng-graph {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
   }
 
 
@@ -494,10 +511,10 @@ body {
     left: 200px;
   }
   .top-img .top-02 {
-    width: 250px;
-    height: 250px;
-    top: -25px;
-    left: 365px;
+    width: 280px;
+    height: 230px;
+    top: -8px;
+    left: 350px;
   }
   .top-img .top-03 {
     width: 330px;
@@ -510,6 +527,12 @@ body {
     height: 160px;
     top: 293px;
     left: 485px;
+  }
+  .top-img .top-05 {
+    width: 330px;
+    height: 330px;
+    top: 90px;
+    left: 270px;
   }
 
   .top-text-box {
@@ -720,14 +743,14 @@ body {
   .top-img .top-01 {
     width: 190px;
     height: 190px;
-    top: -30px;
-    left: 230px;
+    top: -35px;
+    left: 210px;
   }
   .top-img .top-02 {
-    width:300px;
-    height: 300px;
-    top: -40px;
-    left: 420px;
+    width:330px;
+    height: 270px;
+    top: -15px;
+    left: 400px;
   }
   .top-img .top-03 {
     width: 400px;
@@ -740,6 +763,13 @@ body {
     height: 190px;
     top: 340px;
     left: 570px;
+  }
+
+  .top-img .top-05 {
+    width: 400px;
+    height: 400px;
+    top: 95px;
+    left: 305px;
   }
 
   .top-text-box {
