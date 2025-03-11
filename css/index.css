@@ -119,6 +119,7 @@ body {
     margin-bottom: 11px;
     letter-spacing: 0.1em;
     line-height: 1.1em;
+    z-index: 3;
   }
 
   .top-text {
