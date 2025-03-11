@@ -57,10 +57,10 @@ body {
   }
 
   .top-img .top-01 {
-    width: 80px;
-    height: 80px;
-    top: -15px;
-    left: 105px;
+    width: 85px;
+    height: 76px;
+    top: -5px;
+    left: 98px;
   }
   .top-img .top-02 {
     width: 145px;
@@ -69,14 +69,14 @@ body {
     left: 180px;
   }
   .top-img .top-03 {
-    width: 180px;
-    height: 180px;
-    top: -4px;
-    left: -12px;
+    width: 172px;
+    height: 160px;
+    top: 11px;
+    left: 0px;
   }
   .top-img .top-04 {
     width: 80px;
-    height: 80px;
+    height: 71px;
     top: 150px;
     left: 255px;
     z-index: 2;
@@ -85,8 +85,8 @@ body {
   .top-img .top-05 {
     width: 180px;
     height: 180px;
-    top: 40px;
-    left: 135px;
+    top: 42px;
+    left: 136px;
   }
 
   .apng-graph {
@@ -506,10 +506,10 @@ body {
   }
 
   .top-img .top-01 {
-    width: 160px;
-    height: 160px;
-    top: -20px;
-    left: 200px;
+    width: 165px;
+    height: 148px;
+    top: -10px;
+    left: 190px;
   }
   .top-img .top-02 {
     width: 280px;
@@ -518,22 +518,22 @@ body {
     left: 350px;
   }
   .top-img .top-03 {
-    width: 330px;
-    height: 330px;
-    top: 8px;
+    width: 333px;
+    height: 310px;
+    top: 22px;
     left: 0px;
   }
   .top-img .top-04 {
-    width: 160px;
-    height: 160px;
-    top: 293px;
-    left: 485px;
+    width: 153px;
+    height: 136px;
+    top: 295px;
+    left: 495px;
   }
   .top-img .top-05 {
-    width: 330px;
-    height: 330px;
-    top: 90px;
-    left: 270px;
+    width: 350px;
+    height: 350px;
+    top: 83px;
+    left: 263px;
   }
 
   .top-text-box {
@@ -743,34 +743,34 @@ body {
 
   .top-img .top-01 {
     width: 190px;
-    height: 190px;
-    top: -35px;
-    left: 210px;
+    height: 170px;
+    top: -13px;
+    left: 220px;
   }
   .top-img .top-02 {
-    width:330px;
-    height: 270px;
-    top: -15px;
-    left: 400px;
+    width:318px;
+    height: 254px;
+    top: -0px;
+    left: 405px;
   }
   .top-img .top-03 {
-    width: 400px;
-    height: 400px;
-    top: -5px;
-    left: -25px;
+    width: 385px;
+    height: 358px;
+    top: 25px;
+    left: 0px;
   }
   .top-img .top-04 {
-    width: 190px;
-    height: 190px;
+    width: 180px;
+    height: 160px;
     top: 340px;
     left: 570px;
   }
 
   .top-img .top-05 {
-    width: 400px;
-    height: 400px;
+    width: 405px;
+    height: 405px;
     top: 95px;
-    left: 305px;
+    left: 303px;
   }
 
   .top-text-box {
