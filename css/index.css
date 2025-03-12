@@ -734,58 +734,73 @@ body {
   /*==============================================================
   　　PC_トップ
   ==============================================================*/
-  .top-img {
-    width: 750px; /* APNGのサイズに合わせる */
+  /* .top-img {
+    width: 750px; APNGのサイズに合わせる
     height: 500px;
     top: 315px;
     left: 50%;
     transform: translateX(-50%);
     -webkit-transform: translateX(-50%);
     margin-left: 300px;
+  } */
+
+  .top-img {
+    width: 850px; /* APNGのサイズに合わせる */
+    height: 567px;
+    top: 250px;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    margin-left: 310px;
   }
 
   .top-img .top-01 {
-    width: 190px;
-    height: 170px;
-    top: -13px;
-    left: 220px;
+    width: 215px;
+    height: 193px;
+    top: -15px;
+    left: 249px;
   }
   .top-img .top-02 {
-    width:318px;
-    height: 254px;
-    top: -0px;
-    left: 405px;
+    width:360px;
+    height: 288px;
+    top: 0px;
+    left: 459px;
   }
   .top-img .top-03 {
-    width: 385px;
-    height: 385px;
-    top: 0px;
+    width: 437px;
+    height: 437px;
+    top: -1px;
     left: 0px;
   }
   .top-img .top-04 {
-    width: 180px;
-    height: 160px;
-    top: 340px;
-    left: 570px;
+    width: 204px;
+    height: 181px;
+    top: 385px;
+    left: 646px;
   }
 
   .top-img .top-05 {
-    width: 405px;
-    height: 405px;
-    top: 94px;
-    left: 303px;
+    width: 458px;
+    height: 458px;
+    top: 107px;
+    left: 343px;
   }
 
   .top-text-box {
     padding: 0 100px 45px;
-    max-width: 1400px;
+    /* 追加 */
+    /* max-width: 1400px; */
+    max-width: 1450px;
     margin: 0 auto;
+    /* height: 100vh;
+    align-content: center; */
   }
 
   .top-text-box h1 {
     font-size: 80px;
     margin-bottom: 33px;
     padding-top: 230px;
+    /* padding-top: 150px; */
   }
 
   .top-text {
@@ -920,7 +935,8 @@ body {
   .sol-box {
     width: 300px;
     height: 280px;
-    margin-left: 50px;
+    /* margin-left: 50px; */
+    margin-left: 22%;
   }
 
   .slider-item p {
