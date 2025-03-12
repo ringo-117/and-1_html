@@ -70,8 +70,8 @@ body {
   }
   .top-img .top-03 {
     width: 172px;
-    height: 160px;
-    top: 11px;
+    height: 172px;
+    top: 0px;
     left: 0px;
   }
   .top-img .top-04 {
@@ -519,9 +519,9 @@ body {
   }
   .top-img .top-03 {
     width: 333px;
-    height: 310px;
-    top: 22px;
-    left: 0px;
+    height: 333px;
+    top: -1px;
+    left: 1px;
   }
   .top-img .top-04 {
     width: 153px;
@@ -532,8 +532,8 @@ body {
   .top-img .top-05 {
     width: 350px;
     height: 350px;
-    top: 83px;
-    left: 263px;
+    top: 82px;
+    left: 262px;
   }
 
   .top-text-box {
@@ -755,8 +755,8 @@ body {
   }
   .top-img .top-03 {
     width: 385px;
-    height: 358px;
-    top: 25px;
+    height: 385px;
+    top: 0px;
     left: 0px;
   }
   .top-img .top-04 {
@@ -769,7 +769,7 @@ body {
   .top-img .top-05 {
     width: 405px;
     height: 405px;
-    top: 95px;
+    top: 94px;
     left: 303px;
   }
 
