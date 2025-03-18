@@ -19,7 +19,7 @@ body {
   .text-box h2 {
     font-size: 15px;
     font-weight: bold;
-    color: #5CE0D8;
+    color: #39cac0;
     position: relative;
     margin-bottom: 30px;
     letter-spacing: 0.2em;
@@ -29,7 +29,7 @@ body {
   .text-box h2::after {
     position: absolute;
     content: "";
-    background-color: #5CE0D8; /*下線の色*/
+    background-color: #39cac0; /*下線の色*/
     width: 25px; /*線の幅*/
     height: 2.5px; /*線の太さ*/
     top: 30px;

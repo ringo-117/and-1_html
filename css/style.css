@@ -8,7 +8,7 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, Roboto, "Noto Sans JP", "Noto Sans";
   font-feature-settings: 'palt' 1;
   letter-spacing: 0.05em;
-  color: #333333;
+  color: #23221F;
   background-color: #ffffff;
 }
 
@@ -97,12 +97,12 @@ html {
     height: 2px;
     width: 30px;
     border-radius: 3px;
-    background-color: #5CE0D8;
+    background-color: #39cac0;
     transition: 0.5s;
   }
 
   .btn.color i{
-    background-color: #5CE0D8;
+    background-color: #39cac0;
   }
 
   .btn i:nth-of-type(1){
@@ -119,7 +119,7 @@ html {
 
   .btn.active i:nth-of-type(1){
     transform: translateY(8px) rotate(45deg);
-    background-color: #333333;
+    background-color: #23221F;
   }
 
   .btn.active i:nth-of-type(2){
@@ -128,7 +128,7 @@ html {
 
   .btn.active i:nth-of-type(3){
     transform: translateY(-8px) rotate(-45deg);
-    background-color: #333333;
+    background-color: #23221F;
   }
 
 
@@ -155,8 +155,9 @@ html {
 
   /* メニュー黒ポチを消す */
   .sp-nav .nav-list {
-    margin: 35px 20px 0;
+    margin: 100px 20px 0 0;
     list-style: none;
+    background-color: #fff;
   }
 
   .nav-img {
@@ -179,14 +180,14 @@ html {
 
   .nav-box .title-text {
     font-size: 16px;
-    color: #333333;
+    color: #23221F;
     font-weight: bold;
   }
 
   .nav-link {
     padding: 13px 0 0;
     font-size: 14px;
-    color: #333333;
+    color: #23221F;
     line-height: 2.5em;
   }
 
@@ -272,8 +273,8 @@ html {
   }
 
   .link-list a {
-    color: #5CE0D8;
-    font-weight: bold;
+    color: #39cac0;
+    /* font-weight: bold; */
   }
 
   .link-arrow {
@@ -286,8 +287,8 @@ html {
     width: 7px;
     height: 7px;
     border: 0;
-    border-top: solid 1px #333;
-    border-right: solid 1px #333;
+    border-top: solid 1px #23221F;
+    border-right: solid 1px #23221F;
     transform: rotate(45deg);
     position: absolute;
     top: 0;
@@ -300,12 +301,18 @@ html {
   /*==============================================================
   　　CONTACT お問い合わせ
   ==============================================================*/
+  .contact-bg {
+    background-color: #f8f8f8;
+    padding: 0px 0px;
+  }
   .sec-contact {
     position: relative;
     font-family: 'Noto Sans JP';
-    background-color: #5CE0D8;
+    /* background-color: #ffffff; */
+    background-color: #f8f8f8;
+
     /* margin-top: 100px; */
-    padding-bottom: 10px;
+    padding-bottom: 80px;
   }
 
   .sec-contact a {
@@ -313,36 +320,50 @@ html {
   }
 
   .sec-con-title h2 {
-    position: absolute;
+    /* position: absolute;
     top: -25px;
     left: 50%;
     transform: translateX(-50%);
-    -webkit-transform: translateX(-50%);
+    -webkit-transform: translateX(-50%); */
     font-family: 'Noto Sans';
     font-size: 50px;
     text-align: center;
     /* color: #4689E3; */
     font-weight: bold;
     letter-spacing: 0.03em;
+
+    padding-top: 80px;
   }
 
   .sec-con-title p {
-    color: #4689E3;
+    color: #39cac0;
     font-size: 13px;
     text-align: center;
     font-weight: bold;
-    padding-top: 45px;
+    padding-top: 25px;
     letter-spacing: 0.1em;
     margin-bottom: 35px;
+  }
+
+  .con-box-all {
+    background-color: #ffffff;
+    padding: 35px 0 10px;
+    margin: 0 10px;
+    border-radius: 10px;
   }
 
   .con-box {
     position: relative;
     background-color: #fff;
-    border: solid 2px #4689E3;
+    border: solid 2px #39cac0;
     border-radius: 10px;
     margin: 0 20px 50px;
     padding: 45px 0 35px 25px;
+    margin-top: 0;
+  }
+
+  .con-box-tell {
+    margin-top: 60px;
   }
 
   .con-title-item {
@@ -352,7 +373,7 @@ html {
 
   .con-box .sab-title {
     font-size:13px;
-    color: #4689E3;
+    color: #39cac0;
     font-weight: bold;
     margin-bottom: 8px;
   }
@@ -370,7 +391,7 @@ html {
 
   .con-box .con-info-box {
     font-size:13px;
-    color: #4689E3;
+    color: #39cac0;
     font-weight: bold;
   }
 
@@ -390,7 +411,7 @@ html {
     height:0;
     border-style:solid;
     border-width: 8.5px 0 8.5px 14.7px;
-    border-color: transparent transparent transparent #F44336;
+    border-color: transparent transparent transparent #ffcf43;
   }
 
   .triangle-box {
@@ -404,7 +425,7 @@ html {
   .con-box .con-img {
     position: absolute;
     top: 95px;
-    left: 200px;
+    left: 185px;
   }
 
   /*==============================================================
@@ -412,10 +433,10 @@ html {
   ==============================================================*/
   .footer {
     font-family: 'Noto Sans JP';
-    background-color: #01345B;
+    background-color: #ffffff;
     padding: 20px 20px 23px;
     font-size: 12px;
-    color: #FFFFFF;
+    color: #23221F;
     letter-spacing: 0.1em;
   }
 
@@ -431,7 +452,7 @@ html {
   .footer-logo p {
     font-family: 'Noto Sans';
     font-size: 22px;
-    color: #FFFFFF;
+    color: #23221F;
     margin-left: 13px;
     margin-top: 4px;
   }
@@ -455,11 +476,13 @@ html {
 
   .policy {
     line-height: 2.5em;
-    margin-top: 20px;
+    margin-top: 25px;
     margin-bottom: 20px;
     justify-self: center;
     /* margin-bottom: 10px;
     margin-top: 30px; */
+    /* color: #39cac0; */
+
   }
 
   .policy span {
@@ -467,13 +490,15 @@ html {
   }
 
   .contact-link {
-    border: solid 1px #FFFFFF;
+    /* border: solid 1px #39cac0; */
+    background-color: #4cd5cc;
     display: flex;
     border-radius: 25px;
     padding: 17px 110px;
     align-items: center;
     font-weight: bold;
     max-width: 332px;
+    color: #ffffff;
   }
 
   .contact-link img {
@@ -492,6 +517,7 @@ html {
   .footer-link p {
     width: 100px;
     font-weight: bold;
+    color: #39cac0;
   }
 
   .footer-link a {
@@ -510,7 +536,7 @@ html {
   }
 
   .to-top-box {
-    border: solid 1px #FFFFFF;
+    border: solid 1px #39cac0;
     border-radius: 50%;
     width: 35px;
     height: 35px;
@@ -527,8 +553,10 @@ html {
     width: 8.5px;
     height: 8.5px;
     border: 0;
-    border-top: solid 2px #FFFFFF;
-    border-right: solid 2px #FFFFFF;
+    /* border-top: solid 2px #39cac0;
+    border-right: solid 2px #39cac0; */
+    border-top: solid 2px #39cac0;
+    border-right: solid 2px #39cac0;
     transform: rotate(-45deg);
     position: absolute;
     top: 50%;
@@ -543,6 +571,8 @@ html {
     display: flex;
     justify-content: right;
     align-items: center;
+    /* color: #39cac0; */
+
   }
 }
 
@@ -595,8 +625,8 @@ html {
   }
 
   .nav-contact {
-    background-color: #5CE0D8;
-    color: #333333;
+    background-color: #4cd5cc;
+    color: #FFFFFF;
     font-size: 12px;
     margin-right: 80px;
     width: 115px;
@@ -700,6 +730,10 @@ html {
   /*==============================================================
   　　TB_CONTACT お問い合わせ
   ==============================================================*/
+  /* .contact-bg {
+    margin: 0px 30px;
+  } */
+
   .sec-contact {
     margin-top: 0;
   }
@@ -718,7 +752,10 @@ html {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 30px;
-    margin: 0 70px;
+    margin: 0 20px;
+    /* width: 100%; */
+    max-width: 1300px;
+    padding: 50px 20px;
   }
 
   .con-box .con-box-title {
@@ -727,7 +764,7 @@ html {
   }
 
   .con-box {
-    margin: 0 0 50px;
+    margin: 0;
     padding: 55px 30px 65px 35px;
   }
 
@@ -741,7 +778,8 @@ html {
 
   .con-box .con-img {
     top: 130px;
-    left: 157px;
+    /* left: 157px; */
+    left: 60%;
     /* right: auto; */
     z-index: 3;
   }
@@ -911,11 +949,13 @@ html {
     max-width: 1100px;
     justify-self: center;
     margin: 0;
+    padding: 80px 50px;
   }
 
   .sec-con-title h2 {
     font-size: 80px;
-    top: -50px;
+    /* top: -50px; */
+    padding-top: 130px;
   }
 
   .sec-con-title p {
@@ -968,7 +1008,7 @@ html {
   　　PC_フッター
   ==============================================================*/
   .footer-bg {
-    background-color: #01345B;
+    background-color: #FFFFFF;
   }
 
   .footer {
@@ -980,7 +1020,7 @@ html {
       "foot-02 foot-03" auto
       "foot-04 foot-04" auto
     / 345px auto;
-    column-gap: 170px;
+    column-gap: 200px;
 
     /* パターン１ */
     /* column-gap: 50px; */
