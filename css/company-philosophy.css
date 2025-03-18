@@ -17,9 +17,9 @@ body {
 
   .item-title {
     font-size: 14px;
-    color: #4689E3;
+    color: #39cac0;
     margin-bottom: 18px;
-    border-bottom: solid 1px #4689E3;
+    border-bottom: solid 1px #39cac0;
     display: inline-block; /* 文字の幅（下線） */
     padding-bottom: 9px;
   }

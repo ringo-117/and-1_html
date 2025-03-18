@@ -1,0 +1,17 @@
+@media screen and (min-width: 320px) {
+  /* スマホ用レイアウト 320px以上の範囲に収めるデザインはこの中に記述 */
+  .link-list {
+    margin-top: 55px;
+    padding-top: 30px;
+  }
+  /*==============================================================
+  　　映像活用例
+  ==============================================================*/
+  .point-text span {
+    font-weight: bold;
+  }
+
+  .step-num {
+    background-color: #4689E3;
+  }
+}
