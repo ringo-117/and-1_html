@@ -202,6 +202,19 @@ body {
   color: #f57d62;
 }
 
+/* ==================== 支援の内容 ================== */
+.step-num.video-num {
+  background-color: #f57d62;
+}
+
+.step-line.video-num {
+  background-color: #f57d62;
+}
+
+.item-title.video {
+  color: #f57d62;
+}
+
 
 
 @media screen and (min-width: 601px) {

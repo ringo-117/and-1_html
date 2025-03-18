@@ -201,6 +201,8 @@ html {
     color: #fff;
     font-weight: normal;
     font-weight: bolder;
+
+    /* 横にずらす */
     /* margin-right: 20px; */
   }
 
@@ -280,12 +282,25 @@ html {
     width: 16px;
     height: 16px;
     right: 16px;
+
+    /* 矢印 */
+    /* width: 15px;
+    height: 11px; */
+
+    /* 横にずらす */
+    /* right: 22px; */
   }
 
   .nav-btn .nav-arrow.mail {
     width: 16px;
     height: 12px;
     right: 16px;
+
+
+    /* 矢印 */
+    /* width: 15px;
+    height: 11px; */
+
   }
 
   .nav-contact-btn {
