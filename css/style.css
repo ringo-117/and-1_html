@@ -199,6 +199,8 @@ html {
 
     color: #fff;
     font-weight: normal;
+    font-weight: bolder;
+    /* margin-right: 20px; */
   }
 
   .nav-link {
@@ -210,6 +212,7 @@ html {
 
   .nav-link a {
     display: block;
+    display: flex;
   }
 
   .toggle {
