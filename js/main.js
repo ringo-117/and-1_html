@@ -7,12 +7,14 @@ document.addEventListener("DOMContentLoaded", function () {
 	const header = document.querySelector('.header');
 	const logoImg = document.querySelector('.logo-img');
 	const headerLogo = document.querySelector('.header-logo');
+	const navContact = document.querySelector('.nav-contact');
 
 	btn.addEventListener('click', () => {
 		btn.classList.toggle('active');
 		container.classList.toggle('active');
 		header.classList.toggle('active');
 		headerLogo.classList.toggle('active');
+		navContact.classList.toggle('active');
 
 
 		// ボディのスクロール制御

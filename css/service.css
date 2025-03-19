@@ -110,6 +110,14 @@ body {
     z-index: 1;
   }
 
+  /* ==================== 支援の内容 ================== */
+  .point-text span {
+    font-weight: bold;
+  }
+
+  .point-title span.welfare-num {
+    color: #ffd545;
+  }
 
 
 
@@ -189,7 +197,7 @@ body {
   }
 }
 
-/* ==================== 映像活用例 ================== */
+/* ==================== 映像制作のながれ ================== */
 .step-num.video-num {
   background-color: #f57d62;
 }
@@ -202,17 +210,18 @@ body {
   color: #f57d62;
 }
 
-/* ==================== 支援の内容 ================== */
-.step-num.video-num {
-  background-color: #f57d62;
+/* ==================== 支援までのながれ ================== */
+.step-num.welfare-num {
+  background-color: #ffd545;
 }
 
-.step-line.video-num {
-  background-color: #f57d62;
+.step-line.welfare-num {
+  background-color: #ffd545;
+  height: 360px;
 }
 
-.item-title.video {
-  color: #f57d62;
+.item-title.welfare {
+  color: #ffd545;
 }
 
 
@@ -373,6 +382,9 @@ body {
   .point-box:nth-of-type(2) {
     margin-left: 95px;
   }
+  .point-box:nth-of-type(4) {
+    margin-left: 95px;
+  }
 
   .point-title span {
     font-size: 80px;
@@ -438,6 +450,11 @@ body {
   .step-line {
     left: 67px;
     height: 1050px;
+  }
+
+  /* ==================== 支援までのながれ ================== */
+  .step-line.welfare-num {
+    height: 600px;
   }
 
 
