@@ -661,6 +661,10 @@ body {
     margin-top: 0;
   }
 
+  .ser-01 .ser-box {
+    margin-top: 30px;
+}
+
   .ser-img-box p {
     position: relative;
     font-size: 95px;

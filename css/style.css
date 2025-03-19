@@ -939,28 +939,50 @@ html {
   }
 
   .policy {
-    justify-self: left;
+    /* justify-self: left; */
     margin-top: 0;
+    margin-bottom: 50px;
   }
 
-  .foot-info-box {
+  /* .foot-info-box {
     display: grid;
     grid-template-columns: 315px auto;
     gap: 75px;
-  }
+
+    grid-template-columns: 330px auto;
+  } */
 
   .contact-link {
     padding: 18px 45px;
-    max-width: 205px;
+    /* max-width: 205px; */
+
+    /* 縦に並べる */
+    margin-top: 20px;
+    max-width: 250px;
+    justify-content: center;
+  }
+
+  .footer-link p {
+    width: 150px;
+    font-weight: bold;
+    color: #39cac0;
   }
 
   .footer-link-box {
     display: grid;
-    grid-template-columns: 315px auto;
-    column-gap: 75px;
+    grid-template-columns: auto auto;
+    column-gap: 50px;
     grid-auto-flow: column;
-    grid-template-rows: repeat(3, auto);
-    margin-top: 20px;
+    /* grid-template-rows: repeat(3, auto); */
+    margin-top: 60px;
+    font-size: 16.5px;
+    justify-items: center;
+    margin-bottom: 60px;
+    margin-right: 15px;
+  }
+
+  .footer-link a {
+    font-size: 15px;
   }
 
   .footer-link-01 {
@@ -969,16 +991,17 @@ html {
 
   .foot-bottom {
     margin-top: 10px;
-    display: grid;
-    grid-template-columns: 1fr auto;
+    /* display: grid;
+    grid-template-columns: 1fr auto; */
   }
 
   .to-top-box {
-    margin-left: 20px;
+    margin-left: 15px;
   }
 
   .footer-copy {
     margin-top: 10px;
+    padding-left: 55px;
   }
 }
 
@@ -1205,6 +1228,7 @@ html {
     margin-top: 15px;
   }
 
+
   .footer-link {
     /* margin-bottom: 35px; */
 
@@ -1214,6 +1238,8 @@ html {
 
     /* margin-bottom: 25px; */
   }
+
+ 
 
   .footer-link-box {
     /* grid-template-columns: 232px auto; */
@@ -1233,6 +1259,9 @@ html {
   }
 
   .foot-bottom {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
     margin-top: 30px;
     margin-bottom: 20px;
   }
@@ -1242,8 +1271,13 @@ html {
   }
 
   .footer-link p {
-    width: 112px;
+    width: 125px;
     font-weight: bold;
+    font-size: 15px;
+  }
+
+  .footer-link.min p {
+    width: 112px;
   }
 
   .policy span {
@@ -1254,9 +1288,4 @@ html {
     margin-top: 0;
   }
 
-  /* パターン２ */
-  .link-margin-top {
-    margin: 0;
-    margin-top: 75px;
-  }
 }
