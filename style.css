@@ -942,7 +942,7 @@ html {
     /* justify-self: left; */
     margin-top: 0;
     margin-bottom: 50px;
-    justify-self: center;
+    text-align: center;
   }
 
   /* .foot-info-box {
