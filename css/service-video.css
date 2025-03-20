@@ -4,14 +4,212 @@
     margin-top: 55px;
     padding-top: 30px;
   }
+
+  /* .pc {
+    display: none;
+  }
+
+  .sp-tb {
+    display: block;
+  } */
+
   /*==============================================================
   　　映像活用例
   ==============================================================*/
-  .point-text span {
-    font-weight: bold;
+  .point-box {
+    margin-bottom: 50px;
   }
 
-  .step-num {
-    background-color: #4689E3;
+  .point-title {
+    font-size: 22px;
+  }
+
+  /* .point-title.pc {
+    align-items: center;
+
+  } */
+
+  .point-title span {
+    font-family: 'Noto Sans';
+    font-size: 60px;
+    font-weight: bold;
+    color: #f57d62;
+    margin-right: 17px;
+  }
+
+  .point-text {
+    line-height: 1.8;
+  }
+
+  .point-text.purpose {
+    margin-bottom: 10px;
+  }
+
+  .title-sub {
+    margin: 25px 0 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #f57d62;
+  }
+
+  span.marker {
+    background: linear-gradient(transparent 75%, #FFCF43 75%);
+  }
+
+
+  .point-title span.video-num {
+    color: #f57d62;
+  }
+  .apng-container {
+    position: relative;
+    width: 350px; /* APNGのサイズに合わせる */
+    height: 370px;
+  }
+  .apng-01, .apng-02, .apng-03, .apng-04 {
+    position: absolute;
+    top: -15px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+  }
+
+}
+
+@media screen and (min-width: 601px) {
+  /* タブレット用レイアウト 601px以上の範囲に収めるデザインはこの中に記述 */
+  .link-list {
+    margin-top: 80px;
+  }
+  /*==============================================================
+    　　TB_映像活用例
+  ==============================================================*/
+  .sec-title.video {
+    margin-bottom: 30px;
+  }
+  .point-box {
+    grid-template-columns: 1fr;
+    gap: 0;
+    letter-spacing: 0.1em;
+  }
+
+  .sec-point {
+    padding: 0 70px;
+  }
+
+  .point-title span {
+    font-size: 70px;
+  }
+
+  .point-img {
+    margin: 7px 0 5px;
+  }
+
+  .apng-container {
+    width: 380px; /* APNGのサイズに合わせる */
+    height: 380px;
+  }
+  .apng-01, .apng-02, .apng-03, .apng-04 {
+    top: 0;
+  }
+
+  .title-sub {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+
+  .point-text {
+    font-size: 16px;
+    line-height: 1.9;
+  }
+
+  .point-text .marker {
+    font-size: 18px;
+  }
+
+}
+
+@media screen and (min-width: 1081px) {
+  /* パソコン用レイアウト 1081px以上の範囲に収めるデザインはこの中に記述 */
+  .link-list {
+    margin-top: 120px;
+  }
+
+  /* .sp-tb {
+    display: none;
+  }
+
+  .pc {
+    display: block;
+  } */
+
+  /*==============================================================
+  　　PC_映像活用例
+  ==============================================================*/
+
+  .sec-title.video {
+    max-width: 1060px;
+    padding: 0;
+    margin-bottom: 50px;
+  }
+  .sec-point {
+    padding: 0;
+    max-width: 1100px;
+  }
+
+  .point-title span {
+    font-size: 80px;
+  }
+
+  .point-box {
+    grid-template:
+      "point-02 point-01" auto
+      "point-02 point-03" auto
+    / 1fr auto;
+    column-gap: 40px;
+    margin-bottom: 100px;
+  }
+
+  .video-box {
+    max-width: 1060px;
+  }
+
+  .video-box-02 {
+    max-width: 1060px;
+  }
+
+  .point-box-01 {
+    grid-area: point-01;
+  }
+  .point-box-02 {
+    grid-area: point-02;
+  }
+  .point-box-03 {
+    grid-area: point-03;
+    margin-top: -10px;
+  }
+
+  .point-img {
+    margin: 0;
+    height: 100%;
+    max-height: 300px;
+    margin-top: 20px;
+  }
+
+  .title-sub {
+    margin-top: 0;
+  }
+
+  .apng-container {
+    position: relative;
+    width: 400px; /* APNGのサイズに合わせる */
+    height: 400px;
+  }
+  .apng-01, .apng-02, .apng-03, .apng-04 {
+    top: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    /* margin-left: 300px; */
   }
 }

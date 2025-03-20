@@ -69,7 +69,20 @@ body {
     font-size: 18px;
     font-weight: bold;
     display: flex;
+
     align-items: center;
+    /* margin-bottom: 20px; */
+  }
+
+  .point-title {
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+  }
+
+  .title-long .point-title {
+    margin-bottom: 20px;
   }
 
   .point-title span {
@@ -80,6 +93,11 @@ body {
     margin-right: 17px;
   }
 
+  .title-long .title-text {
+    margin-top: 20px;
+    /* margin-bottom: 30px; */
+  }
+
   .point-text {
     line-height: 1.6;
   }
@@ -88,27 +106,6 @@ body {
     margin-top: 10px;
   }
 
-  /* ==================== 映像活用例 ================== */
-  .point-text span {
-    font-weight: bold;
-  }
-
-  .point-title span.video-num {
-    color: #f57d62;
-  }
-  .apng-container {
-    position: relative;
-    width: 350px; /* APNGのサイズに合わせる */
-    height: 370px;
-  }
-  .apng-01, .apng-02, .apng-03, .apng-04 {
-    position: absolute;
-    top: -15px;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 1;
-  }
 
   /* ==================== 支援の内容 ================== */
   .point-text span {
@@ -448,6 +445,7 @@ body {
   }
 
   .step-line {
+    width: 3px;
     left: 67px;
     height: 1050px;
   }
