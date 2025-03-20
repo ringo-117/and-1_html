@@ -339,10 +339,14 @@ body {
     z-index: 1;
   }
 
+  .ser-btn {
+    justify-items: center;
+  }
+
   .ser-info-box {
     display: flex;
     justify-content: center;
-    justify-self: center;
+    /* justify-self: center; */
     align-items: center;
     border: solid 1.5px #efefef;
     border-radius: 25px;
