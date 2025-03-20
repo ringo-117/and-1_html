@@ -18,14 +18,14 @@ body {
     overflow: hidden;
   }
 
-  .web-img {
+  .sec-img {
     position: absolute;
     top: 48px;
     right: -40px;
     width: 352px;
   }
 
-  .web-img img {
+  .sec-img img {
     width: 100%;
   }
 
@@ -142,7 +142,7 @@ body {
     width: 304px;
 
     /* 中央 */
-    top: -376px;
+    top: -368px;
 
   }
 
@@ -154,7 +154,7 @@ body {
     /* margin: 300px 0 25px 45px; */
 
     /* 中央 */
-    margin: 424px 0 56px 0;
+    margin: 382px 0 56px 0;
     text-align: center;
   }
 
@@ -249,7 +249,7 @@ body {
     padding: 0  50px 0 70px;
   }
 
-  .web-img {
+  .sec-img {
     top: 0px;
     right: 30px;
     width: 380px;
@@ -355,7 +355,7 @@ body {
    margin: 0 auto;
   }
 
-  .web-img {
+  .sec-img {
     top: 0px;
     left: 50%;
     transform: translateX(-50%);

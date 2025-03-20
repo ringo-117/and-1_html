@@ -16,9 +16,6 @@
   /*==============================================================
   　　映像活用例
   ==============================================================*/
-  .sec-point {
-    margin-bottom: 40px;
-  }
   .sec-title.video {
     margin-bottom: 40px;
   }
@@ -27,7 +24,7 @@
   }
 
   .point-box.end {
-    margin-bottom: 8px;
+    margin-bottom: 52px;
   }
 
   .point-title {
