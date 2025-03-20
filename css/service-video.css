@@ -198,7 +198,11 @@
 
   .title-sub {
     margin-top: 0;
+    margin-bottom: 10px;
   }
+  .point-text.purpose {
+    margin-bottom: 5px;
+}
 
   .apng-container {
     position: relative;
