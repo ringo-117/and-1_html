@@ -31,10 +31,10 @@ body {
 
   .sec-point .sec-title {
     /* margin: 385px 0 25px 45px; */
-    margin: 400px 0 30px 0;
+    margin: 400px 0 30px 2px;
 
     /* 中央 */
-    text-align: center;
+    /* text-align: center; */
   }
 
   /* スタイル共通 point/flow */
@@ -155,8 +155,8 @@ body {
     /* margin: 300px 0 25px 45px; */
 
     /* 中央 */
-    margin: 330px 0 25px 0px;
-    text-align: center;
+    margin: 330px 0 25px 3px;
+    /* text-align: center; */
   }
 
   .step-num {
