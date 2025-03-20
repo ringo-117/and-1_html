@@ -20,6 +20,10 @@
     margin-bottom: 50px;
   }
 
+  .point-box.end {
+    margin-bottom: 10px;
+  }
+
   .point-title {
     font-size: 22px;
   }
