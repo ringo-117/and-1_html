@@ -31,7 +31,7 @@ body {
 
   .sec-point .sec-title {
     /* margin: 385px 0 25px 45px; */
-    margin: 480px 0 56px 0;
+    margin: 464px 0 56px 0;
 
     /* 中央 */
     text-align: center;
@@ -55,7 +55,7 @@ body {
   }
 
   .point-box {
-    margin-bottom: 48px;
+    margin-bottom: 64px;
   }
 
   .point-img {
@@ -73,7 +73,7 @@ body {
   }
 
   .point-title {
-    font-size: 18px;
+    font-size: 20px;
     font-weight: bold;
     display: flex;
     height: 96px;
@@ -142,7 +142,7 @@ body {
     width: 304px;
 
     /* 中央 */
-    top: -382px;
+    top: -376px;
 
   }
 
@@ -154,7 +154,7 @@ body {
     /* margin: 300px 0 25px 45px; */
 
     /* 中央 */
-    margin: 432px 0 56px 0;
+    margin: 424px 0 56px 0;
     text-align: center;
   }
 
