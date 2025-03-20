@@ -45,7 +45,7 @@ html {
   .header {
     position: fixed;
     width: 100%;
-    height: 55px;
+    height: 56px;
     background-color: #ffffff;
     /* background-color: #4cd5cc; */
     display: flex;
@@ -318,7 +318,7 @@ html {
   　　ページタイトル・パンクズリスト
   ==============================================================*/
   #page-title {
-    scroll-margin-top: 55px;
+    scroll-margin-top: 56px;
   }
   .page-title {
     height: 180px;
@@ -326,7 +326,7 @@ html {
     text-align: center;
     align-content: center;
     font-weight: bold;
-    margin-top: 55px;
+    margin-top: 56px;
   }
 
   .page-title h1 {
