@@ -23,7 +23,7 @@ html {
     　　共通（スマホ）
     ==============================================================*/
 
-  .tb-br, .tb-pc, .sp-none, .sp-tb {
+  .tb-br, .tb-pc, .sp-none, .sp-tb, .tb {
     display: none;
   }
 
@@ -666,8 +666,12 @@ html {
     display: none;
   }
 
-  .tb-br, .tb-pc, .sp-none {
+  .tb-br, .tb-pc, .sp-none, .tb {
     display: block;
+  }
+
+  .policy.tb span {
+    white-space: nowrap;
   }
 
   html {
