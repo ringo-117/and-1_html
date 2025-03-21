@@ -31,7 +31,9 @@ body {
 
   .sec-point .sec-title {
     /* margin: 385px 0 25px 45px; */
-    margin: 472px 0 56px 0;
+
+    /* margin: 472px 0 56px 0; */
+    margin: 488px 0 40px 0;
 
     /* 中央 */
     text-align: center;
@@ -142,7 +144,8 @@ body {
     width: 304px;
 
     /* 中央 */
-    top: -368px;
+    /* top: -368px; */
+    top: -384px;
 
   }
 
@@ -154,7 +157,8 @@ body {
     /* margin: 300px 0 25px 45px; */
 
     /* 中央 */
-    margin: 382px 0 56px 0;
+    /* margin: 382px 0 56px 0; */
+    margin: 382px 0 40px 0;
     text-align: center;
   }
 
