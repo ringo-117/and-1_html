@@ -613,7 +613,7 @@ html {
     text-align: center;
     margin: 0 auto;
     letter-spacing: 0.05em;
-    padding-left: 35px;
+    /* padding-left: 35px; */
   }
 
   .to-top-box {
