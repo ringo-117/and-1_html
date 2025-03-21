@@ -553,9 +553,12 @@ html {
 
   .policy {
     line-height: 2.5em;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    justify-self: center;
+    margin: 20px auto;
+    width: 294px;
+    /* margin-top: 20px;
+    margin-bottom: 20px; */
+    justify-content: center;
+    /* justify-self: center; */
     /* margin-bottom: 10px;
     margin-top: 30px; */
     /* color: #39cac0; */
@@ -610,6 +613,7 @@ html {
     text-align: center;
     margin: 0 auto;
     letter-spacing: 0.05em;
+    padding-left: 35px;
   }
 
   .to-top-box {
@@ -944,9 +948,14 @@ html {
 
   .policy {
     /* justify-self: left; */
+    width: auto;
     margin-top: 0;
     margin-bottom: 50px;
     text-align: center;
+  }
+
+  .policy span.tb {
+    display: inline-block;
   }
 
   /* .foot-info-box {
