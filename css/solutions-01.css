@@ -12,12 +12,12 @@ body {
   ==============================================================*/
   .content-bg-01 {
     background-color: #D6F7F5;
-    padding: 40px 10px 110px;
+    padding: 40px 10px 72px;
   }
 
   .content-bg-02 {
     background-color: #FFFFFF;
-    padding: 40px 20px 32px;
+    padding: 40px 20px 8px;
     line-height: 1.5;
     letter-spacing: 0.1em;
   }
@@ -321,8 +321,8 @@ body {
   }
 
   .sol-title {
-    grid-template-columns: 153px auto;
-    gap: 30px;
+    grid-template-columns: 136px auto;
+    gap: 40px;
     padding: 35px 0;
   }
 
@@ -334,6 +334,7 @@ body {
 
   .sol-title h2 {
     font-size: 28px;
+    letter-spacing: 0.1em;
   }
 
   .sol-heading {
@@ -379,7 +380,7 @@ body {
 
   /* ==================== 提案 ================== */
   .suggestion {
-    margin-top: 88px;
+    margin-top: 80px;
     margin-bottom: 56px;
   }
 
