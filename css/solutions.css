@@ -1,0 +1,524 @@
+body {
+  font-family: 'Noto Sans JP';
+}
+
+@media screen and (min-width: 320px) {
+  /* スマホ用レイアウト 320px以上の範囲に収めるデザインはこの中に記述 */
+  .link-list {
+    padding: 25px 20px;
+  }
+  /*==============================================================
+  　　管理システム
+  ==============================================================*/
+  .content-bg-01 {
+    background-color: #D6F7F5;
+    padding: 40px 10px 72px;
+  }
+
+  .content-bg-02 {
+    background-color: #FFFFFF;
+    padding: 40px 20px 8px;
+    line-height: 1.5;
+    letter-spacing: 0.1em;
+  }
+
+  .sol-title {
+    border-top: solid 2px #23221F;
+    border-bottom: solid 2px #23221F;
+    padding: 30px 0;
+    font-weight: bold;
+  }
+
+  .sol-title p {
+    padding: 6px 15px;
+    font-size: 10px;
+    color: #FFFFFF;
+    background-color: #4689E3;
+    display: inline-block; /* 文字のみ背景（1行のみ対応） */
+    border-radius: 25px;
+    margin-bottom: 10px;
+  }
+  /* 映像制作 */
+  .video-production .sol-title p {
+    background-color: #f57d62;
+  }
+
+  .sol-title h2 {
+    font-size: 20px;
+  }
+
+  .sol-heading {
+    margin: 20px 0 15px;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.8;
+  }
+
+  .sol-text {
+    font-size: 14px;
+    line-height: 1.8;
+  }
+
+  /* ==================== 課題 ================== */
+  .pro-text-box {
+    margin-top: 32px;
+    padding: 24px 24px 8px;
+    background-color: #EFF6FF;
+
+  }
+
+  .highlight {
+    color: crimson;
+    white-space: nowrap;
+  }
+
+  .pro-text {
+    font-size: 14px;
+    /* display: grid;
+    grid-template-columns: 16px 1fr;
+    gap: 10px; */
+    align-items: center;
+    display: flex;
+    margin-bottom: 16px;
+  }
+
+  .pro-text-title {
+    align-items: center;
+    font-size: 16px;
+    font-weight: bold;
+    color: #4689E3;
+  }
+  /* 映像制作 */
+  .video-production .pro-text-title {
+    color: #f57d62;
+  }
+
+  .icon-pro {
+    width: 18px;
+    height: 18px;
+    margin-right: 8px;
+  }
+
+  .icon-check {
+    width: 16px;
+    height: 12.5px;
+    margin-right: 8px;
+  }
+
+  /* ==================== 提案 ================== */
+  .suggestion {
+    margin-top: 48px;
+    margin-bottom: 32px;
+    /* margin-bottom: 48px; */
+  }
+
+  .sug-title {
+    font-size: 18px;
+    color: #FFFFFF;
+    background-color: #4689E3;
+    display: flex;
+    align-items: center;
+    padding: 16px 20px;
+    border-radius: 10px;
+  }
+  /* 映像制作 */
+  .video-production .sug-title {
+    background-color: #f57d62;
+  }
+
+  .sug-title span, .pro-title span {
+    font-size: 11px;
+    margin-left: 20px;
+    font-weight: bold;
+  }
+
+  .title-triangle {
+    margin-left: 75px;
+    margin-bottom: 12px;
+    width:0;
+    height:0;
+    border-style: solid;
+    border-width: 8px 7.5px 0 7.5px;
+    border-color: #4689E3 transparent transparent transparent;
+  }
+  /* 映像制作 */
+  .video-production .title-triangle {
+    border-color: #f57d62 transparent transparent transparent;
+  }
+
+  .sug-text-box {
+    border: solid 2px #4689E3;
+    padding: 24px 16px 8px 16px;
+  }
+  /* 映像制作 */
+  .video-production .sug-text-box {
+    border: solid 2px #f57d62;
+  }
+
+  .sug-text {
+    display: grid;
+    grid-template-columns: 35px 1fr;
+    gap: 8px;
+    align-items: center;
+    margin-bottom: 16px;
+    font-size: 14px;
+  }
+
+  .sug-num {
+    font-family: 'Noto Sans';
+    width: 35px;
+    height: 35px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 50%;
+    color: #FFFFFF;
+    background-color: #4689E3;
+    text-align: center;
+    align-content: center;
+  }
+
+  /* ==================== 提案-about ================== */
+  .about-title {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 16px;
+    display: flex;
+    line-height: 2;
+    /* align-items: center; */
+  }
+
+  .web-btn {
+    justify-items: center;
+    margin-bottom: 48px;
+  }
+
+  .web-link-box {
+    display: flex;
+    justify-content: center;
+    /* justify-self: center; */
+    align-items: center;
+    border: solid 1.5px #dadada;
+    border-radius: 25px;
+    width: 100%;
+    max-width: 320px;
+    height: 52px;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 0.11em;
+    margin: 0 auto;
+  }
+
+  .web-link-box p {
+    margin-left: 15px;
+  }
+
+  .web-link-box img {
+    width: 14px;
+    height: 14px;
+    padding: 3.2px 3px;
+    margin-left: 15px;
+    background-color: #4cd5cc;
+    border-radius: 50%;
+    margin-top: 2px;
+  }
+
+
+  .about-title .about-num {
+    color: #4689E3;
+    margin-right: 8px;
+  }
+  /* 映像制作 */
+  .video-production .about-num {
+    color: #f57d62;
+  }
+
+  .about-text {
+    font-size: 14px;
+    line-height: 2;
+    margin-bottom: 16px;
+  }
+
+  .about-img {
+    margin-bottom: 48px;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 5 / 3;
+    max-width: 640px;
+  }
+  .about-img.web-lp {
+    margin-bottom: 40px;
+  }
+
+  .about-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .about-img.web-lp img {
+    object-position: 0% 0%;
+  }
+
+  span.marker {
+    background: linear-gradient(transparent 75%, #FFCF43 75%);
+    font-weight: bold;
+  }
+
+  .caption {
+    color: #5D5E60;
+    font-size: 14px;
+  }
+
+}
+
+@media screen and (min-width: 601px) {
+  /* タブレット用レイアウト 601px以上の範囲に収めるデザインはこの中に記述 */
+  .link-list {
+    padding: 27px 70px;
+  }
+  /*==============================================================
+    　　TB_管理システム
+  ==============================================================*/
+  .content-bg-01 {
+    padding: 50px 70px 90px;
+  }
+
+  .content-bg-02 {
+    padding: 55px 55px 24px;
+  }
+
+  .sol-title {
+    display: grid;
+    grid-template-columns: 96px auto;
+    gap: 25px;
+    align-items: center;
+  }
+
+  .sol-title p {
+    font-size: 11px;
+    margin-bottom: 0;
+    height: 30px;
+    text-align: center;
+  }
+
+  .sol-title h2 {
+    font-size: 24px;
+  }
+
+  .sol-heading {
+    margin: 28px 0 20px;
+    font-size: 18px;
+  }
+
+  /* ==================== 課題 ================== */
+  .problem {
+    margin-top: 48px;
+  }
+
+  .problem .sol-heading {
+    margin-top: 8px;
+  }
+
+  .pro-text-box {
+    padding: 24px 32px 8px;
+  }
+
+  /* ==================== 提案 ================== */
+  .suggestion {
+    margin-top: 64px;
+    margin-bottom: 48px;
+  }
+
+  .sug-title, .pro-title {
+    font-size: 20px;
+    padding: 16px 23px;
+  }
+
+  .sug-title span, .pro-title span {
+    font-size: 12px;
+    margin-left: 25px;
+  }
+
+  .sug-text-box {
+    padding: 27px 35px 13px;
+  }
+
+  .sug-text {
+    grid-template-columns: 36px 1fr;
+    margin-bottom: 15px;
+  }
+
+  .sug-num {
+    width: 36px;
+    height: 36px;
+  }
+
+  /* ==================== 提案-about ================== */
+  .about-title {
+    font-size: 18px;
+  }
+
+  .about-text {
+    margin-bottom: 24px;
+  }
+  .about-img.web-lp {
+    margin-bottom: 40px;
+  }
+
+
+}
+
+@media screen and (min-width: 1081px) {
+  /* パソコン用レイアウト 1081px以上の範囲に収めるデザインはこの中に記述 */
+  .link-list {
+    padding: 40px 0;
+  }
+
+  /*==============================================================
+  　　PC_管理システム
+  ==============================================================*/
+  .content-bg-01 {
+    padding: 75px 0 165px;
+    justify-items: center;
+  }
+
+  .content-bg-02 {
+    padding: 80px 57px 48px;
+    width: 1060px;
+  }
+
+  .sol-title {
+    grid-template-columns: 136px auto;
+    gap: 40px;
+    padding: 35px 0;
+  }
+
+  .sol-title p {
+    font-size: 14px;
+    font-weight: normal;
+    height: 34px;
+  }
+
+  .sol-title h2 {
+    font-size: 28px;
+    letter-spacing: 0.1em;
+  }
+
+  .sol-heading {
+    margin: 45px 0 25px;
+    font-size: 20px;
+  }
+
+  .sol-text {
+    font-size: 16px;
+    line-height: 2;
+  }
+
+  /* ==================== 課題 ================== */
+  .pro-text-box {
+    margin-top: 32px;
+    padding: 32px 56px 16px;
+    background-color: #EFF6FF;
+  }
+
+  .pro-text {
+    margin-bottom: 16px;
+  }
+
+  .pro-text {
+    font-size: 16px;
+  }
+
+  .pro-text-title {
+    font-size: 20px;
+  }
+
+  .icon-pro {
+    width: 24px;
+    height: 24px;
+    margin-right: 16px;
+  }
+
+  .icon-check {
+    width: 18px;
+    height: 14px;
+    margin-right: 16px;
+  }
+
+  /* ==================== 提案 ================== */
+  .suggestion {
+    margin-top: 80px;
+    margin-bottom: 56px;
+  }
+
+  .sug-title, .pro-title {
+    font-size: 22px;
+    padding: 20px 30px;
+
+  }
+
+  .sug-title span, .pro-title span {
+    font-size: 14px;
+  }
+
+  .title-triangle {
+    margin-left: 90px;
+    margin-bottom: 25px;
+  }
+
+  .sug-text-box {
+    padding: 33px 60px 15px;
+  }
+
+  .sug-text {
+    font-size: 16px;
+    gap: 15px;
+
+  }
+
+  .sug-num {
+    width: 40px;
+    height: 40px;
+  }
+
+  /* ==================== 提案-about ================== */
+  .about-title {
+    font-size: 20px;
+  }
+
+  .about-text {
+    font-size: 16px;
+    margin-bottom: 32px;
+  }
+
+  .about-img {
+    margin-bottom: 56px;
+  }
+  .about-img.web-lp {
+    margin-bottom: 40px;
+  }
+
+  .web-btn {
+    font-size: 16px;
+    margin-bottom: 56px;
+  }
+
+  .web-link-box {
+    font-size: 13px;
+    width: 290px;
+    height: 55px;
+    border-radius: 30px;
+    margin-left: 0;
+  }
+
+  .web-link-box p {
+    margin-left: 25px;
+  }
+
+  .web-link-box img {
+    margin-top: 0;
+    margin-left: 25px;
+  }
+
+
+
+}
