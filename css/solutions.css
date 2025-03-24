@@ -7,6 +7,10 @@ body {
   .link-list {
     padding: 25px 20px;
   }
+
+  .link-list span {
+    display: none;
+  }
   /*==============================================================
   　　管理システム
   ==============================================================*/
@@ -64,11 +68,15 @@ body {
     margin-top: 32px;
     padding: 24px 24px 8px;
     background-color: #EFF6FF;
-
   }
+  /* 映像制作 */
+  /* .video-production .pro-text-box {
+    background-color: #fcf4f1;
+  } */
 
   .highlight {
     color: crimson;
+    /* color: #f57d62; */
     white-space: nowrap;
   }
 
@@ -89,9 +97,9 @@ body {
     color: #4689E3;
   }
   /* 映像制作 */
-  .video-production .pro-text-title {
+  /* .video-production .pro-text-title {
     color: #f57d62;
-  }
+  } */
 
   .icon-pro {
     width: 18px;
@@ -122,9 +130,9 @@ body {
     border-radius: 10px;
   }
   /* 映像制作 */
-  .video-production .sug-title {
+  /* .video-production .sug-title {
     background-color: #f57d62;
-  }
+  } */
 
   .sug-title span, .pro-title span {
     font-size: 11px;
@@ -142,18 +150,18 @@ body {
     border-color: #4689E3 transparent transparent transparent;
   }
   /* 映像制作 */
-  .video-production .title-triangle {
+  /* .video-production .title-triangle {
     border-color: #f57d62 transparent transparent transparent;
-  }
+  } */
 
   .sug-text-box {
     border: solid 2px #4689E3;
     padding: 24px 16px 8px 16px;
   }
   /* 映像制作 */
-  .video-production .sug-text-box {
+  /* .video-production .sug-text-box {
     border: solid 2px #f57d62;
-  }
+  } */
 
   .sug-text {
     display: grid;
@@ -177,6 +185,11 @@ body {
     align-content: center;
   }
 
+  /* 映像制作 */
+  /* .video-production .sug-num {
+    background-color: #f57d62;
+  } */
+
   /* ==================== 提案-about ================== */
   .about-title {
     font-size: 16px;
@@ -195,11 +208,10 @@ body {
   .web-link-box {
     display: flex;
     justify-content: center;
-    /* justify-self: center; */
     align-items: center;
     border: solid 1.5px #efefef;
     border-radius: 25px;
-    width: 100%;
+    width: 210px;
     max-width: 320px;
     height: 52px;
     font-size: 12px;
@@ -228,9 +240,9 @@ body {
     margin-right: 8px;
   }
   /* 映像制作 */
-  .video-production .about-num {
+  /* .video-production .about-num {
     color: #f57d62;
-  }
+  } */
 
   .about-text {
     font-size: 14px;
@@ -274,6 +286,10 @@ body {
   /* タブレット用レイアウト 601px以上の範囲に収めるデザインはこの中に記述 */
   .link-list {
     padding: 27px 70px;
+  }
+
+  .link-list span {
+    display: inline-block;
   }
   /*==============================================================
     　　TB_管理システム
