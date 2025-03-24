@@ -205,6 +205,11 @@ body {
     font-weight: bold;
   }
 
+  .caption {
+    color: #5D5E60;
+    font-size: 14px;
+  }
+
 }
 
 @media screen and (min-width: 601px) {
