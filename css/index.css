@@ -851,6 +851,7 @@ body {
     padding: 5px 15px;
     margin-right: 12px;
     /* min-width: 99px; */
+    margin-bottom: 0;
   }
 
   .news-box .news-text {
