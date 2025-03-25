@@ -496,6 +496,21 @@ body {
     border-radius: 10px;
   }
 
+  /* 一覧ボタン */
+  .news-title-box {
+    display: flex;
+    justify-content: space-between;
+  }
+  .news-title-box .ser-btn {
+    margin-top: 10px;
+    margin-right: 10px;
+  }
+  .news-title-box .ser-info-box {
+    width: 110px;
+    height: 45px;
+    border-radius: 50px;
+  }
+
   .sec-news .sec-title {
     margin-left: 30px;
     margin-bottom: 25px;
@@ -769,9 +784,19 @@ body {
     padding: 83px 0 120px;
   }
 
+  /* 一覧ボタン */
+  .news-title-box .ser-btn {
+    margin-top: 10px;
+    margin-right: 55px;
+  }
+  .news-title-box .ser-info-box {
+    width: 150px;
+    height: 55px;
+    border-radius: 50px;
+  }
+
   .sec-news .sec-title {
     margin-left: 70px;
-    /* margin-bottom: 0; */
   }
 
   .news-content {
@@ -1083,6 +1108,16 @@ body {
     justify-self: center;
     /* margin: 0 70px; */
     padding: 90px 100px 120px;
+  }
+
+  /* 一覧ボタン */
+  .news-title-box .ser-btn {
+    margin-top: 15px;
+    /* margin-right: 55px; */
+  }
+  .news-title-box .ser-info-box {
+    width: 200px;
+    height: 70px;
   }
 
   .sec-news .sec-title {
