@@ -497,7 +497,7 @@ body {
   }
 
   /* 一覧ボタン */
-  .news-title-box {
+  article.news-title-box {
     display: flex;
     justify-content: space-between;
   }
