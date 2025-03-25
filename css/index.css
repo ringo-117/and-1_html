@@ -502,7 +502,7 @@ body {
     justify-content: space-between;
     letter-spacing: 0.11em;
   }
-  .news-title-box .news-btn {
+  .news-btn {
     border: solid 1.5px #efefef;
     border-radius: 25px;
     font-size: 12px;
@@ -513,10 +513,19 @@ body {
     margin-right: 10px;
     align-content: center;
   }
+  .news-btn.sp {
+    margin: 0;
+    width: 180px;
+    max-height: 52px;
+    height: 52px;
+    margin: 0 auto;
+    margin-top: 54px;
+    justify-items: center;
+  }
   .news-info-box p {
     margin-left: 15px;
   }
-  .news-title-box .news-info-box {
+  .news-info-box {
     display: flex;
     width: 110px;
     justify-content: center;
@@ -532,7 +541,7 @@ body {
     margin-left: 15px;
     background-color: #4cd5cc;
     border-radius: 50%;
-    margin-top: 2px;
+    margin-top: 1px;
   }
 
   .sec-news .sec-title {
@@ -1137,7 +1146,7 @@ body {
   }
 
   /* 一覧ボタン */
-  .news-title-box .news-btn {
+  .news-btn {
     width: 200px;
     max-height: 70px;
     margin-top: 15px;
@@ -1147,7 +1156,7 @@ body {
   .news-info-box p {
     font-size: 13px;
   }
-  .news-title-box .news-info-box {
+  .news-info-box {
     width: 200px;
   }
 
