@@ -519,7 +519,7 @@ body {
     max-height: 52px;
     height: 52px;
     margin: 0 auto;
-    margin-top: 54px;
+    margin-top: 64px;
     justify-items: center;
   }
   .news-info-box p {
@@ -527,13 +527,16 @@ body {
   }
   .news-info-box {
     display: flex;
-    width: 110px;
+    width: 180px;
     justify-content: center;
 
 
     /* height: 45px; */
     /* border-radius: 50px; */
   }
+  /* .news-info-box.sp {
+    justify-content: center;
+  } */
   .news-info-box img {
     width: 14px;
     height: 14px;
