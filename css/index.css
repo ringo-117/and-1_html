@@ -590,11 +590,11 @@ body {
   .news-item p {
     background-color: #999999;
     color: #fff;
-    padding: 3px 8px;
+    padding: 2px 8px;
     border-radius: 25px;
     /* margin-bottom: 1px; */
     margin-left: 1em;
-    font-size: 8px;
+    font-size: 9px;
   }
 
   .news-box .news-text {
