@@ -1,0 +1,129 @@
+body {
+  font-family: 'Noto Sans JP';
+}
+
+@media screen and (min-width: 320px) {
+  /* スマホ用レイアウト 320px以上の範囲に収めるデザインはこの中に記述 */
+  .link-list {
+    padding: 24px 16px;
+    overflow: hidden;
+  }
+  /*==============================================================
+  　　ニュース
+  ==============================================================*/
+  .link-color {
+    color: #39cac0;
+  }
+
+  .news-bg {
+    background-color: #d6f7f5;
+    padding: 56px 16px 72px;
+  }
+
+  .news-box {
+    background-color: #fff;
+    padding: 32px 24px 16px;
+    line-height: 1.7;
+  }
+
+  .news-box h2 {
+    font-size: 18px;
+    border-bottom: 1px solid #23221f;
+    padding-bottom: 16px;
+    margin-bottom: 24px;
+    font-weight: 600;
+  }
+
+  .news-item {
+    display: flex;
+    margin-bottom: 8px;
+    align-items: center;
+  }
+
+  .news-item time {
+    font-family: 'Noto Sans';
+    color: #39cac0;
+    font-size: 13px;
+  }
+
+  .news-item p {
+    background-color: #999999;
+    color: #fff;
+    padding: 2px 16px;
+    font-size: 8px;
+    /* width: 56px; */
+    text-align: center;
+    margin-left: 16px;
+    border-radius: 25px;
+    letter-spacing: 0.1em;
+  }
+
+  .news-text-box {
+    font-size: 14px;
+    margin-bottom: 24px;
+  }
+
+  .news-text-box ul {
+    margin: 4px 0 16px;
+  }
+
+  .news-text-box ul li:before {
+    content:  "";
+    width:  4px;
+    height:  4px;
+    display:  inline-block;
+    background-color: #23221f;
+    border-radius:  50%;
+    position:  relative;
+    top: -3px;
+    margin-right: 5px;
+  }
+
+  .news-text-box h3 {
+    font-size: 16px;
+    margin-bottom: 8px;
+    /* font-weight: 500; */
+    font-weight: bold;
+    /* margin-bottom: 16px; */
+  }
+
+  .news-text-box h3.title-01 {
+    margin-bottom: 12px;
+  }
+
+  .news-text-box h3:before {
+    content:  "";
+    /* width: 13px; */
+    /* height: 13px; */
+    display: inline-block;
+    background-color: #23221f;
+    /* border-radius:  50%; */
+    position: relative;
+    top: -1.5px;
+    margin-right: 5px;
+
+
+    width: 10px;
+    height: 10px;
+  }
+
+
+  .voice {
+    margin-bottom: 8px;
+  }
+
+
+  span.marker {
+    /* background: linear-gradient(transparent 75%, #4cd5cc 75%); */
+    background: linear-gradient(transparent 75%, #FFCF43 75%);
+    font-weight: bold;
+  }
+
+  span.marker-2 {
+    /* padding-bottom: 3px; */
+    /* background: linear-gradient(transparent 90%, #4cd5cc 90%); */
+    /* background: linear-gradient(transparent 75%, #FFCF43 75%); */
+    font-weight: bold;
+  }
+
+}
