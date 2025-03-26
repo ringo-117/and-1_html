@@ -1194,12 +1194,12 @@ body {
 
   .news-item time {
     font-size: 15px;
-    margin-right: 16px;
+    /* margin-right: 16px; */
   }
 
   .news-item p {
-    padding: 2px 16px;
-    margin-right: 16px;
+    padding: 3px 16px;
+    margin: 0 32px;
     font-size: 12px;
   }
 
