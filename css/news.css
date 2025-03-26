@@ -1,5 +1,9 @@
 body {
-  font-family: 'Noto Sans JP';
+  font-family: -apple-system, BlinkMacSystemFont, Roboto, "Noto Sans JP", "Noto Sans";
+  font-feature-settings: 'palt' 1;
+  letter-spacing: 0.05em;
+  color: #23221F;
+  background-color: #ffffff;
 }
 
 @media screen and (min-width: 320px) {
