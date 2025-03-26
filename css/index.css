@@ -578,7 +578,7 @@ body {
     display: flex;
     font-size: 12px;
     align-items: center;
-    margin-bottom: 7px;
+    margin-bottom: 8px;
   }
 
   .news-item time {
@@ -590,10 +590,11 @@ body {
   .news-item p {
     background-color: #999999;
     color: #fff;
-    padding: 3px 9px;
+    padding: 1px 8px 1.5px;
     border-radius: 25px;
-    margin-bottom: 4px;
-    margin-left: 5px;
+    margin-bottom: 2px;
+    margin-left: 1em;
+    font-size: 10px;
   }
 
   .news-box .news-text {
@@ -856,12 +857,13 @@ body {
 
   .news-item time {
     font-size: 13px;
-    margin-right: 12px;
+    /* margin-right: 12px; */
   }
 
   .news-item p {
-    padding: 5px 15px;
-    margin-right: 12px;
+    padding: 3px 15px;
+    /* margin-right: 12px; */
+    margin: 0 16px;
     /* min-width: 99px; */
     margin-bottom: 0;
   }
@@ -1192,12 +1194,13 @@ body {
 
   .news-item time {
     font-size: 15px;
-    margin-right: 20px;
+    margin-right: 16px;
   }
 
   .news-item p {
-    padding: 3% 20px;
-    margin-right: 20px;
+    padding: 2px 16px;
+    margin-right: 16px;
+    font-size: 12px;
   }
 
   .news-box .news-text {
