@@ -11,6 +11,7 @@ body {
   　　ニュース一覧
   ==============================================================*/
   .news-bg {
+    font-family: 'Noto Sans JP';
     background-color: #d6f7f5;
     padding: 56px 16px 72px;
   }
