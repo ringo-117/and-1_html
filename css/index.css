@@ -1202,7 +1202,7 @@ body {
   }
 
   .news-item p {
-    padding: 5px auto;
+    padding: 5px 8px;
     margin: 0 32px;
     font-size: 10px;
     width: 80px;
