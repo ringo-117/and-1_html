@@ -4,24 +4,135 @@ body {
 
 @media screen and (min-width: 320px) {
   /* スマホ用レイアウト 320px以上の範囲に収めるデザインはこの中に記述 */
+  .link-list {
+    padding: 24px 16px;
+  }
   /*==============================================================
   　　ニュース一覧
   ==============================================================*/
   .news-bg {
     background-color: #d6f7f5;
+    padding: 56px 16px 72px;
+  }
+
+  .news-box li {
+    background-color: #fff;
+    margin-bottom: 8px;
+    padding: 16px;
+  }
+
+  .news-item {
+    display: flex;
+    font-size: 13px;
+    align-items: center;
+    margin-bottom: 8px;
+  }
+
+  .news-item time {
+    font-family: 'Noto Sans';
+    color: #39cac0;
+    font-weight: 500;
+  }
+
+  .news-item p {
+    background-color: #999999;
+    color: #fff;
+    padding: 3px 8px;
+    border-radius: 25px;
+    /* margin-bottom: 1px; */
+    margin-left: 1em;
+    font-size: 8px;
+  }
+
+  .news-box .news-text {
+    font-size: 13px;
+    letter-spacing: 0.1em;
+    line-height: 1.5;
   }
 }
 
 @media screen and (min-width: 601px) {
   /* タブレット用レイアウト 601px以上の範囲に収めるデザインはこの中に記述 */
+  .link-list {
+    padding: 24px 64px;
+  }
   /*==============================================================
     　　TB_ニュース一覧
   ==============================================================*/
+
+  .news-bg {
+    padding: 56px 64px 80px;
+  }
+
+  .news-box li a {
+    display: flex;
+    align-items: center;
+  }
+
+  .news-item {
+    margin-bottom: 0;
+  }
+
+  .news-item time {
+    font-size: 13px;
+  }
+
+  .news-item p {
+    padding: 4px 15px;
+    margin: 0 16px;
+    margin-bottom: 0;
+    font-size: 8px;
+  }
+
+  .news-box .news-text {
+    font-size: 14px;
+  }
+
 }
 
 @media screen and (min-width: 1081px) {
   /* パソコン用レイアウト 1081px以上の範囲に収めるデザインはこの中に記述 */
+  .link-list {
+    padding: 40px 0;
+  }
   /*==============================================================
     　　PC_ニュース一覧
   ==============================================================*/
+  .news-box li {
+    max-width: 1060px;
+    padding: 20px 40px;
+    margin: 0 auto;
+    margin-bottom: 8px;
+    /* display: grid;
+    justify-self: center; */
+  }
+
+  .news-content {
+    margin-top: 60px;
+  }
+
+  .news-content-bg {
+    background-color: #4689E3;
+  }
+
+  .news-box {
+    /* margin: 0 55px 0 0; */
+    padding: 45px 30px 45px 30px;
+  }
+
+  .news-item time {
+    font-size: 15px;
+    /* margin-right: 16px; */
+  }
+
+  .news-item p {
+    padding: 5px 16px;
+    margin: 0 32px;
+    font-size: 11px;
+    letter-spacing: 0.08em;
+  }
+
+  .news-box .news-text {
+    font-size: 16px;
+  }
 }
