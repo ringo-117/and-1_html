@@ -861,13 +861,15 @@ body {
   }
 
   .news-item p {
-    padding: 3px auto;
-    /* margin-right: 12px; */
+    /* padding: 3px auto; */
+    padding: 4px 8px;
     margin: 0 16px;
-    /* min-width: 99px; */
     margin-bottom: 0;
     width: 65px;
     text-align: center;
+
+
+    font-size: 9px;
   }
 
   .news-box .news-text {
@@ -1200,7 +1202,7 @@ body {
   }
 
   .news-item p {
-    padding: 4px auto;
+    padding: 5px auto;
     margin: 0 32px;
     font-size: 10px;
     width: 80px;
