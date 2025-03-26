@@ -46,8 +46,10 @@ body {
     padding: 3px 8px;
     border-radius: 25px;
     /* margin-bottom: 1px; */
-    margin-left: 1em;
+    margin-left: 1.5em;
     font-size: 8px;
+    width: 52px;
+    text-align: center;
   }
 
   .news-box .news-text {
@@ -84,10 +86,11 @@ body {
   }
 
   .news-item p {
-    padding: 4px 15px;
+    padding: 4px auto;
     margin: 0 16px;
     margin-bottom: 0;
     font-size: 8px;
+    width: 65px;
   }
 
   .news-box .news-text {
@@ -132,10 +135,11 @@ body {
   }
 
   .news-item p {
-    padding: 5px 16px;
+    padding: 5px auto;
     margin: 0 32px;
     font-size: 11px;
     letter-spacing: 0.08em;
+    width: 80px;
   }
 
   .news-box .news-text {
