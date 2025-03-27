@@ -63,11 +63,11 @@ body {
     margin-bottom: 24px;
   }
 
-  .news-text-box ul {
+  .news-text-box ul, .li {
     margin: 4px 0 16px 5px;
   }
 
-  .news-text-box ul li:before {
+  .news-text-box ul li:before, .li:before {
     content:  "";
     width:  4px;
     height:  4px;
@@ -94,18 +94,13 @@ body {
 
   .news-text-box h3:before {
     content:  "";
-    /* width: 13px; */
-    /* height: 13px; */
+    width: 10px;
+    height: 10px;
     display: inline-block;
     background-color: #23221f;
-    /* border-radius:  50%; */
     position: relative;
     top: -1.5px;
     margin-right: 5px;
-
-
-    width: 10px;
-    height: 10px;
   }
 
 
@@ -113,19 +108,36 @@ body {
     margin-bottom: 8px;
   }
 
-
   span.marker {
     /* background: linear-gradient(transparent 75%, #4cd5cc 75%); */
     background: linear-gradient(transparent 75%, #FFCF43 75%);
     font-weight: bold;
   }
 
-  span.marker-2 {
-    /* padding-bottom: 3px; */
-    /* background: linear-gradient(transparent 90%, #4cd5cc 90%); */
-    /* background: linear-gradient(transparent 75%, #FFCF43 75%); */
+  .sub-title {
     font-weight: bold;
   }
+
+  /* ==================== news-02 ================== */
+  .info-item {
+    margin-bottom: 32px;
+  }
+
+  .news-02 .li {
+    margin-bottom: 0;
+  }
+
+  /* はみ出たら横スクロール */
+  .link-list {
+    white-space: nowrap;
+    overflow: auto;
+  }
+
+  .news-02 .news-box {
+    padding: 32px 24px 16px;
+  }
+
+
 
 }
 
@@ -241,11 +253,11 @@ body {
     top: -1.4px;
   }
 
-  .news-text-box ul {
+  .news-text-box ul, .li {
     margin-left: 5px;
   }
 
-  .news-text-box ul li:before {
+  .news-text-box ul li:before, .li:before {
     width:  5px;
     height:  5px;
     top: -3px;
