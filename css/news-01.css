@@ -127,15 +127,15 @@ body {
     margin-bottom: 0;
   }
 
-  /* はみ出たら横スクロール */
-  .link-list {
+  .link-color {
     white-space: nowrap;
-    overflow: auto;
   }
 
   .news-02 .news-box {
     padding: 32px 24px 16px;
   }
+
+
 
 
 
