@@ -245,12 +245,16 @@ body {
     　　TB_ニュース
   ==============================================================*/
   .news-bg {
-    padding: 56px 64px 72px;
+    padding: 56px 64px 64px;
   }
 
   .news-box {
     padding:40px 40px 20px;
   }
+  .news-internship .news-box {
+    padding: 40px 40px 10px;
+  }
+
 
   .news-item {
     margin-bottom: 14px;
@@ -301,12 +305,15 @@ body {
     　　PC_ニュース
   ==============================================================*/
   .news-bg {
-    padding: 64px 40px 56px;
+    padding: 72px 40px 80px;
   }
 
   .news-box {
     max-width: 1060px;
-    padding:80px 56px 48px;
+    /* padding:80px 56px 48px; */
+    padding:64px 56px 24px;
+    /* padding: 64px 56px 16px; */
+
     margin: 0 auto;
   }
 
@@ -357,13 +364,22 @@ body {
     top: -1.4px;
   }
 
-  .news-text-box ul, .li {
+  .news-text-box ul {
     margin-left: 5px;
   }
 
-  .news-text-box ul li:before, .li:before {
-    width:  5px;
-    height:  5px;
+  .li {
+    margin-left: 0;
+    line-height: 1.9;
+  }
+
+  .li:before  {
+    display: none;
+  }
+
+  .news-text-box ul li:before {
+    width: 5px;
+    height: 5px;
     top: -3px;
     margin-right: 8px;
   }
@@ -395,6 +411,7 @@ body {
 
   .li {
     margin-top: 0;
+    margin-left: 0;
   }
 
   .news-internship .news-text-box {
@@ -407,15 +424,22 @@ body {
 
 
   .news-internship .news-box {
-    padding:80px 56px 16px;
+    /* padding:80px 56px 16px; */
+    padding: 64px 56px 4px;
   }
 
   .info-item {
     display: grid;
-    grid-template-columns: 140px 1fr;
+    /* grid-template-columns: 140px 1fr; */
+    grid-template-columns: 110px 1fr;
+    /* grid-template-columns: 108px 1fr; */
     margin-bottom: 20px;
     gap: 30px;
 
+  }
+
+  .info-item .li-box {
+    margin-top: -2px;
   }
 
   .info-item dt {
