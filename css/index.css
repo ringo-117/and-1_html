@@ -846,7 +846,7 @@ body {
     padding: 60px 80px 55px 50px;
   }
 
-  .news-box li {
+  .news-box li a {
     display: flex;
     align-items: center;
   }

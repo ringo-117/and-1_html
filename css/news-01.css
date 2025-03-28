@@ -16,7 +16,8 @@ body {
 
   .news-bg {
     background-color: #d6f7f5;
-    padding: 56px 16px 72px;
+    /* padding: 56px 16px 72px; */
+    padding: 56px 16px 40px;
   }
 
   .news-box {
@@ -120,7 +121,7 @@ body {
 
   /* ==================== news-internship ================== */
   .info-item {
-    margin-bottom: 32px;
+    margin-bottom: 24px;
   }
 
   .news-internship .li {
