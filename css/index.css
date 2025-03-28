@@ -504,7 +504,7 @@ body {
   }
   .news-btn {
     border: solid 1.5px #efefef;
-    border-radius: 25px;
+    border-radius: 50px;
     font-size: 12px;
     font-weight: bold;
     width: 110px;
@@ -823,7 +823,7 @@ body {
 
   /* 一覧ボタン */
   .news-title-box .news-btn {
-    width: 150px;
+    width: 180px;
     max-height: 55px;
     margin-top: 10px;
     margin-right: 55px;
@@ -831,6 +831,7 @@ body {
   .news-title-box .news-info-box {
     width: 150px;
     border-radius: 25px;
+    margin: 0 auto;
   }
 
   .sec-news .sec-title {
@@ -1165,7 +1166,7 @@ body {
   .news-info-box p {
     font-size: 13px;
   }
-  .news-info-box {
+  .news-title-box .news-info-box {
     width: 200px;
   }
 
