@@ -63,14 +63,12 @@ body {
   }
 
   /* ==================== 文章 ================== */
- 
-
   .message-text-item h3 {
-     font-size: 17px;
-     color: #39cac0;
-     font-weight: bold;
-     margin-bottom: 22px;
-     margin-top: 40px;
+    font-size: 17px;
+    color: #39cac0;
+    font-weight: bold;
+    margin-bottom: 22px;
+    margin-top: 40px;
   }
 
   .message-text-item .message-text {
@@ -86,6 +84,7 @@ body {
   font-size: 14px;
   text-align: right;
   margin-top: 24px;
+  align-items: center;
 }
 
 .message-box .name span {
@@ -103,9 +102,56 @@ body {
   /*==============================================================
     　　TB_社長挨拶
   ==============================================================*/
+  .message-box {
+    padding: 48px 70px 56px;
+    margin: 0 40px;
+  }
+  /* ==================== 画像 ================== */
+  .message-img {
+    padding-left: 0;
+    padding-right: 130px;
+    margin-bottom: 88px;
+  }
+
+  .message-title {
+    font-size: 24px;
+    line-height: 2;
+    left: auto;
+    right: 20px;
+  }
+
+  .message-title span {
+    padding: 2px 7px 5px;
+  }
+
+  /* ==================== 画像2枚目 ================== */
+  .message-img-02 {
+    margin-top: 48px;
+  }
+
+  /* ==================== 文章 ================== */
+  .message-text-item h3 {
+    font-size: 19px;
+    /* margin-bottom: 22px; */
+    margin-top: 48px;
+    margin-bottom: 24px;
+  }
+
+  .message-text-item .message-text {
+    font-size: 15px;
+  }
+
+   /* ==================== 名前 ================== */
+  .message-box .name {
+    font-size: 14px;
+    margin-top: 24px;
+  }
+
+  .message-box .name span {
+    font-size: 18px;
+  }
 
 
-  
 }
 
 @media screen and (min-width: 1081px) {
