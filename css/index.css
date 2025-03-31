@@ -359,7 +359,7 @@ body {
   }
 
   .ser-info-box p {
-    margin-left: 15px;
+    margin-left: 5px;
   }
 
   .ser-info-box img {
@@ -371,7 +371,7 @@ body {
     margin-left: 15px;
     background-color: #4cd5cc;
     border-radius: 50%;
-    margin-top: 2px;
+    margin-top: 1px;
   }
 
   .ser-text h3 {
@@ -523,7 +523,7 @@ body {
     justify-items: center;
   }
   .news-info-box p {
-    margin-left: 15px;
+    margin-left: 5px;
   }
   .news-info-box {
     display: flex;
@@ -544,7 +544,7 @@ body {
     margin-left: 15px;
     background-color: #4cd5cc;
     border-radius: 50%;
-    margin-top: 1px;
+    margin-top: 0.5px;
   }
 
   .sec-news .sec-title {
