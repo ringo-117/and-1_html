@@ -44,6 +44,7 @@ body {
     line-height: 1.85;
     font-size: 19px;
     color: #FFFFFF;
+    font-weight: 500;
   }
 
   .message-title span {
@@ -106,6 +107,9 @@ body {
 
 @media screen and (min-width: 601px) {
   /* タブレット用レイアウト 601px以上の範囲に収めるデザインはこの中に記述 */
+  .link-list {
+    padding: 24px 64px 0;
+  }
   .message-text-item .message-text .sp {
     display: inline-block;
   }
@@ -151,7 +155,7 @@ body {
     font-size: 15px;
   }
 
-   /* ==================== 名前 ================== */
+  /* ==================== 名前 ================== */
   .message-box .name {
     font-size: 14px;
     margin-top: 24px;
@@ -166,9 +170,59 @@ body {
 
 @media screen and (min-width: 1081px) {
   /* パソコン用レイアウト 1081px以上の範囲に収めるデザインはこの中に記述 */
+  .link-list {
+    padding: 40px 0;
+  }
   /*==============================================================
     　　PC_社長挨拶
   ==============================================================*/
+  .message-box {
+    max-width: 1060px;
+    padding: 48px 80px 56px;
+    margin: 0 auto;
+  }
+
+  /* ==================== 画像 ================== */
+  .message-img {
+    padding-right: 250px;
+    margin-bottom: 0;
+    padding-bottom: 20px;
+    aspect-ratio: 7 / 4;
+
+  }
+
+  .message-title {
+    font-size: 32px;
+    top: 50%;
+    letter-spacing: 0.1em;
+  }
+
+  /* ==================== 画像2枚目 ================== */
+  .message-img-02 {
+    margin-top: 56px;
+  }
+
+  /* ==================== 文章 ================== */
+  .message-text-item h3 {
+    font-size: 22px;
+    /* margin-bottom: 22px; */
+    margin-top: 56px;
+    margin-bottom: 28px;
+  }
+
+  .message-text-item .message-text {
+    font-size: 16px;
+  }
+
+  /* ==================== 名前 ================== */
+  .message-box .name {
+    font-size: 16px;
+    margin-top: 40px;
+  }
+
+  .message-box .name span {
+    font-size: 20px;
+  }
 
 
 }
