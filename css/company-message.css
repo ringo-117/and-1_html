@@ -12,6 +12,10 @@ body {
     line-height: 2;
     letter-spacing: 0.1em;
   }
+
+  .message-text-item .message-text .sp {
+    display: none;
+  }
   /* ==================== 画像 ================== */
   .message-img-box {
     position: relative;
@@ -73,7 +77,10 @@ body {
 
   .message-text-item .message-text {
     font-size: 14px;
+    display: inline-block;
   }
+
+  
 
   .message-text-item .message-text.text-02 {
     margin-top: 16px;
@@ -99,6 +106,9 @@ body {
 
 @media screen and (min-width: 601px) {
   /* タブレット用レイアウト 601px以上の範囲に収めるデザインはこの中に記述 */
+  .message-text-item .message-text .sp {
+    display: inline-block;
+  }
   /*==============================================================
     　　TB_社長挨拶
   ==============================================================*/
