@@ -63,9 +63,7 @@ body {
   }
 
   /* ==================== 文章 ================== */
-  .message-text-item {
-    /* margin-bottom: 20px; */
- }
+ 
 
   .message-text-item h3 {
      font-size: 16px;
@@ -80,7 +78,7 @@ body {
   }
 
   .message-text-item .message-text.text-02 {
-    margin-top: 0px;
+    margin-top: 16px;
   }
 
  /* ==================== 名前 ================== */
