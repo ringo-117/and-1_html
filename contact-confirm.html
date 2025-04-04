@@ -10,9 +10,13 @@
 
     <meta http-equiv="Cache-Control" content="no-store"> <!-- キャッシュ無効 -->
 
-    <link rel="shortcut icon" href="./img/favicon.ico"> <!-- ファビコン -->
+    <!-- ファビコン -->
+    <link rel="shortcut icon" href="img/favicon.png">
+
+    <!-- css -->
     <link rel="stylesheet" href="css/destyle.css">
     <link rel="stylesheet" href="css/style.css?v=2.5">
+    <link rel="stylesheet" href="css/contact-form.css">
   </head>
 
   <body>
@@ -135,12 +139,20 @@
     </header>
 
     <main id="main">
-      <div>
-        <a href="index.html">TOP</a>＞
-        <p>お問い合わせ確認</p>
+      <article class="page-title">
+        <h1>CONTACT</h1>
+        <p>お問い合わせ</p>
+      </article>
+      <div class="link-list">
+        <a href="index.html">TOP</a>
+        <div class="link-arrow"></div>
+        <p>お問い合わせ入力</p>
+        <div class="link-arrow"></div>
+        <p>確認</p>
       </div>
-      <p>確認画面</p>
-      <p>以下の内容で送信します。よろしいですか？</p>
+      <p class="form-text">
+        以下の内容で送信します。よろしいですか？
+      </p>
 
       <form action="{{ route('contact.send') }}" method="POST" enctype="multipart/form-data">
         @csrf
