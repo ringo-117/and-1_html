@@ -135,6 +135,7 @@ body {
     font-size: 14px;
     line-height: 1.7em;
     font-weight: 400;
+    letter-spacing: 0.1em;
   }
 
   /* .top-reason {
@@ -157,6 +158,7 @@ body {
     font-size: 13px;
     font-weight: bold;
     /* font-weight: 500; */
+
   }
 
   .sec-top .news-time {
@@ -164,6 +166,8 @@ body {
     font-family: 'Noto Sans';
     /* font-weight: bold;
     font-size: 14px; */
+    letter-spacing: 0.07em;
+
   }
 
   .sec-top .news-text {
@@ -171,13 +175,17 @@ body {
     padding-bottom: 13px;
     /* margin-top: 5px; */
     margin-top: 7px;
+    letter-spacing: 0.09em;
+
   }
 
   .sec-top .news .news-view p {
     color: #39cac0;
     text-align: right;
-    margin-top: 5px;
-    font-size: 15px;
+    margin-top: 10px;
+    /* font-size: 15px; */
+    font-size: 12px;
+    letter-spacing: 0.1em;
   }
 
   /* ==================== 企業アニメーション ================== */
@@ -208,6 +216,7 @@ body {
     font-size: 14px;
     color: #39cac0;
     padding-bottom: 20px;
+    letter-spacing: 0.09em;
   }
 
   .company-logo img {
@@ -993,6 +1002,7 @@ body {
 
   .sec-top .news .news-view p {
     margin-top: 11px;
+    font-size: 14px;
   }
 
   /* ==================== 企業アニメーション ================== */
