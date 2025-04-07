@@ -212,12 +212,16 @@ body {
     align-items: center;
   }
 
-  .lp-link-box img {
+  .link-info {
+    color: #39cac0;
+    /* font-weight: 500; */
+  }
+
+  /* .lp-link-box img {
     width: 14px;
     height: 14px;
     margin-left: 10px;
-    /* margin-bottom: 0.5px; */
-  }
+  } */
 
   /* .lp-link {
     color: #39cac0;

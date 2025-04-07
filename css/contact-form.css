@@ -12,13 +12,17 @@ body {
     letter-spacing: 0.1em;
   }
 
-  .form-title {
+  /* .form-title {
     padding: 22px 12px;
     font-size: 13px;
     font-weight: bold;
     color: #FFFFFF;
     background-color: #4689E3;
     border-radius: 8px 8px 0 0;
+  } */
+
+  .form-text {
+    font-size: 14px;
   }
 
   .form-item {

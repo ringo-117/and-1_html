@@ -156,11 +156,14 @@ body {
     border: 1px solid #DADADA;
     font-size: 13px;
     font-weight: bold;
+    /* font-weight: 500; */
   }
 
   .sec-top .news-time {
     color: #39cac0;
     font-family: 'Noto Sans';
+    /* font-weight: bold;
+    font-size: 14px; */
   }
 
   .sec-top .news-text {
