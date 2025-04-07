@@ -998,11 +998,13 @@ body {
   .sec-top .news-text {
     margin-top: 15px;
     padding-bottom: 15px;
+    letter-spacing: 0.1em;
   }
 
   .sec-top .news .news-view p {
     margin-top: 11px;
     font-size: 14px;
+    letter-spacing: 0.15em;
   }
 
   /* ==================== 企業アニメーション ================== */
