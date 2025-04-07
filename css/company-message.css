@@ -19,7 +19,8 @@ body {
   /* ==================== 画像 ================== */
   .message-img-box {
     position: relative;
-    margin-bottom: 60px;
+    /* margin-bottom: 60px; */
+    margin-bottom: 62px;
   }
 
   .message-img {
@@ -124,7 +125,8 @@ body {
   .message-img {
     padding-left: 0;
     padding-right: 130px;
-    margin-bottom: 88px;
+    /* margin-bottom: 88px; */
+    margin-bottom: 80px;
   }
 
   .message-title {
@@ -153,6 +155,10 @@ body {
 
   .message-text-item .message-text {
     font-size: 15px;
+  }
+
+  .text-item-01 {
+    margin-bottom: 60px;
   }
 
   /* ==================== 名前 ================== */
@@ -188,7 +194,10 @@ body {
     margin-bottom: 0;
     padding-bottom: 20px;
     aspect-ratio: 7 / 4;
+  }
 
+  .message-img-box {
+    margin-bottom: 45px;
   }
 
   .message-title {
@@ -210,8 +219,13 @@ body {
   .message-text-item h3 {
     font-size: 22px;
     /* margin-bottom: 22px; */
-    margin-top: 56px;
+    /* margin-top: 56px; */
+    margin-top: 60px;
     margin-bottom: 28px;
+  }
+
+  .text-item-01 {
+    margin-top: 60px;
   }
 
   .message-text-item .message-text {
@@ -221,7 +235,8 @@ body {
   /* ==================== 名前 ================== */
   .message-box .name {
     font-size: 16px;
-    margin-top: 48px;
+    /* margin-top: 48px; */
+    margin-top: 54px;
   }
 
   .message-box .name span {
