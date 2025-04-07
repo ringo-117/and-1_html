@@ -154,7 +154,7 @@ body {
     max-width: 355px;
     background-color: #fff;
     border: 1px solid #DADADA;
-    font-size: 13px;
+    font-size: 10px;
     font-weight: bold;
     /* font-weight: 500; */
   }
@@ -170,13 +170,13 @@ body {
     border-bottom: solid 1px #E6E6E6;
     padding-bottom: 13px;
     /* margin-top: 5px; */
-    margin-top: 8px;
+    margin-top: 7px;
   }
 
   .sec-top .news .news-view p {
     color: #39cac0;
     text-align: right;
-    margin-top: 8px;
+    margin-top: 5px;
     font-size: 15px;
   }
 
