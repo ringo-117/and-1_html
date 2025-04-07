@@ -20,7 +20,7 @@ body {
   .message-img-box {
     position: relative;
     /* margin-bottom: 60px; */
-    margin-bottom: 64px;
+    margin-bottom: 72px;
   }
 
   .message-img {
@@ -197,7 +197,8 @@ body {
   }
 
   .message-img-box {
-    margin-bottom: 45px;
+    /* margin-bottom: 45px; */
+    margin-bottom: 40px;
   }
 
   .message-title {
@@ -220,12 +221,12 @@ body {
     font-size: 22px;
     /* margin-bottom: 22px; */
     margin-top: 56px;
-    margin-top: 60px;
-    margin-bottom: 28px;
+    /* margin-top: 60px; */
+    margin-bottom: 32px;
   }
 
   .text-item-01 {
-    margin-top: 60px;
+    margin-top: 0px;
   }
 
   .message-text-item .message-text {
@@ -235,8 +236,8 @@ body {
   /* ==================== 名前 ================== */
   .message-box .name {
     font-size: 16px;
-    /* margin-top: 48px; */
-    margin-top: 54px;
+    margin-top: 48px;
+    /* margin-top: 54px; */
   }
 
   .message-box .name span {
