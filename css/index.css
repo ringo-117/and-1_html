@@ -168,7 +168,7 @@ body {
 
   .sec-top .news-text {
     border-bottom: solid 1px #E6E6E6;
-    padding-bottom: 10px;
+    padding-bottom: 13px;
     /* margin-top: 5px; */
     margin-top: 8px;
   }
@@ -176,7 +176,7 @@ body {
   .sec-top .news .news-view p {
     color: #39cac0;
     text-align: right;
-    margin-top: 5px;
+    margin-top: 8px;
     font-size: 15px;
   }
 

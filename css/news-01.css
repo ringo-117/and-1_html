@@ -214,7 +214,8 @@ body {
 
   .link-info {
     color: #39cac0;
-    /* font-weight: 500; */
+    font-weight: 500;
+    letter-spacing: 0.1em;
   }
 
   /* .lp-link-box img {
