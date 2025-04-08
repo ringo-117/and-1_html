@@ -94,6 +94,7 @@ body {
   /* ==================== ステップ ================== */
   .form-step {
     margin-left: 10px;
+    margin-bottom: 56px;
   }
 
   .step-completed {
