@@ -236,6 +236,7 @@ body {
 
   .required, .nullable {
     padding: 5px 12px;
+    margin-top: -1px;
   }
 
   .message label {
@@ -272,10 +273,45 @@ body {
   　　PC_お問い合わせフォーム
   ==============================================================*/
   .form-box {
-    padding: 60px 0 120px;
+    /* padding: 60px 0 120px; */
+    padding: 100px 0 120px;
     max-width: 1060px;
     margin: 0 auto;
   }
+
+  /* ==================== ステップ ================== */
+  .form-step {
+    margin-bottom: 80px;
+  }
+
+  .step-num {
+    font-size: 17px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+  }
+
+  .line {
+    width: 300px;
+    margin-top: 53px;
+  }
+
+  .step-text {
+    font-size: 15px;
+    margin-bottom: 14px;
+  }
+
+  .form-text {
+    margin-bottom: 96px;
+    font-size: 17px;
+    line-height: 2.5;
+  }
+
+
+
+
+
+
 
   .form-title {
     padding: 25px 20px;
@@ -295,6 +331,7 @@ body {
   }
 
   .required, .nullable {
+    /* margin-top: -3px; */
     font-size: 12px;
     padding-bottom: 20px;
   }
