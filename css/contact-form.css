@@ -244,6 +244,10 @@ body {
     margin-top: 15px;
   }
 
+  .message label .required {
+    margin-top: -2px;
+  }
+
   .required, .nullable {
     max-height: 22px;
   }
