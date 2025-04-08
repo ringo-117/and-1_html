@@ -79,6 +79,10 @@ body {
     padding-top: 56px;
   } */
   /* ==================== ステップ ================== */
+  .form-step {
+    margin-left: 5px;
+  }
+
   .step-completed {
     width: 30px;
     height: 30px;

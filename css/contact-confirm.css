@@ -92,6 +92,10 @@ body {
     padding-top: 56px;
   } */
   /* ==================== ステップ ================== */
+  .form-step {
+    margin-left: 10px;
+  }
+
   .step-completed {
     width: 30px;
     height: 30px;
@@ -107,9 +111,9 @@ body {
     width: 125px;
   }
 
-  .form-text {
+  /* .form-text {
     margin-bottom: 60px;
-  }
+  } */
 
   /* ==================== 確認内容 ================== */
   .info-box {
