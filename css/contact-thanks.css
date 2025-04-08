@@ -16,6 +16,14 @@ body {
     color: #4689E3;
   }
 
+  .step.completed .step-text {
+    margin-left: 0;
+  }
+
+  .step-text.margin-left {
+    margin-left: 2.5px;
+  }
+
   .step-completed {
     width: 25px;
     height: 25px;
