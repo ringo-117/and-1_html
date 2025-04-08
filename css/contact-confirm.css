@@ -13,6 +13,10 @@ body {
     color: #4689E3;
   }
 
+  .step.completed .step-text {
+    margin-left: 1px;
+  }
+
   .step-completed {
     width: 25px;
     height: 25px;
@@ -40,7 +44,8 @@ body {
   }
 
   .info-item {
-    margin-bottom: 32px;
+    /* margin-bottom: 32px; */
+    margin-bottom: 36px;
   }
 
   .info-item dt {
