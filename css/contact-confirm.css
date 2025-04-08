@@ -14,7 +14,7 @@ body {
   }
 
   .step.completed .step-text {
-    margin-left: 1px;
+    margin-left: 0;
   }
 
   .step-completed {
