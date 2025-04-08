@@ -111,13 +111,21 @@ body {
     width: 125px;
   }
 
-  /* .form-text {
-    margin-bottom: 60px;
-  } */
+  .form-text {
+    margin-bottom: 70px;
+  }
 
   /* ==================== 確認内容 ================== */
   .info-box {
     margin-bottom: 100px;
+  }
+
+  .info-item dt {
+    font-size: 13px;
+  }
+
+  .info-item dd {
+    font-size: 16px;
   }
 }
 
