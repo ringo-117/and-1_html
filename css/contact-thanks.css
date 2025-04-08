@@ -75,7 +75,29 @@ body {
   /*==============================================================
     　　TB_お問い合わせフォーム
   ==============================================================*/
-  
+  .form-box {
+    padding-top: 56px;
+  }
+  /* ==================== ステップ ================== */
+  .step-completed {
+    width: 30px;
+    height: 30px;
+    padding-top: 10px;
+  }
+
+  .step-completed .check {
+    width: 15px;
+    height: 10px;
+  }
+
+  .line.completed {
+    width: 125px;
+  }
+
+  .form-text {
+    margin-bottom: 60px;
+    text-align: center;
+  }
 }
 
 @media screen and (min-width: 1081px) {

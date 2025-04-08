@@ -16,13 +16,13 @@ body {
   .form-step {
     display: flex;
     justify-content: center;
+    margin-bottom: 44px;
   }
 
   .step {
     justify-items: center;
     font-weight: bold;
     color: #A7A2A9;
-    margin-bottom: 40px;
     text-align: center;
   }
 
@@ -78,9 +78,11 @@ body {
     line-height: 2;
     /* margin-bottom: 40px; */
 
-    margin-top: 4px;
+    /* margin-top: 4px; */
     margin-bottom: 60px;
   }
+
+  /* ==================== 確認内容 ================== */
 
   .form-item {
     margin-top: 28px;
@@ -179,9 +181,39 @@ body {
     　　TB_お問い合わせフォーム
   ==============================================================*/
   .form-box {
-    padding: 45px 70px 155px;
+    /* padding: 45px 70px 155px; */
+    padding: 64px 70px 140px;
   }
 
+  /* ==================== ステップ ================== */
+  .form-step {
+    margin-bottom: 56px;
+  }
+
+  .step-num {
+    font-size: 14px;
+    width: 40px;
+    height: 40px;
+  }
+
+  .line {
+    width: 120px;
+    margin-top: 40px;
+  }
+
+  .step-text {
+    font-size: 13px;
+  }
+
+  .form-text {
+    /* text-align: center; */
+    /* line-height: 2.5; */
+    /* margin: 0 auto; */
+    /* justify-items: center; */
+    margin-bottom: 72px;
+  }
+
+  /* ==================== 入力欄 ================== */
   .form-title {
     padding: 20px 15px;
     margin-bottom: 40px;
@@ -214,7 +246,8 @@ body {
   }
 
   .agree {
-    margin: 40px 0 25px;
+    /* margin: 40px 0 25px; */
+    margin: 56px 0 25px;
     font-size: 14px;
   }
 
@@ -223,9 +256,11 @@ body {
     font-size: 14px;
   }
 
+  /* ==================== ボタン ================== */
   .btn-form {
     font-size: 15px;
-    padding: 17px 120px;
+    padding: 17px;
+    max-width: 264px;
   }
 }
 

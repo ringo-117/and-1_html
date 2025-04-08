@@ -81,13 +81,6 @@ body {
     border: solid 1px #4689E3;
   }
 
-
-
-
-
-
-
-
 }
 
 @media screen and (min-width: 601px) {
@@ -95,7 +88,33 @@ body {
   /*==============================================================
     　　TB_お問い合わせフォーム
   ==============================================================*/
-  
+  .form-box {
+    padding-top: 56px;
+  }
+  /* ==================== ステップ ================== */
+  .step-completed {
+    width: 30px;
+    height: 30px;
+    padding-top: 10px;
+  }
+
+  .step-completed .check {
+    width: 15px;
+    height: 10px;
+  }
+
+  .line.completed {
+    width: 125px;
+  }
+
+  .form-text {
+    margin-bottom: 60px;
+  }
+
+  /* ==================== 確認内容 ================== */
+  .info-box {
+    margin-bottom: 72px;
+  }
 }
 
 @media screen and (min-width: 1081px) {
