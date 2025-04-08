@@ -182,7 +182,7 @@ body {
   ==============================================================*/
   .form-box {
     /* padding: 45px 70px 155px; */
-    padding: 64px 70px 140px;
+    padding: 64px 70px 120px;
   }
 
   /* ==================== ステップ ================== */
@@ -211,7 +211,7 @@ body {
   }
 
   .form-text {
-    margin-bottom: 72px;
+    margin-bottom: 80px;
   }
 
   /* ==================== 入力欄 ================== */
@@ -248,7 +248,7 @@ body {
 
   .agree {
     /* margin: 40px 0 25px; */
-    margin: 56px 0 25px;
+    margin: 72px 0 25px;
     font-size: 14px;
   }
 
