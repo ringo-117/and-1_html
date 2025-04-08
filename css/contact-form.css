@@ -29,7 +29,11 @@ body {
   .step-text {
     font-size: 12px;
     margin-bottom: 8px;
-    margin-left: 1px;
+    margin-left: 1.2px;
+  }
+
+  .step-text.margin-left {
+    margin-left: 2.5px;
   }
 
   .step-num {
@@ -42,7 +46,7 @@ body {
     border: solid 2px #D9D9D9;
     border-radius: 25px;
     font-family: Noto Sans;
-    padding-left: 1px;
+    padding-left: 1.5px;
   }
 
   .line {
@@ -74,8 +78,8 @@ body {
     line-height: 2;
     /* margin-bottom: 40px; */
 
-    margin-top: 8px;
-    margin-bottom: 64px;
+    margin-top: 4px;
+    margin-bottom: 60px;
   }
 
   .form-item {
