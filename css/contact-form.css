@@ -205,11 +205,12 @@ body {
     font-size: 13px;
   }
 
-  .form-text {
-    /* text-align: center; */
-    /* line-height: 2.5; */
-    /* margin: 0 auto; */
+  .form-text-box {
     /* justify-items: center; */
+    text-align: center;
+  }
+
+  .form-text {
     margin-bottom: 72px;
   }
 
