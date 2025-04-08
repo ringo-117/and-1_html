@@ -16,6 +16,8 @@
     <!-- css -->
     <link rel="stylesheet" href="css/destyle.css">
     <link rel="stylesheet" href="css/style.css?v=2.5">
+    <link rel="stylesheet" href="css/contact-form.css">
+    <link rel="stylesheet" href="css/contact-thanks.css">
   </head>
 
   <body>
@@ -138,9 +140,41 @@
     </header>
 
     <main id="main">
-      <h2>お問い合わせを送信しました！</h2>
-      <p>ご連絡ありがとうございます。後ほど担当者よりご連絡いたします。</p>
-      <a href="contact-form.html">トップページへ戻る</a>
+      <article class="page-title">
+        <h1>CONTACT</h1>
+        <p>お問い合わせ</p>
+      </article>
+      <article class="form-box">
+        <!-- <p class="form-title">メールでお問い合わせ</p> -->
+        <article class="form-step">
+          <div class="step completed">
+            <p class="step-text">入力</p>
+            <figure class="step-completed">
+              <img src="img/icon_check_white.png" class="check">
+            </figure>
+          </div>
+          <div class="line completed"></div>
+          <div class="step active">
+            <p class="step-text">確認</p>
+            <figure class="step-completed">
+              <img src="img/icon_check_white.png" class="check">
+            </figure>
+          </div>
+          <div class="line completed"></div>
+          <div class="step active">
+            <p class="step-text">完了</p>
+            <p class="step-num">03</p>
+          </div>
+        </article>
+        <article class="form-text">
+          <h2>送信が完了しました。</h2>
+          <p>担当者より1〜2営業日以内にメールにてご返信させていただきます。 今しばらくお待ちください。</p>
+        </article>
+        <!-- 確認用リンク -->
+        <a href="index.html">
+          <p class="btn-form">TOPへ戻る</p>
+        </a>
+      </article>
     </main>
 
     <footer class="footer-bg">

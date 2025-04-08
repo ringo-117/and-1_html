@@ -1,0 +1,82 @@
+body {
+  font-family: 'Noto Sans JP';
+}
+
+@media screen and (min-width: 320px) {
+  /* スマホ用レイアウト 320px以上の範囲に収めるデザインはこの中に記述 */
+  /*==============================================================
+  　　お問い合わせフォーム
+  ==============================================================*/
+  .form-box {
+    padding-top: 48px;
+  }
+
+  /* ==================== ステップ ================== */
+  .step.completed {
+    color: #4689E3;
+  }
+
+  .step-completed {
+    width: 25px;
+    height: 25px;
+    background-color: #4689E3;
+    border-radius: 25px;
+    padding-top: 9px;
+    margin-top: 12px;
+  }
+
+  .step-completed .check {
+    width: 13px;
+    height: 8px;
+    margin: 0 auto;
+  }
+
+  .line.completed {
+    background-color: #4689E3;
+    width: 90px;
+    margin-left: -5px;
+    margin-right: -5px;
+  }
+
+
+  /* ==================== テキスト ================== */
+  .form-text h2 {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 24px;
+    margin-top: 16px;
+  }
+
+  .btn-form {
+    padding: 15px 30px;
+    text-align: center;
+    margin-top: 56px;
+  }
+
+
+
+
+
+
+
+}
+
+@media screen and (min-width: 601px) {
+  /* タブレット用レイアウト 601px以上の範囲に収めるデザインはこの中に記述 */
+  /*==============================================================
+    　　TB_お問い合わせフォーム
+  ==============================================================*/
+  
+}
+
+@media screen and (min-width: 1081px) {
+  /* パソコン用レイアウト 1081px以上の範囲に収めるデザインはこの中に記述 */
+  /*==============================================================
+  　　PC_お問い合わせフォーム
+  ==============================================================*/
+  
+
+
+
+}

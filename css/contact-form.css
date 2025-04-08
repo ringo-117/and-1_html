@@ -8,8 +8,55 @@ body {
   　　お問い合わせフォーム
   ==============================================================*/
   .form-box {
-    padding: 35px 20px 120px;
+    padding: 56px 20px 110px;
     letter-spacing: 0.1em;
+  }
+
+  /* ==================== ステップ ================== */
+  .form-step {
+    display: flex;
+    justify-content: center;
+  }
+
+  .step {
+    justify-items: center;
+    font-weight: bold;
+    color: #A7A2A9;
+    margin-bottom: 40px;
+  }
+
+  .step-text {
+    font-size: 12px;
+    margin-bottom: 8px;
+    margin-left: 2px;
+  }
+
+  .step-num {
+    font-size: 13px;
+    text-align: center;
+    align-content: center;
+    width: 35px;
+    height: 35px;
+    background-color: #fff;
+    border: solid 2px #D9D9D9;
+    border-radius: 25px;
+    font-family: Noto Sans;
+    padding-left: 1px;
+  }
+
+  .line {
+    width: 80px;
+    height: 5px;
+    background-color: #A7A2A9;
+    margin-top: 37px;
+  }
+
+  .step.active {
+    color: #4689E3;
+  }
+
+  .step.active .step-num {
+    border: solid 2px #4689E3;
   }
 
   /* .form-title {
@@ -23,6 +70,8 @@ body {
 
   .form-text {
     font-size: 14px;
+    line-height: 2;
+    margin-bottom: 40px;
   }
 
   .form-item {
@@ -60,6 +109,7 @@ body {
     height: 50px;
     background-color: #E4EFFF;
     border-radius: 8px;
+    padding: 10px;
   }
 
   .form-item textarea {
@@ -89,12 +139,16 @@ body {
     text-align: center;
   }
 
+  input {
+    padding: 10px;
+  }
+
   input[type="checkbox"] {
     margin-right: 5px;
     border-color: #4689E3;
   }
 
-  .btn-confirm {
+  .btn-form{
     font-size: 14px;
     color: #FFFFFF;
     background-color: #4689E3;
@@ -102,6 +156,11 @@ body {
     font-weight: bold;
     letter-spacing: 0.1em;
     border-radius: 8px;
+
+
+    /* 確認用追加 */
+    max-width: 247px;
+    margin: 0 auto;
   }
 }
 
@@ -155,7 +214,7 @@ body {
     font-size: 14px;
   }
 
-  .btn-confirm {
+  .btn-form {
     font-size: 15px;
     padding: 17px 120px;
   }
