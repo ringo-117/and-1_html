@@ -353,12 +353,14 @@ body {
   }
 
   .agree {
-    margin: 100px 0 24px;
+    /* margin: 100px 0 24px; */
+    margin: 120px 0 24px;
     font-size: 15px;
   }
 
   .check {
-    margin-bottom: 64px;
+    /* margin-bottom: 64px; */
+    margin-bottom: 72px;
     font-size: 15px;
   }
 
