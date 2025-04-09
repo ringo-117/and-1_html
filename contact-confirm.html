@@ -24,8 +24,8 @@
     <!-- css -->
     <link rel="stylesheet" href="css/destyle.css">
     <link rel="stylesheet" href="css/style.css?v=2.5">
-    <link rel="stylesheet" href="css/contact-form.css?v=1.6">
-    <link rel="stylesheet" href="css/contact-confirm.css?v=1.8">
+    <link rel="stylesheet" href="css/contact-form.css?v=1.7">
+    <link rel="stylesheet" href="css/contact-confirm.css?v=1.9">
   </head>
 
   <body>
@@ -160,118 +160,120 @@
         <p>確認</p>
       </div> -->
 
-      <article class="form-box">
-        <article class="form-step">
-          <div class="step completed">
-            <p class="step-text">入力</p>
-            <figure class="step-completed">
-              <img src="img/icon_check_white.png" class="check">
-            </figure>
-          </div>
-          <div class="line completed"></div>
-          <div class="step active">
-            <p class="step-text">確認</p>
-            <p class="step-num">02</p>
-          </div>
-          <div class="line"></div>
-          <div class="step">
-            <p class="step-text margin-left">完了</p>
-            <p class="step-num">03</p>
-          </div>
-        </article>
-        <p class="form-text">
-          以下の内容でメールを送信します。<br>
-          ご確認のうえ、［ 送信する ］ボタンを押してください。
-          内容を変更する場合は［ 戻る ］ボタンを押してください。
-        </p>
+      <div class="form-bg">
+        <article class="form-box">
+          <article class="form-step">
+            <div class="step completed">
+              <p class="step-text">入力</p>
+              <figure class="step-completed">
+                <img src="img/icon_check_white.png" class="check">
+              </figure>
+            </div>
+            <div class="line completed"></div>
+            <div class="step active">
+              <p class="step-text">確認</p>
+              <p class="step-num">02</p>
+            </div>
+            <div class="line"></div>
+            <div class="step">
+              <p class="step-text margin-left">完了</p>
+              <p class="step-num">03</p>
+            </div>
+          </article>
+          <p class="form-text">
+            以下の内容でメールを送信します。<br>
+            ご確認のうえ、［ 送信する ］ボタンを押してください。
+            内容を変更する場合は［ 戻る ］ボタンを押してください。
+          </p>
 
-        <form action="{{ route('contact.send') }}" method="POST" enctype="multipart/form-data">
-          <!-- @csrf -->
+          <form action="{{ route('contact.send') }}" method="POST" enctype="multipart/form-data">
+            <!-- @csrf -->
 
-          <input type="hidden" name="company" value="{{ $data['company'] }}">
-          <input type="hidden" name="section" value="{{ $data['section'] }}">
-          <input type="hidden" name="name" value="{{ $data['name'] }}">
-          <input type="hidden" name="location" value="{{ $data['location'] }}">
-          <input type="hidden" name="mail" value="{{ $data['mail'] }}">
-          <input type="hidden" name="telephone" value="{{ $data['telephone'] }}">
-          <input type="hidden" name="sector" value="{{ $data['sector'] }}">
-          <input type="hidden" name="message" value="{{ $data['message'] }}">
+            <input type="hidden" name="company" value="{{ $data['company'] }}">
+            <input type="hidden" name="section" value="{{ $data['section'] }}">
+            <input type="hidden" name="name" value="{{ $data['name'] }}">
+            <input type="hidden" name="location" value="{{ $data['location'] }}">
+            <input type="hidden" name="mail" value="{{ $data['mail'] }}">
+            <input type="hidden" name="telephone" value="{{ $data['telephone'] }}">
+            <input type="hidden" name="sector" value="{{ $data['sector'] }}">
+            <input type="hidden" name="message" value="{{ $data['message'] }}">
 
 
-          <dl class="info-box">
-            <div class="info-item">
-              <dt>会社名</dt>
-              <!-- <dd>{{ $data['company'] }}</dd> -->
-              <dd>株式会社〇〇観光</dd>
+            <dl class="info-box">
+              <div class="info-item">
+                <dt>会社名</dt>
+                <!-- <dd>{{ $data['company'] }}</dd> -->
+                <dd>株式会社〇〇観光</dd>
+              </div>
+              <div class="info-item">
+                <dt>部署名</dt>
+                <!-- <dd>{{ $data['section'] }}</dd> -->
+                <dd>未入力</dd>
+              </div>
+              <div class="info-item">
+                <dt>お名前</dt>
+                <!-- <dd>{{ $data['name'] }}</dd> -->
+                <dd>佐藤 花子</dd>
+              </div>
+              <div class="info-item">
+                <dt>所在地</dt>
+                <!-- <dd>{{ $data['location'] }}</dd> -->
+                <dd>福岡県 福岡市</dd>
+              </div>
+              <div class="info-item">
+                <dt>メール</dt>
+                <!-- <dd>{{ $data['mail'] }}</dd> -->
+                <dd>hanako.sato@example.com</dd>
+              </div>
+              <div class="info-item">
+                <dt>電話番号</dt>
+                <!-- <dd>{{ $data['telephone'] }}</dd> -->
+                <dd>03-1234-5678</dd>
+              </div>
+              <div class="info-item">
+                <dt>業種</dt>
+                <!-- <dd>{{ $data['sector'] }}</dd> -->
+                <dd>観光</dd>
+              </div>
+              <div class="info-item text">
+                <dt>お問い合わせ内容</dt>
+                <!-- <dd>{{ $data['message'] }}</dd> -->
+                <dd>
+                  初めまして。〇〇観光の佐藤と申します。<br> 弊社は〇〇地方で観光ツアーを運営しており、地域の魅力を発信するWebプラットフォームを探しております。
+                  貴社のWebサイトで弊社のツアープランを掲載・紹介することは可能でしょうか？ また、以下の点について詳細を伺えれば幸いです。<br>
+                  1.掲載可能なツアーの種類や条件<br>
+                  2.掲載費用および契約形態<br>
+                  3.集客やプロモーションのサポート内容<br>
+                  お忙しいところ恐れ入りますが、ご確認のうえご返信いただけますと幸いです。 どうぞよろしくお願いいたします。
+                </dd>
+              </div>
+            </dl>
+
+            <!-- 実際のボタン -->
+            <!-- <article class="btn-form-box">
+              <button class="submit-btn btn-form" type="submit">送信する</button>
+            </article> -->
+
+            <div class="btn-box">
+              <!-- 確認用リンク -->
+              <a href="contact-thanks.html">
+                <p class="btn-form">送信する</p>
+              </a>
+              <!-- 確認用リンク -->
+              <a href="contact-form.html">
+                <p class="btn-form back-btn">戻る</p>
+              </a>
             </div>
-            <div class="info-item">
-              <dt>部署名</dt>
-              <!-- <dd>{{ $data['section'] }}</dd> -->
-              <dd>未入力</dd>
-            </div>
-            <div class="info-item">
-              <dt>お名前</dt>
-              <!-- <dd>{{ $data['name'] }}</dd> -->
-              <dd>佐藤 花子</dd>
-            </div>
-            <div class="info-item">
-              <dt>所在地</dt>
-              <!-- <dd>{{ $data['location'] }}</dd> -->
-              <dd>福岡県 福岡市</dd>
-            </div>
-            <div class="info-item">
-              <dt>メール</dt>
-              <!-- <dd>{{ $data['mail'] }}</dd> -->
-              <dd>hanako.sato@example.com</dd>
-            </div>
-            <div class="info-item">
-              <dt>電話番号</dt>
-              <!-- <dd>{{ $data['telephone'] }}</dd> -->
-              <dd>03-1234-5678</dd>
-            </div>
-            <div class="info-item">
-              <dt>業種</dt>
-              <!-- <dd>{{ $data['sector'] }}</dd> -->
-              <dd>観光</dd>
-            </div>
-            <div class="info-item text">
-              <dt>お問い合わせ内容</dt>
-              <!-- <dd>{{ $data['message'] }}</dd> -->
-              <dd>
-                初めまして。〇〇観光の佐藤と申します。<br> 弊社は〇〇地方で観光ツアーを運営しており、地域の魅力を発信するWebプラットフォームを探しております。
-                貴社のWebサイトで弊社のツアープランを掲載・紹介することは可能でしょうか？ また、以下の点について詳細を伺えれば幸いです。<br>
-                1.掲載可能なツアーの種類や条件<br>
-                2.掲載費用および契約形態<br>
-                3.集客やプロモーションのサポート内容<br>
-                お忙しいところ恐れ入りますが、ご確認のうえご返信いただけますと幸いです。 どうぞよろしくお願いいたします。
-              </dd>
-            </div>
-          </dl>
+          </form>
 
           <!-- 実際のボタン -->
-          <!-- <article class="btn-form-box">
-            <button class="submit-btn btn-form" type="submit">送信する</button>
-          </article> -->
+          <!-- <form action="{{ route('contact.form') }}" method="GET">
+            <button class="btn-form back-btn" type="submit">戻る</button>
+          </form> -->
 
-          <div class="btn-box">
-            <!-- 確認用リンク -->
-            <a href="contact-thanks.html">
-              <p class="btn-form">送信する</p>
-            </a>
-            <!-- 確認用リンク -->
-            <a href="contact-form.html">
-              <p class="btn-form back-btn">戻る</p>
-            </a>
-          </div>
-        </form>
-
-        <!-- 実際のボタン -->
-        <!-- <form action="{{ route('contact.form') }}" method="GET">
-          <button class="btn-form back-btn" type="submit">戻る</button>
-        </form> -->
-
-        
-      </article>
+          
+        </article>
+      </div>
     </main>
 
     <footer class="footer-bg">

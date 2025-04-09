@@ -7,6 +7,10 @@ body {
   /*==============================================================
   　　お問い合わせフォーム
   ==============================================================*/
+  .form-bg {
+    margin-top: 0px;
+  }
+
   .form-box {
     padding-top: 48px;
   }
@@ -48,6 +52,10 @@ body {
 
 
   /* ==================== テキスト ================== */
+  .form-text {
+    margin-bottom: 24px;
+  }
+
   .form-text h2 {
     font-size: 16px;
     font-weight: bold;
@@ -59,7 +67,7 @@ body {
   .btn-form {
     padding: 15px 30px;
     text-align: center;
-    margin-top: 56px;
+    /* margin-top: 56px; */
   }
 
 
@@ -75,9 +83,9 @@ body {
   /*==============================================================
     　　TB_お問い合わせフォーム
   ==============================================================*/
-  /* .form-box {
-    padding-top: 56px;
-  } */
+  .form-box {
+    padding-top: 64px;
+  }
   /* ==================== ステップ ================== */
   .form-step {
     margin-left: 5px;
@@ -134,12 +142,12 @@ body {
   }
 
   .line.completed {
-    width: 285px;
+    width: 265px;
   }
 
   .form-step {
     margin-left: 10px;
-    margin-bottom: 120px;
+    margin-bottom: 80px;
   }
 
   /* ==================== テキスト ================== */
@@ -152,6 +160,10 @@ body {
 
   .form-text, .btn-form-box {
     margin-left: 10px;
+  }
+
+  .form-text {
+    margin-bottom: 40px;
   }
 
   .btn-form {

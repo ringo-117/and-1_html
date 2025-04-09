@@ -7,9 +7,20 @@ body {
   /*==============================================================
   　　お問い合わせフォーム
   ==============================================================*/
+  .form-bg {
+    background-color: #f8f8f8;
+    /* padding: 40px 12px 56px; */
+    padding: 56px 12px 56px;
+    margin-top: 16px;
+  }
+
   .form-box {
-    padding: 56px 20px 110px;
+    /* padding: 56px 20px 110px; */
+    padding: 56px 16px 80px;
     letter-spacing: 0.1em;
+    background-color: #fff;
+    /* border-radius: 10px; */
+
   }
 
   /* ==================== ステップ ================== */
@@ -129,7 +140,8 @@ body {
 
   .agree {
     text-align: center;
-    margin: 32px 0 20px;
+    /* margin: 32px 0 20px; */
+    margin: 48px 0 20px;
     font-size: 13px;
   }
 
@@ -180,11 +192,15 @@ body {
   /*==============================================================
     　　TB_お問い合わせフォーム
   ==============================================================*/
-  .form-box {
-    /* padding: 45px 70px 155px; */
-    padding: 64px 70px 120px;
+  .form-bg {
+    padding: 56px 32px 64px;
+    margin-top: 20px;
   }
 
+  .form-box {
+    /* padding: 45px 70px 155px; */
+    padding: 64px 40px 88px;
+  }
   /* ==================== ステップ ================== */
   .form-step {
     margin-bottom: 48px;
@@ -211,7 +227,7 @@ body {
   }
 
   .form-text {
-    margin-bottom: 80px;
+    margin-bottom: 72px;
     font-size: 15px;
   }
 
@@ -276,17 +292,23 @@ body {
   /*==============================================================
   　　PC_お問い合わせフォーム
   ==============================================================*/
+  .form-bg {
+    padding: 100px 20px 120px;
+    margin-top: 33px;
+  }
+
   .form-box {
     /* padding: 60px 0 120px; */
-    padding: 100px 0 200px;
-    max-width: 1020px;
+    padding: 140px 100px 132px;
+    max-width: 1300px;
     margin: 0 auto;
+    border-radius: 0px;
   }
 
   /* ==================== ステップ ================== */
   .form-step {
-    /* margin-bottom: 80px; */
-    margin-bottom: 96px;
+    margin-bottom: 88px;
+    /* margin-bottom: 96px; */
   }
 
   .step-num {
@@ -297,7 +319,7 @@ body {
   }
 
   .line {
-    width: 280px;
+    width: 260px;
     margin-top: 53px;
   }
 
@@ -309,7 +331,7 @@ body {
 
   .form-text {
     /* margin-bottom: 96px; */
-    margin-bottom: 120px;
+    margin-bottom: 110px;
     font-size: 16px;
     line-height: 2.5;
   }
@@ -354,13 +376,13 @@ body {
 
   .agree {
     /* margin: 100px 0 24px; */
-    margin: 120px 0 24px;
+    margin: 96px 0 24px;
     font-size: 15px;
   }
 
   .check {
-    /* margin-bottom: 64px; */
-    margin-bottom: 72px;
+    margin-bottom: 56px;
+    /* margin-bottom: 72px; */
     font-size: 15px;
   }
 
