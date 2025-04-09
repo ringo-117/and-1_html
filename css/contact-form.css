@@ -279,6 +279,10 @@ body {
     font-size: 14px;
   }
 
+  .form-item textarea {
+    height: 180px;
+  }
+
   /* ==================== ボタン ================== */
   .btn-form {
     font-size: 15px;
