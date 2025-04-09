@@ -98,6 +98,8 @@ body {
     width: 125px;
   }
 
+  /* ==================== テキスト ================== */
+
   .form-text {
     margin-bottom: 60px;
     text-align: center;
@@ -115,8 +117,46 @@ body {
   /*==============================================================
   　　PC_お問い合わせフォーム
   ==============================================================*/
-  
+  .form-box {
+    padding-top: 128px;
+}
+  /* ==================== ステップ ================== */
+  .step-completed {
+    width: 40px;
+    height: 40px;
+    padding-top: 14px;
+    margin-top: 20px;
+  }
 
+  .step-completed .check {
+    width: 18px;
+    height: 14px;
+  }
+
+  .line.completed {
+    width: 285px;
+  }
+
+  .form-step {
+    margin-left: 10px;
+    margin-bottom: 120px;
+  }
+
+  /* ==================== テキスト ================== */
+  .form-text h2 {
+    font-size: 22px;
+    letter-spacing: 0.12em;
+    margin-bottom: 40px;
+    margin-top: 32px;
+  }
+
+  .form-text, .btn-form-box {
+    margin-left: 10px;
+  }
+
+  .btn-form {
+    margin-top: 0px;
+  }
 
 
 }

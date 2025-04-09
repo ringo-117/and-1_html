@@ -278,14 +278,15 @@ body {
   ==============================================================*/
   .form-box {
     /* padding: 60px 0 120px; */
-    padding: 100px 0 120px;
-    max-width: 1060px;
+    padding: 100px 0 200px;
+    max-width: 1020px;
     margin: 0 auto;
   }
 
   /* ==================== ステップ ================== */
   .form-step {
-    margin-bottom: 80px;
+    /* margin-bottom: 80px; */
+    margin-bottom: 96px;
   }
 
   .step-num {
@@ -296,27 +297,24 @@ body {
   }
 
   .line {
-    width: 300px;
+    width: 280px;
     margin-top: 53px;
   }
 
   .step-text {
-    font-size: 15px;
+    font-size: 14px;
     margin-bottom: 14px;
+    margin-left: 0.5px;
   }
 
   .form-text {
-    margin-bottom: 96px;
-    font-size: 17px;
+    /* margin-bottom: 96px; */
+    margin-bottom: 120px;
+    font-size: 16px;
     line-height: 2.5;
   }
 
-
-
-
-
-
-
+  /* ==================== 入力欄 ================== */
   .form-title {
     padding: 25px 20px;
     margin-bottom: 60px;
@@ -326,27 +324,49 @@ body {
 
   .form-item {
     margin-top: 30px;
-    grid-template-columns: 310px auto;
+    grid-template-columns: 265px auto;
     gap: 25px;
   }
 
   .form-item label {
-    font-size: 15px;
+    font-size: 16px;
+    margin-top: 3px;
+    /* font-weight: 500; */
   }
 
   .required, .nullable {
-    /* margin-top: -3px; */
+    margin-top: -3px;
     font-size: 12px;
     padding-bottom: 20px;
   }
+
+  .message label {
+    margin-top: 15px;
+  }
+
+  .message label .required,  .form-item.margin-top .nullable {
+    margin-top: -3px;
+  }
+
+  .form-item textarea {
+    height: 240px;
+  }
+
   .agree {
-    margin: 55px 0 25px;
+    margin: 100px 0 24px;
     font-size: 15px;
   }
 
   .check {
-    margin-bottom: 60px;
+    margin-bottom: 64px;
     font-size: 15px;
+  }
+
+  /* ==================== ボタン ================== */
+  .btn-form {
+    font-size: 16px;
+    padding: 18px;
+    max-width: 320px;
   }
 
 
