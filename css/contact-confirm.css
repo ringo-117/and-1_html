@@ -142,15 +142,15 @@ body {
   }
   /* ==================== ステップ ================== */
   .step-completed {
-    width: 40px;
-    height: 40px;
-    padding-top: 14px;
+    width: 36px;
+    height: 36px;
+    padding-top: 12px;
     margin-top: 20px;
   }
 
   .step-completed .check {
-    width: 18px;
-    height: 14px;
+    width: 16px;
+    height: 13px;
   }
 
   .line.completed {
