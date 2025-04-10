@@ -26,7 +26,7 @@ body {
     background-color: #fff;
     /* width: 343px; */
     /* margin-top: 24px; */
-    padding: 56px 24px;
+    padding: 56px 24px 62px;
     text-align: center;
     letter-spacing: 0.15em;
   }
@@ -47,9 +47,9 @@ body {
   }
 
   .tel-box img {
-    width: 30px;
-    height: 33.4px;
-    margin-right: 16px;
+    width: 27.6px;
+    height: 30px;
+    margin-right: 20px;
   }
 
   .tel-box .tel-num {
@@ -78,7 +78,7 @@ body {
   }
 
   .tel-box {
-    padding: 64px 24px;
+    padding: 72px 24px;
     letter-spacing: 0.15em;
   }
 
@@ -93,9 +93,14 @@ body {
   }
 
   .tel-box img {
-    width: 30px;
-    height: 33.4px;
-    margin-right: 17px;
+    margin-right: 22px;
+  }
+
+  .tel-box .tel-text {
+    font-size: 14px;
+  }
+  .tel-box .tel-text span {
+    font-size: 12px;
   }
 }
 
@@ -126,8 +131,8 @@ body {
   }
 
   .tel-box img {
-    width: 30px;
-    height: 33.4px;
+    width: 30.37px;
+    height: 33px;
     margin-right: 22px;
   }
 
