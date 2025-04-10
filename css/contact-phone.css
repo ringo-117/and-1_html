@@ -1,0 +1,148 @@
+body {
+  font-family: 'Noto Sans JP';
+}
+
+@media screen and (min-width: 320px) {
+  /* スマホ用レイアウト 320px以上の範囲に収めるデザインはこの中に記述 */
+  /*==============================================================
+  　　電話でお問い合わせ
+  ==============================================================*/
+  /* #main {
+    height: 100svh;
+  } */
+  .tel-bg {
+    margin-top: 16px;
+    background-color: #f8f8f8;
+    padding: 56px 16px 64px;
+    /* height: 100svh; */
+    /* position: relative; */
+  }
+
+  .tel-box {
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+    background-color: #fff;
+    /* width: 343px; */
+    /* margin-top: 24px; */
+    padding: 56px 24px;
+    text-align: center;
+    letter-spacing: 0.15em;
+  }
+
+  .tel-box h2 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #39CAC0;
+    margin-bottom: 28px;
+  }
+
+  .tel-num-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    margin-right: 10px;
+  }
+
+  .tel-box img {
+    width: 30px;
+    height: 33.4px;
+    margin-right: 16px;
+  }
+
+  .tel-box .tel-num {
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  .tel-box .tel-text {
+    font-size: 13px;
+  }
+
+  .tel-box .tel-text span {
+    font-size: 11px;
+  }
+
+}
+
+@media screen and (min-width: 601px) {
+  /* タブレット用レイアウト 601px以上の範囲に収めるデザインはこの中に記述 */
+  /*==============================================================
+    　　TB_電話でお問い合わせ
+  ==============================================================*/
+  .tel-bg {
+    margin-top: 20px;
+    padding: 72px 70px 80px;
+  }
+
+  .tel-box {
+    padding: 64px 24px;
+    letter-spacing: 0.15em;
+  }
+
+  .tel-box h2 {
+    /* font-size: 16px; */
+    margin-bottom: 32px;
+  }
+
+  .tel-num-box {
+    margin-bottom: 32px;
+    /* margin-right: 10px; */
+  }
+
+  .tel-box img {
+    width: 30px;
+    height: 33.4px;
+    margin-right: 17px;
+  }
+}
+
+@media screen and (min-width: 1081px) {
+  /* パソコン用レイアウト 1081px以上の範囲に収めるデザインはこの中に記述 */
+  /*==============================================================
+  　　PC_電話でお問い合わせ
+  ==============================================================*/
+  .tel-bg {
+    margin-top: 33px;
+    padding: 104px 70px 150px;
+  }
+
+  .tel-box {
+    padding: 88px 24px 96px;
+    max-width: 640px;
+    margin: 0 auto;
+  }
+
+  .tel-box h2 {
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+
+  .tel-num-box {
+    margin-bottom: 40px;
+    margin-right: 16px;
+  }
+
+  .tel-box img {
+    width: 30px;
+    height: 33.4px;
+    margin-right: 22px;
+  }
+
+  .tel-box .tel-num {
+    font-size: 30px;
+
+  }
+
+  .tel-box .tel-text {
+    font-size: 16px;
+  }
+
+  .tel-box .tel-text span {
+    font-size: 13px;
+  }
+
+
+}
