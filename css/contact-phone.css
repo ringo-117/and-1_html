@@ -74,7 +74,8 @@ body {
   ==============================================================*/
   .tel-bg {
     margin-top: 20px;
-    padding: 72px 70px 80px;
+    /* padding: 72px 70px 80px; */
+    padding: 136px 70px 136px;
   }
 
   .tel-box {
@@ -111,12 +112,13 @@ body {
   ==============================================================*/
   .tel-bg {
     margin-top: 33px;
-    padding: 104px 70px 150px;
+    padding: 144px 70px 180px;
   }
 
   .tel-box {
     padding: 88px 24px 96px;
-    max-width: 640px;
+    /* max-width: 640px; */
+    max-width: 800px;
     margin: 0 auto;
   }
 
