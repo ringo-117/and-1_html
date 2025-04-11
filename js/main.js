@@ -41,13 +41,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 
-// メニューリンクをクリック時、メニューを閉じる
-$('#nav_list a[href]').on('click', function() {
-	if (window.innerWidth <= 1081) { // SPサイズの時のみ実行
-		$('.btn').trigger('click');
-	}
-});
-
 // $('.slider').slick({
 //   slidesToShow: 3,
 //   slidesToScroll: 1,

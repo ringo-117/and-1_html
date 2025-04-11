@@ -91,7 +91,7 @@
               </label>
               <div class="content">
                 <p class="nav-link">
-                  <a href="solutions-01.html"><span class="sp">- </span>　ご相談</a>
+                  <a href="index.html#sec-solutions"><span class="sp">- </span>　ご相談</a>
                 </p>
               </div>
             </div>
@@ -212,8 +212,26 @@
             <p class="about-text">
               　キャンピングカーの特徴や利便性を分かりやすく伝えるため、<span class="marker">実際の使用シーンを交えた映像</span>を制作。車両の内装・外装のディテールや、収納スペース、ベッド展開など、購入検討者が知りたいポイントを丁寧に映像化しました。
             </p>
-            <figure class="about-img">
-              <img src="img/test_img.webp"alt="デザイン">
+
+            <!-- 動画_SP用 -->
+            <div class="movie sp">
+              <article id="modal-open-movie" class="modal-open-movie">
+                <figure class="movie-img">
+                  <img src="img/sol_02_mv.png" alt="nuts-aletta_pv">
+                </figure>
+              </article>
+              <div class="modal-movie">
+                <span>&times;</span>
+                <iframe width="1920" height="1080" src="https://www.youtube.com/embed/PtC_6buvNbI?si=UwGcsczPLrHPMN4V&autoplay=1&mute=1&rel=0&loop=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <div class="movie-bg"></div>
+              </div>
+            </div>
+
+            <!-- 動画_TB-PB用 -->
+            <figure class="movie-box tb-pc">
+              <div class="movie-item">
+                <iframe width="1920" height="1080" src="https://www.youtube.com/embed/PtC_6buvNbI?si=UwGcsczPLrHPMN4V&mute=1&rel=0&loop=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              </div>
             </figure>
 
             <div class="about-title">
@@ -236,7 +254,6 @@
             </p>
             <figure class="about-img">
               <img src="img/test_img.webp"alt="デザイン">
-              <!-- <video ref="https://youtu.be/PtC_6buvNbI"></video> -->
             </figure>
 
           </article>
@@ -364,6 +381,8 @@
       <article>
     </footer>
 
+    <!-- 動画モーダルのスクリプト -->
+    <script src="js/movie.js" type="module"></script>
     <script src="js/main.js"></script>
   </body>
 </html>
