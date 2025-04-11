@@ -24,7 +24,7 @@
     <!-- css -->
     <link rel="stylesheet" href="css/destyle.css">
     <link rel="stylesheet" href="css/style.css?v=2.5">
-    <link rel="stylesheet" href="css/solutions.css?v=1.2">
+    <link rel="stylesheet" href="css/solutions.css?v=1.4">
   </head>
 
   <body>
@@ -221,10 +221,25 @@
             <p class="about-text">
               　イベントの臨場感や来場者の楽しんでいる様子、業界の魅力を余すことなく伝えるため、プロの撮影チームによる<span class="marker">高品質な映像</span>を制作しました。
             </p>
-            <figure class="about-img">
-              <a href="https://www.morinomi81.com/"  target="_blank">
-                <img src="img/test_img.webp"alt="デザイン">
-              </a>
+            <!-- 動画_SP用 -->
+            <div class="movie sp">
+              <article id="modal-open-movie" class="modal-open-movie">
+                <figure class="movie-img">
+                  <img src="img/sol_03-1_mv.webp" alt="動画サムネ">
+                </figure>
+              </article>
+              <div class="modal-movie">
+                <span>&times;</span>
+                <iframe width="1920" height="1080" src="https://www.youtube.com/embed/tmJ0QKqTlrs?si=UaqzlON20koJt2nP&autoplay=1&mute=1&rel=0&loop=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <div class="movie-bg"></div>
+              </div>
+            </div>
+
+            <!-- 動画_TB-PB用 -->
+            <figure class="movie-box tb-pc">
+              <div class="movie-item">
+                <iframe width="1920" height="1080" src="https://www.youtube.com/embed/tmJ0QKqTlrs?si=UaqzlON20koJt2nP&mute=1&rel=0&loop=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              </div>
             </figure>
 
             <div class="about-title">
@@ -234,8 +249,25 @@
             <p class="about-text">
               　TikTokやInstagramなどの<span class="marker">SNSで拡散しやすい短尺動画</span>を作成し、イベントの魅力を短時間で伝えられるよう工夫しました。特に視聴者の興味を引く映像構成を取り入れ、多くのユーザーの目に留まるような仕掛けを組み込みました。
             </p>
-            <figure class="about-img">
-              <img src="img/test_img.webp"alt="デザイン">
+            <!-- 動画_SP用 -->
+            <div class="movie sp">
+              <article id="modal-open-movie" class="modal-open-movie">
+                <figure class="movie-img">
+                  <img src="img/sol_03-2_mv.webp" alt="動画サムネ">
+                </figure>
+              </article>
+              <div class="modal-movie">
+                <span>&times;</span>
+                <iframe width="1920" height="1080" src="https://www.youtube.com/embed/lkj5iVgnJY8?si=SFPGmElIRL-Z6sLr&autoplay=1&mute=1&rel=0&loop=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <div class="movie-bg"></div>
+              </div>
+            </div>
+
+            <!-- 動画_TB-PB用 -->
+            <figure class="movie-box tb-pc">
+              <div class="movie-item">
+                <iframe width="1920" height="1080" src="https://www.youtube.com/embed/lkj5iVgnJY8?si=SFPGmElIRL-Z6sLr&mute=1&rel=0&loop=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              </div>
             </figure>
 
             <div class="about-title">
@@ -374,6 +406,8 @@
       <article>
     </footer>
 
+    <!-- 動画モーダルのスクリプト -->
+    <script src="js/movie.js" type="module"></script>
     <script src="js/main.js"></script>
   </body>
 </html>

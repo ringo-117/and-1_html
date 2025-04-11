@@ -24,7 +24,7 @@
     <!-- css -->
     <link rel="stylesheet" href="css/destyle.css">
     <link rel="stylesheet" href="css/style.css?v=2.5">
-    <link rel="stylesheet" href="css/solutions.css?v=1.2">
+    <link rel="stylesheet" href="css/solutions.css?v=1.4">
   </head>
 
   <body>
@@ -234,8 +234,25 @@
             <p class="about-text">
               　現在の検索行動において、動画を活用することはユーザーの<span class="marker">関心を高める重要な要素</span>です。特に、初めての場所に行く際には不安を感じる人が多いため、施術の流れや院内の雰囲気を短い動画で伝えることを提案。ホームページ内に動画を設置することで、より直感的に整骨院の魅力が伝わる仕組みを構築しました。
             </p>
-            <figure class="about-img">
-              <img src="img/test_img.webp"alt="デザイン">
+            <!-- 動画_SP用 -->
+            <div class="movie sp">
+              <article id="modal-open-movie" class="modal-open-movie">
+                <figure class="movie-img">
+                  <img src="img/sol_04_mv.webp" alt="動画サムネ">
+                </figure>
+              </article>
+              <div class="modal-movie">
+                <span>&times;</span>
+                <iframe width="1920" height="1080" src="https://www.youtube.com/embed/y_aOb2MDGmY?si=ENvAGwoeVdHlJnRN&autoplay=1&mute=1&rel=0&loop=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <div class="movie-bg"></div>
+              </div>
+            </div>
+
+            <!-- 動画_TB-PB用 -->
+            <figure class="movie-box tb-pc">
+              <div class="movie-item">
+                <iframe width="1920" height="1080" src="https://www.youtube.com/embed/y_aOb2MDGmY?si=ENvAGwoeVdHlJnRN&mute=1&rel=0&loop=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              </div>
             </figure>
           </article>
         </div>
@@ -361,6 +378,8 @@
       <article>
     </footer>
 
+    <!-- 動画モーダルのスクリプト -->
+    <script src="js/movie.js" type="module"></script>
     <script src="js/main.js"></script>
   </body>
 </html>
