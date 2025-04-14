@@ -178,9 +178,8 @@ body {
     border-bottom: solid 1px #E6E6E6;
     padding-bottom: 13px;
     /* margin-top: 5px; */
-    margin-top: 7px;
+    margin-top: 10px;
     letter-spacing: 0.09em;
-
   }
 
   .sec-top .news .news-view p {
@@ -883,16 +882,18 @@ body {
     /* margin-right: 12px; */
   }
 
-  .news-item p {
+  .news-item p, .sec-top .news-item p  {
     /* padding: 3px auto; */
     padding: 4px 8px;
     margin: 0 16px;
     margin-bottom: 0;
     width: 65px;
     text-align: center;
-
-
     font-size: 9px;
+  }
+
+  .sec-top .news-item p {
+    margin-bottom: 0.5px;
   }
 
   .news-box .news-text {
