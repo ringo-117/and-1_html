@@ -156,7 +156,7 @@ body {
     background-color: #fff;
     border: 1px solid #DADADA;
     font-size: 13px;
-    font-weight: bold;
+    /* font-weight: bold; */
     /* font-weight: 500; */
   }
 
@@ -166,7 +166,7 @@ body {
   }
 
   .sec-top .news-time {
-    color: #39cac0;
+    color: #A7A2A9;
     font-family: 'Noto Sans';
     /* font-weight: bold;
     font-size: 14px; */
@@ -178,7 +178,7 @@ body {
     border-bottom: solid 1px #E6E6E6;
     padding-bottom: 13px;
     /* margin-top: 5px; */
-    margin-top: 10px;
+    margin-top: 9px;
     letter-spacing: 0.09em;
   }
 
@@ -189,6 +189,7 @@ body {
     /* font-size: 15px; */
     font-size: 12px;
     letter-spacing: 0.1em;
+    /* font-weight: 500; */
   }
 
   /* ==================== 企業アニメーション ================== */
@@ -599,11 +600,6 @@ body {
 
   .news-item time {
     font-family: 'Noto Sans';
-    /* color: #39cac0; */
-    /* color: #605B56; */
-    /* color: #424B54; */
-    /* color: #5D5E60; */
-
     color: #A7A2A9;
     font-weight: 500;
   }
