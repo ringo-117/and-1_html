@@ -157,7 +157,7 @@ body {
     border: 1px solid #DADADA;
     font-size: 13px;
     /* font-weight: bold; */
-    /* font-weight: 500; */
+    font-weight: 500;
   }
 
   .sec-top .news-item p {
@@ -189,7 +189,6 @@ body {
     /* font-size: 15px; */
     font-size: 12px;
     letter-spacing: 0.1em;
-    /* font-weight: 500; */
   }
 
   /* ==================== 企業アニメーション ================== */
