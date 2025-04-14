@@ -171,6 +171,7 @@ body {
     /* font-weight: bold;
     font-size: 14px; */
     letter-spacing: 0.07em;
+    font-weight: 500;
   }
 
   .sec-top .news-text {
@@ -1014,6 +1015,7 @@ body {
     margin-top: 15px;
     padding-bottom: 15px;
     letter-spacing: 0.1em;
+    font-weight: 500;
   }
 
   .sec-top .news .news-view p {
