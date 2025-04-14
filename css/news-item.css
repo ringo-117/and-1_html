@@ -1,0 +1,477 @@
+body {
+  font-family: 'Noto Sans JP';
+}
+
+@media screen and (min-width: 320px) {
+  /* スマホ用レイアウト 320px以上の範囲に収めるデザインはこの中に記述 */
+  .link-list {
+    padding: 24px 16px;
+  }
+  /*==============================================================
+  　　ニュース
+  ==============================================================*/
+  .link-color {
+    color: #39cac0;
+  }
+
+  .news-bg {
+    background-color: #d6f7f5;
+    /* padding: 56px 16px 72px; */
+    padding: 56px 16px 40px;
+  }
+
+  .news-box {
+    background-color: #fff;
+    padding: 32px 24px 24px;
+    line-height: 1.7;
+  }
+
+  .news-box h2 {
+    font-size: 18px;
+    border-bottom: 1px solid #23221f;
+    padding-bottom: 16px;
+    margin-bottom: 24px;
+    font-weight: 600;
+  }
+
+  .news-item {
+    display: flex;
+    margin-bottom: 8px;
+    align-items: center;
+  }
+
+  .news-item time {
+    font-family: 'Noto Sans';
+    color: #39cac0;
+    font-size: 13px;
+  }
+
+  .news-item p {
+    background-color: #999999;
+    color: #fff;
+    padding: 2px 16px;
+    font-size: 8px;
+    /* width: 56px; */
+    text-align: center;
+    margin-left: 16px;
+    border-radius: 25px;
+    letter-spacing: 0.1em;
+    margin-bottom: 1px;
+  }
+
+  .news-text-box {
+    font-size: 14px;
+    margin-bottom: 24px;
+  }
+
+  .news-text-box ul, .li {
+    margin: 4px 0 16px 5px;
+  }
+
+  .news-text-box ul li:before, .li:before {
+    content:  "";
+    width:  4px;
+    height:  4px;
+    display:  inline-block;
+    background-color: #23221f;
+    border-radius:  50%;
+    position:  relative;
+    top: -3px;
+    margin-right: 6px;
+  }
+
+  .news-text-box h3 {
+    font-size: 16px;
+    margin-bottom: 8px;
+    /* font-weight: 500; */
+    font-weight: bold;
+    /* margin-bottom: 16px; */
+    margin-left: 2px;
+  }
+
+  .news-text-box h3.title-01 {
+    margin-bottom: 12px;
+  }
+
+  .news-text-box h3:before {
+    content:  "";
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    background-color: #23221f;
+    position: relative;
+    top: -1.5px;
+    margin-right: 5px;
+  }
+
+
+  .voice {
+    margin-bottom: 8px;
+  }
+
+  span.marker {
+    /* background: linear-gradient(transparent 75%, #4cd5cc 75%); */
+    background: linear-gradient(transparent 75%, #FFCF43 75%);
+    font-weight: bold;
+  }
+
+  .sub-title {
+    font-weight: bold;
+  }
+
+  /* ==================== news-internship ================== */
+  .info-item {
+    margin-bottom: 24px;
+  }
+
+  .news-internship .li {
+    margin-bottom: 0;
+  }
+
+  .link-color {
+    white-space: nowrap;
+  }
+
+  .news-internship .news-box {
+    padding: 32px 24px 16px;
+  }
+
+  /* ==================== ボタン ================== */
+  .news-btn-box {
+    /* margin-top: 48px; */
+    margin-top: 40px;
+  }
+
+  .news-btn {
+    justify-items: center;
+    margin-bottom: 24px;
+  }
+
+  .link-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 1.5px #efefef;
+    background-color: #fff;
+    border-radius: 25px;
+    width: 210px;
+    max-width: 320px;
+    height: 52px;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 0.11em;
+    margin: 0 auto;
+  }
+
+  .news-all-btn .link-box {
+    border: solid 1px #39cac0;
+    margin-top: 50px;
+  }
+
+  .link-box p {
+    /* margin-left: 15px; */
+    /* width: 75px; */
+    text-align: center;
+  }
+
+  .link-box img {
+    width: 14px;
+    height: 14px;
+    padding: 3.2px 3px;
+    margin-left: 15px;
+    background-color: #4cd5cc;
+    border-radius: 50%;
+    margin-top: 0;
+  }
+
+  .news-all-btn .link-box img {
+    margin-top: 2px;
+  }
+
+  /* ==================== news-05 ================== */
+  .news-05 .news-bg {
+    padding: 56px 16px 40px;
+  }
+
+  .sol-link {
+    /* color: #39cac0; */
+    /* border-bottom: solid 1px #39cac0; */
+    /* border-bottom: solid 1px #23221f; */
+    /* color: #A7A2A9; */
+    font-weight: bold;
+  }
+
+  .news-05 .news-text-box{
+   margin-bottom: 16px;
+  }
+
+  .lp-link-box {
+    /* margin-top: 16px; */
+    margin-top: 32px;
+  }
+
+  .lp-link-box.lp-link a {
+
+    display: flex;
+    align-items: center;
+  }
+
+  .link-info {
+    color: #39cac0;
+    /* font-weight: 500; */
+    letter-spacing: 0.15em;
+  }
+
+  /* .lp-link-box img {
+    width: 14px;
+    height: 14px;
+    margin-left: 10px;
+  } */
+
+  /* .lp-link {
+    color: #39cac0;
+  } */
+
+  .lp-link span {
+    color: #39cac0;
+    border-bottom: solid 1px #39cac0;
+    /* border-bottom: solid 1px #23221f; */
+  }
+
+
+
+
+
+
+}
+
+@media screen and (min-width: 601px) {
+  /* タブレット用レイアウト 601px以上の範囲に収めるデザインはこの中に記述 */
+  .link-list {
+    padding: 24px 64px;
+  }
+  /*==============================================================
+    　　TB_ニュース
+  ==============================================================*/
+  .news-bg {
+    padding: 56px 64px 64px;
+  }
+
+  .news-box {
+    padding:40px 40px 20px;
+  }
+  .news-internship .news-box {
+    padding: 40px 40px 10px;
+  }
+
+
+  .news-item {
+    margin-bottom: 14px;
+  }
+
+  .news-item time {
+    font-size: 15px;
+  }
+
+  .news-item p {
+    padding: 2px 16px 2.5px;
+    font-size: 10px;
+    margin-left: 16px;
+    margin-bottom: 3px;
+  }
+
+  .news-box h2 {
+    font-size: 20px;
+  }
+
+  .news-text-box {
+    font-size: 15px;
+    margin-bottom: 32px;
+    line-height: 1.8;
+  }
+
+  .news-05 .news-text-box{
+    margin-bottom: 24px;
+  }
+
+  .news-text-box h3 {
+    font-size: 17px;
+    margin-bottom: 8px;
+  }
+
+  .news-text-box h3:before {
+    margin-right: 8px;
+  }
+
+  .voice {
+    margin-bottom: 0px;
+  }
+
+}
+
+@media screen and (min-width: 1081px) {
+  /* パソコン用レイアウト 1081px以上の範囲に収めるデザインはこの中に記述 */
+  .link-list {
+    padding: 40px 0;
+  }
+  /*==============================================================
+    　　PC_ニュース
+  ==============================================================*/
+  .news-bg {
+    padding: 72px 40px 80px;
+  }
+
+  .news-box {
+    max-width: 1060px;
+    /* padding:80px 56px 48px; */
+    padding:64px 56px 24px;
+    /* padding: 64px 56px 16px; */
+
+    margin: 0 auto;
+  }
+
+  .news-item {
+    margin-bottom: 16px;
+  }
+
+  .news-item time {
+    font-size: 16px;
+  }
+
+  .news-item p {
+    /* padding: 2px 16px;
+    font-size: 8px;
+    margin-left: 16px;
+    margin-bottom: 1px; */
+
+    padding: 2px 20px;
+    font-size: 12px;
+    margin-left: 24px;
+    margin-bottom: 3.3px;
+  }
+
+  .news-box h2 {
+    font-size: 24px;
+    letter-spacing: 0.08em;
+    margin-bottom: 32px;
+  }
+
+  .news-all-btn .link-box {
+    margin-top: 72px;
+    width: 250px;
+    height: 60px;
+    font-size: 14px;
+    border-radius: 50px;
+  }
+
+  .news-text-box {
+    font-size: 16px;
+    margin-bottom: 40px;
+    /* line-height: 1.75rem; */
+    line-height: 2;
+  }
+
+  .news-05 .news-text-box{
+    margin-bottom: 32px;
+  }
+
+  .news-text-box h3:before {
+    width: 13px;
+    height: 13px;
+    top: -1.4px;
+  }
+
+  .news-text-box ul {
+    margin-left: 5px;
+  }
+
+  .li {
+    margin-left: 0;
+    line-height: 1.9;
+  }
+
+  .li:before  {
+    display: none;
+  }
+
+  .news-text-box ul li:before {
+    width: 5px;
+    height: 5px;
+    top: -3px;
+    margin-right: 8px;
+  }
+
+  .news-text-box h3 {
+    font-size: 20px;
+    margin-bottom: 8px;
+  }
+
+  /* ==================== news-internship ================== */
+  /* .news-internship .news-box {
+    padding:80px 56px 48px;
+  }
+
+  .info-item {
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    margin-bottom: 32px;
+    gap: 20px;
+  }
+
+  .info-item dt {
+    margin-right: 20px;
+  }
+
+  .news-internship .news-text-box h3 {
+    margin-bottom: 24px;
+  } */
+
+  .li {
+    margin-top: 0;
+    margin-left: 0;
+  }
+
+  .news-internship .news-text-box {
+    margin-bottom: 60px;
+  }
+
+  .news-internship .news-text-box.box-02 {
+    line-height: 1.75rem;
+  }
+
+
+  .news-internship .news-box {
+    /* padding:80px 56px 16px; */
+    padding: 64px 56px 4px;
+  }
+
+  .info-item {
+    display: grid;
+    /* grid-template-columns: 140px 1fr; */
+    grid-template-columns: 110px 1fr;
+    /* grid-template-columns: 108px 1fr; */
+    margin-bottom: 20px;
+    gap: 30px;
+
+  }
+
+  .info-item .li-box {
+    margin-top: -2px;
+  }
+
+  .info-item dt {
+    /* margin-right: 20px; */
+    font-weight: normal;
+  }
+
+  .news-internship .news-text-box h3 {
+    margin-bottom: 44px;
+  }
+
+  .news-internship .news-text-box h3:before {
+    top: -1px;
+  }
+
+
+
+}
