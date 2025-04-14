@@ -29,6 +29,7 @@
 // 	document.querySelector(".modal-movie iframe").pause();
 // });
 
+
 document.querySelectorAll(".movie.sp").forEach(movieContainer => {
   const openBtn = movieContainer.querySelector(".modal-open-movie");
   const modal = movieContainer.querySelector(".modal-movie");
@@ -40,9 +41,13 @@ document.querySelectorAll(".movie.sp").forEach(movieContainer => {
   openBtn.onclick = () => {
     modal.style.display = "block";
     iframe.style.display = "block";
-    // iframe内のYouTube動画の自動再生（再読み込み）
-    const src = iframe.src;
-    iframe.src = src + "&autoplay=1";
+
+    // iframe.srcの元URLをきれいにしてからautoplayを追加
+    let baseSrc = iframe.dataset.src || iframe.src;
+    baseSrc = baseSrc.replace("?autoplay=1", "").replace("&autoplay=1", "");
+
+    iframe.src = ""; // リセット（Chrome対応）
+    iframe.src = baseSrc + (baseSrc.includes("?") ? "&" : "?") + "autoplay=1";
   };
 
   // モーダルを閉じる（×ボタン）
