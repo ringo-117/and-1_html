@@ -42,7 +42,7 @@ body {
 
   .news-item time {
     font-family: 'Noto Sans';
-    color: #39cac0;
+    /* color: #39cac0; */
     font-size: 13px;
   }
 
@@ -347,7 +347,7 @@ body {
     padding: 2px 20px;
     font-size: 12px;
     margin-left: 24px;
-    margin-bottom: 3.3px;
+    margin-bottom: 3.1px;
   }
 
   .news-box h2 {

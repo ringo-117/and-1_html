@@ -158,7 +158,11 @@ body {
     font-size: 13px;
     font-weight: bold;
     /* font-weight: 500; */
+  }
 
+  .sec-top .news-item p {
+    font-weight: normal;
+    margin-bottom: 0.5px;
   }
 
   .sec-top .news-time {
@@ -167,7 +171,6 @@ body {
     /* font-weight: bold;
     font-size: 14px; */
     letter-spacing: 0.07em;
-
   }
 
   .sec-top .news-text {
@@ -596,12 +599,12 @@ body {
 
   .news-item time {
     font-family: 'Noto Sans';
-    color: #39cac0;
+    /* color: #39cac0; */
     font-weight: 500;
   }
 
-  .news-item p {
-    background-color: #999999;
+  .news-item p, .top-text-box .news-item p {
+    /* background-color: #999999; */
     color: #fff;
     padding: 3px 8px;
     border-radius: 25px;
@@ -695,6 +698,11 @@ body {
 
   .top-reason {
     font-weight: normal;
+  }
+
+  .sec-top .news-item p {
+    margin: 0 16px 1px;
+    margin-bottom: 1.2px;
   }
 
   /* ==================== 企業アニメーション ================== */
@@ -989,6 +997,13 @@ body {
     padding: 20px 22px;
     max-width: 450px;
     font-size: 16px;
+  }
+
+  .top-text-box .news-item p {
+    padding: 5px 8px;
+    margin: 0 20px 1px;
+    font-size: 10px;
+    width: 80px;
   }
 
   .sec-top .news-time {
