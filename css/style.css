@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /* CSS Document */
-@import 'slick-carousel/slick/slick.css';
-@import 'slick-carousel/slick/slick-theme.css';
+/* @import 'slick-carousel/slick/slick.css';
+@import 'slick-carousel/slick/slick-theme.css'; */
 
 body {
   /* font-family: -apple-system, BlinkMacSystemFont, Roboto, "Segoe UI", "Helvetica Neue", HelveticaNeue, YuGothic, "Yu Gothic Medium", "Yu Gothic", Verdana, Meiryo, sans-serif; */
@@ -57,10 +57,6 @@ html {
 
   .header.active {
     background-color: #4cd5cc !important;
-  }
-
-  .header.active {
-    background-color: #4cd5cc;
   }
 
   .logo-img {
