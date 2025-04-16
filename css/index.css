@@ -213,7 +213,7 @@ body {
   .company-logo h2 {
     font-size: 22px;
     /* margin-bottom: 20px; */
-    margin-bottom: 11px;
+    margin-bottom: 10.5px;
     /* margin-bottom: 10px; */
   }
 
@@ -716,7 +716,7 @@ body {
   }
 
   .company-logo p {
-    font-size: 11px;
+    font-size: 10px;
     padding-bottom: 32px;
   }
 
