@@ -115,6 +115,55 @@ body {
     margin-top: 16px;
   }
 
+  /* ==================== MOVIE ================== */
+  .movie-img {
+    width: 100%;
+    height: auto;
+    max-width: 640px;
+  }
+
+  .movie-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .modal-movie {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 997;
+    display: none;
+  }
+
+  .movie-bg {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+  }
+
+  .modal-movie iframe {
+    width: 90%;
+    height: auto;
+    aspect-ratio: 16 / 9;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .modal-movie span {
+    position: absolute;
+    top: 5px;
+    right: 20px;
+    font-size: 48px;
+    color: #fff;
+    z-index: 997;
+    cursor: pointer;
+  }
+
 
   /* ==================== 支援の内容 ================== */
   .point-text span {
@@ -216,33 +265,52 @@ body {
     top: 140px;
     left: 55px;
   }
-}
 
-/* ==================== 映像制作のながれ ================== */
-.step-num.video-num {
-  background-color: #f57d62;
-}
+  /* ==================== MOVIE ================== */
+  /* .movie-box {
+    width: 100%;
+    height: auto;
+    max-width: 640px;
+  }
 
-.step-line.video-num {
-  background-color: #f57d62;
-}
+  .movie-item.item-web {
+    margin-top: 30px;
 
-.item-title.video {
-  color: #f57d62;
-}
+  }
 
-/* ==================== 支援までのながれ ================== */
-.step-num.welfare-num {
-  background-color: #ffd545;
-}
+  .movie-item iframe {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9;
+  } */
 
-.step-line.welfare-num {
-  background-color: #ffd545;
-  height: 360px;
-}
+  /* ==================== 映像制作のながれ ================== */
+  .step-num.video-num {
+    background-color: #f57d62;
+  }
 
-.item-title.welfare {
-  color: #ffd545;
+  .step-line.video-num {
+    background-color: #f57d62;
+  }
+
+  .item-title.video {
+    color: #f57d62;
+  }
+
+  /* ==================== 支援までのながれ ================== */
+  .step-num.welfare-num {
+    background-color: #ffd545;
+  }
+
+  .step-line.welfare-num {
+    background-color: #ffd545;
+    height: 360px;
+  }
+
+  .item-title.welfare {
+    color: #ffd545;
+  }
+
 }
 
 
