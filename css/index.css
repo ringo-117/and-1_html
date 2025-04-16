@@ -212,11 +212,14 @@ body {
 
   .company-logo h2 {
     font-size: 22px;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
+    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
   }
 
   .company-logo p {
-    font-size: 14px;
+    /* font-size: 14px; */
+    font-size: 11px;
     color: #39cac0;
     padding-bottom: 20px;
     letter-spacing: 0.09em;
@@ -712,6 +715,12 @@ body {
     margin-top: 30px;
   }
 
+  .company-logo p {
+    font-size: 11px;
+    padding-bottom: 32px;
+  }
+
+
   /*==============================================================
   　　TB_SERVICE サービス紹介
   ==============================================================*/
@@ -1034,16 +1043,18 @@ body {
 
   .company-logo h2 {
     font-size: 30px;
+    margin-bottom: 14px;
   }
 
   .company-logo p {
-    font-size: 16px;
+    font-size: 14px;
+    padding-bottom: 32px;
   }
 
   /* 上下の線追加スタイル */
   .company-logo img {
     height: 125px;
-    padding: 20px 0;
+    padding: 16px 0;
   }
 
   /*==============================================================
