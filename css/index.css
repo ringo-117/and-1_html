@@ -715,6 +715,10 @@ body {
     margin-top: 30px;
   }
 
+  .company-logo h2 {
+    margin-bottom: 10px;
+  }
+
   .company-logo p {
     font-size: 10px;
     padding-bottom: 32px;
