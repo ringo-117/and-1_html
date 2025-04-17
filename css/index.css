@@ -412,11 +412,6 @@ body {
     padding: 80px 10px;
   }
 
-  #sec-solutions {
-    /* scroll-margin-top: 100px; */
-    scroll-margin-top: 90px;
-  }
-
   .sec-solutions {
     font-family: 'Noto Sans JP';
     padding: 55px 0 33px;
@@ -809,6 +804,7 @@ body {
   .sol-bg {
     padding: 80px 20px;
   }
+  
 
   .sec-solutions {
     padding: 50px 0 65px;
@@ -939,12 +935,22 @@ body {
   } */
 
   .top-img {
-    width: 850px; /* APNGのサイズに合わせる */
-    height: 567px;
-    top: 250px;
+    /* width: 850px; APNGのサイズに合わせる */
+    /* height: 567px; */
+    /* top: 250px; */
     left: 50%;
     transform: translateX(-50%);
     -webkit-transform: translateX(-50%);
+    /* margin-left: 345px; */
+
+
+    /* 提案１ */
+    width: 870px;
+    height: 580px;
+    top: 250px;
+    margin-left: 368px;
+
+    /* 提案２ */
     margin-left: 345px;
   }
 
@@ -982,23 +988,52 @@ body {
 
   .top-text-box {
     padding: 0 100px 45px;
-    /* 追加 */
-    /* max-width: 1400px; */
-    max-width: 1500px;
+    /* max-width: 1500px; */
     margin: 0 auto;
-    /* height: 100vh;
-    align-content: center; */
+
+
+    /* 提案1２ */
+    max-width: 1504px;
+
   }
 
   .top-text-box h1 {
-    font-size: 80px;
+    /* font-size: 80px; */
     margin-bottom: 33px;
-    padding-top: 230px;
-    /* padding-top: 150px; */
+    /* padding-top: 230px; */
+
+
+    /* 提案１ */
+    font-size: 56px;
+    padding-top: 208px;
+
+
+    /* 提案２ */
+    /* font-size: 60px; */
+    /* padding-top: 200px; */
+
+
+    line-height: 1.37;
+
+
+
   }
 
   .top-text {
     font-size: 15px;
+    margin-bottom: 25px;
+    /* font-size: 14px; */
+
+
+    /* 提案１ */
+    width: 450px;
+    /* margin-bottom: 40px; */
+    line-height: 2;
+
+
+    /* 提案２ */
+    margin-bottom: 25px;
+
   }
 
   .top-reason {
@@ -1006,6 +1041,10 @@ body {
     height: 60px;
     border-radius: 30px;
     margin-bottom: 47px;
+  }
+
+  .sec-top {
+    height: calc(100vh - 100px);
   }
 
   .sec-top .news {

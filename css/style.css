@@ -31,8 +31,16 @@ html {
     display: block;
   }
 
-  html, #top, #main {
+  html, #top, #main, #sec-news {
     scroll-margin-top: 55px;
+  }
+
+  #sec-contact {
+    scroll-margin-top: 30px;
+  }
+
+  #sec-solutions {
+    scroll-margin-top: 80px;
   }
 
   /*==============================================================
@@ -638,11 +646,11 @@ html {
     white-space: nowrap;
   }
 
-  html, #top, #main {
+  html, #top, #main, #sec-contact {
     scroll-margin-top: 80px;
   }
 
-  #sec-contact {
+  #sec-solutions, #sec-news {
     scroll-margin-top: 150px;
   }
 
@@ -1003,17 +1011,37 @@ html {
     display: inline-block;
   }
 
-  html, #top, #main {
+  html, #top, #main, #sec-service, #sec-solutions {
     scroll-margin-top: 120px;
   }
 
-  #sec-contact {
-    scroll-margin-top: 180px;
+  #sec-solutions {
+    scroll-margin-top: 135px;
   }
+
+  #sec-news {
+    scroll-margin-top: 200px;
+  }
+
+  #sec-contact {
+    scroll-margin-top: 50px;
+  }
+
+
+  /* #sec-contact {
+    scroll-margin-top: 80px;
+  } */
+
+  /* #sec-solutions, #sec-news {
+    scroll-margin-top: 150px;
+  } */
 
   /*==============================================================
   　　　PC_ヘッダー
   ==============================================================*/
+  header {
+    height: 0px;
+  }
 
   .header {
     height: 120px;
