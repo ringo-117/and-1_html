@@ -267,7 +267,7 @@ body {
   }
 
   /* ==================== MOVIE ================== */
-  /* .movie-box {
+  .movie-box {
     width: 100%;
     height: auto;
     max-width: 640px;
@@ -282,7 +282,7 @@ body {
     width: 100%;
     height: auto;
     aspect-ratio: 16 / 9;
-  } */
+  }
 
   /* ==================== 映像制作のながれ ================== */
   .step-num.video-num {
