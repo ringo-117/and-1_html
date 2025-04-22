@@ -1,0 +1,568 @@
+body {
+  font-family: 'Noto Sans JP';
+}
+
+@media screen and (min-width: 320px) {
+  /* スマホ用レイアウト 320px以上の範囲に収めるデザインはこの中に記述 */
+  .link-list {
+    margin-top: 56px;
+    padding-top: 24px;
+  }
+  /*==============================================================
+  　　Web開発の特徴
+  ==============================================================*/
+  .sec-point {
+    line-height: 1.5;
+    padding: 0 16px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .sec-img {
+    position: absolute;
+    top: 48px;
+    right: -40px;
+    width: 352px;
+  }
+
+  .sec-img img {
+    width: 100%;
+  }
+
+  .sec-point .sec-title {
+    /* margin: 385px 0 25px 45px; */
+
+    /* margin: 472px 0 56px 0; */
+    margin: 488px 0 40px 0;
+
+    /* 中央 */
+    text-align: center;
+  }
+
+  /* スタイル共通 point/flow */
+  .sec-title h1 {
+    font-size: 24px;
+    font-weight: bold;
+    /* margin-bottom: 13px; */
+
+    /* 中央 */
+    margin-bottom: 8px;
+  }
+
+  .sec-title p {
+    font-size: 12px;
+    font-weight: bold;
+    color: #B4B7BA;
+    /* text-align: left; */
+  }
+
+  .point-box {
+    margin-bottom: 64px;
+  }
+
+  .point-img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 5 / 3;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+  .point-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+
+  .point-title {
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    height: 96px;
+    align-items: center;
+    /* margin-bottom: 20px; */
+  }
+
+  /* .point-title {
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+  } */
+
+  /* .title-long .point-title {
+    margin-bottom: 24px;
+  } */
+
+  .point-title span {
+    font-family: 'Noto Sans';
+    font-size: 64px;
+    font-weight: bold;
+    color: #4689E3;
+    margin-right: 16px;
+  }
+
+  /* .title-long .title-text {
+    margin-top: 24px;
+  } */
+
+  .point-text {
+    line-height: 1.6;
+  }
+
+  .text-block-02 {
+    margin-top: 16px;
+  }
+
+  /* ==================== MOVIE ================== */
+  .movie-img {
+    width: 100%;
+    height: auto;
+    max-width: 640px;
+  }
+
+  .movie-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .modal-movie {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 997;
+    display: none;
+  }
+
+  .movie-bg {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+  }
+
+  .modal-movie iframe {
+    width: 90%;
+    height: auto;
+    aspect-ratio: 16 / 9;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .modal-movie span {
+    position: absolute;
+    top: 5px;
+    right: 20px;
+    font-size: 48px;
+    color: #fff;
+    z-index: 997;
+    cursor: pointer;
+  }
+
+
+  /* ==================== 支援の内容 ================== */
+  .point-text span {
+    font-weight: bold;
+  }
+
+  .point-title span.welfare-num {
+    color: #ffd545;
+  }
+
+  /* 画像02 */
+  /* .img-02 img {
+    transform: scale(1);
+    object-position : -20% 0%;
+  } */
+
+
+  /*==============================================================
+  　　Web開発のながれ
+  ==============================================================*/
+  .sec-flow {
+    line-height: 1.5;
+    padding: 0 16px 60px;
+    letter-spacing: 0.1;
+    position: relative;
+    /* overflow: hidden; */
+  }
+
+  .flow-img {
+    position: absolute;
+    /* top: -285px; */
+    right: -16px;
+    width: 304px;
+
+    /* 中央 */
+    /* top: -368px; */
+    top: -384px;
+
+  }
+
+  .flow-img img {
+    width: 100%;
+  }
+
+  .sec-flow .sec-title {
+    /* margin: 300px 0 25px 45px; */
+
+    /* 中央 */
+    /* margin: 382px 0 56px 0; */
+    margin: 382px 0 40px 0;
+    text-align: center;
+  }
+
+  .step-num {
+    font-family: 'Noto Sans';
+    width: 80px;
+    height: 80px;
+    color: #FFFFFF;
+    background-color: #4689E3;
+    border-radius: 50%;
+    text-align: center;
+    align-content: center;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 0.15em;
+  }
+
+  .step-num span {
+    font-size: 22px;
+    letter-spacing: 0.1em;
+  }
+
+  .flow-item {
+    position: relative;
+    display: grid;
+    grid-template-columns: 80px 1fr;
+    gap: 16px;
+    z-index: 1;
+    margin-bottom: 36px;
+  }
+
+  .item-title {
+    font-size: 16px;
+    color: #4689E3;
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+
+  .item-text {
+    font-size: 14px;
+    line-height: 1.8em;
+  }
+
+  .step-line {
+    width: 2px;
+    height: 700px;
+    background-color: #4689E3;
+    position: absolute;
+    top: 140px;
+    left: 55px;
+  }
+
+  /* ==================== MOVIE ================== */
+  .movie-box {
+    width: 100%;
+    height: auto;
+    max-width: 640px;
+  }
+
+  .movie-item.item-web {
+    margin-top: 30px;
+
+  }
+
+  .movie-item iframe {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9;
+  }
+
+  /* ==================== 映像制作のながれ ================== */
+  .step-num.video-num {
+    background-color: #f57d62;
+  }
+
+  .step-line.video-num {
+    background-color: #f57d62;
+  }
+
+  .item-title.video {
+    color: #f57d62;
+  }
+
+  /* ==================== 支援までのながれ ================== */
+  .step-num.welfare-num {
+    background-color: #ffd545;
+  }
+
+  .step-line.welfare-num {
+    background-color: #ffd545;
+    height: 360px;
+  }
+
+  .item-title.welfare {
+    color: #ffd545;
+  }
+
+}
+
+
+
+@media screen and (min-width: 601px) {
+  /* タブレット用レイアウト 601px以上の範囲に収めるデザインはこの中に記述 */
+  .link-list {
+    margin-top: 80px;
+  }
+  /*==============================================================
+    　　TB_開発の特徴
+  ==============================================================*/
+  .sec-point {
+    padding: 0  50px 0 70px;
+  }
+
+  .sec-img {
+    top: 0px;
+    right: 30px;
+    width: 380px;
+  }
+
+  /* スタイル共通 point/flow */
+  .sec-title {
+    display: flex;
+    align-items: center;
+  }
+
+  .sec-point .sec-title {
+    display: flex;
+    align-items: center;
+    margin: 410px 0 10px;
+  }
+
+  .sec-title h1 {
+    font-size: 26px;
+    margin-bottom: 0;
+    margin-right: 13px;
+  }
+
+  .sec-title p {
+    font-size: 12px;
+  }
+
+  .point-box {
+    display: grid;
+    grid-template-columns: 281px 1fr;
+    gap: 25px;
+  }
+
+  .point-img {
+    margin-top: 30px;
+  }
+
+  .point-title {
+    font-size: 20px;
+  }
+
+  .point-title span {
+    font-size: 70px;
+    margin-right: 15px;
+  }
+
+  .point-text {
+    font-size: 15px;
+  }
+
+
+  /* ==================== 支援の内容 ================== */
+  /* 画像02 */
+  /* .img-02 img {
+    transform: scale(1);
+    object-position : -50% -10%;
+  } */
+
+  /*==============================================================
+  　　TB_開発のながれ
+  ==============================================================*/
+  .sec-flow {
+    padding: 0 70px 140px;
+  }
+
+  .flow-img {
+    position: absolute;
+    top: -300px;
+    right: 30px;
+    width: 330px;
+  }
+
+  .sec-flow .sec-title {
+    margin: 300px 0 45px;
+  }
+
+  .step-num {
+    width: 100px;
+    height: 100px;
+    font-size: 14px;
+  }
+
+  .step-num span {
+    font-size: 30px;
+  }
+
+  .flow-item {
+    grid-template-columns: 100px 1fr;
+    gap: 25px;
+    align-items: center;
+  }
+
+  .step-line {
+    left: 120px;
+    height: 800px;
+  }
+}
+
+@media screen and (min-width: 1081px) {
+  /* パソコン用レイアウト 1081px以上の範囲に収めるデザインはこの中に記述 */
+  .link-list {
+    margin-top: 120px;
+  }
+
+  /*==============================================================
+  　　PC_開発の特徴
+  ==============================================================*/
+  .sec-point {
+   max-width: 1060px;
+   padding: 0;
+   margin: 0 auto;
+  }
+
+  .sec-img {
+    top: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    margin-left: 300px;
+    width: 400px;
+  }
+
+  .sec-point .sec-title {
+    margin: 385px 0 30px 0;
+  }
+
+  /* スタイル共通 point/flow */
+  .sec-title h1 {
+    font-size: 32px;
+    margin-right: 20px;
+  }
+
+  .sec-title p {
+    font-size: 15px;
+  }
+
+  .point-box {
+    max-width: 960px;
+    grid-template-columns: 340px 1fr;
+    gap: 30px;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .point-img {
+    height: 215px;
+  }
+
+  .point-box:nth-of-type(2) {
+    margin-left: 95px;
+  }
+  .point-box:nth-of-type(4) {
+    margin-left: 95px;
+  }
+
+  .point-title span {
+    font-size: 80px;
+    margin-right: 25px;
+  }
+
+  .point-text {
+    font-size: 15px;
+    line-height: 2;
+  }
+
+  .text-block-02 {
+    margin-top: 0px;
+  }
+
+  /* ==================== 支援の内容 ================== */
+  /* 画像02 */
+  /* .img-02 img {
+    transform: scale(1.05);
+    object-position : -50% -50%;
+  } */
+
+   /*==============================================================
+  　　PC_開発のながれ
+  ==============================================================*/
+  .sec-flow {
+    padding: 0;
+    max-width: 1060px;
+    margin: 0 auto;
+    margin-bottom: 225px;
+  }
+
+  .flow-img {
+    top: -250px;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    margin-left: 300px;
+    width: 400px;
+  }
+
+  .sec-flow .sec-title {
+    margin: 300px 0 70px;
+  }
+
+  .step-num {
+    width: 135px;
+    height: 135px;
+    font-size: 16px;
+  }
+
+  .step-num span {
+    font-size: 40px;
+  }
+
+  .flow-item {
+    grid-template-columns: 135px 1fr;
+    gap: 37px;
+    margin-bottom: 40px;
+  }
+
+  .item-title {
+    font-size: 20px;
+  }
+
+  .item-text {
+    font-size: 16px;
+  }
+
+  .step-line {
+    width: 3px;
+    left: 67px;
+    height: 1050px;
+  }
+
+  /* ==================== 支援までのながれ ================== */
+  .step-line.welfare-num {
+    height: 600px;
+  }
+
+
+
+
+}
