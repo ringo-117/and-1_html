@@ -676,18 +676,27 @@ body {
     top: 110px;
 
 
-    width: 685px; /* APNGのサイズに合わせる */
+
+
+
+    /* width: 685px;
     height: 474px;
-    right: -15px;
+    right: -15px; */
+
+
     /* 50px */
-    top: 100px;
+    top: 112px;
+    top: 105px;
 
     /* 52px */
-    top: 95px;
+    top: 100px;
 
     /* 54px */
-    top: 90px;
-    top: 87px;
+    top: 95px;
+
+    /* 48px */
+    top: 95px;
+    top: 95px;
 
   }
 
@@ -733,18 +742,26 @@ body {
     /* margin-bottom: 17px; */
 
     font-size: 50px;
-    padding-top: 528px;
+    padding-top: 510px;
     /* 18px */
-    /* padding-top: 520px; */
+    /* padding-top: 503px; */
 
 
-    /* font-size: 52px; */
-    /* padding-top: 525px; */
-
-    /* font-size: 54px; */
-    /* padding-top: 520px; */
+    /* font-size: 52px;
+    padding-top: 505px; */
     /* 18px */
-    /* padding-top: 517px; */
+    /* padding-top: 500px; */
+
+    /* font-size: 54px;
+    padding-top: 500px; */
+    /* 18px */
+    /* padding-top: 495px; */
+
+    /* font-size: 48px;
+    padding-top: 505px; */
+    /* 18px */
+    /* padding-top: 500px; */
+
 
 
     line-height: 1.5;
@@ -755,11 +772,16 @@ body {
     /* width: 360px; */
     margin-bottom: 25px;
 
-    font-size: 16px;
+    font-size: 14px;
+
+    /* font-size: 16px; */
     /* font-size: 17px; */
-    font-size: 18px;
+    /* font-size: 18px; */
     line-height: 2.2;
     margin-bottom: 32px;
+
+    /* 修正１ */
+    margin-bottom: 44px;
   }
 
   .top-reason {

@@ -57,7 +57,8 @@ body {
   }
 
   .point-box {
-    margin-bottom: 64px;
+    margin-bottom: 48px;
+    letter-spacing: 0.08em;
   }
 
   .point-img {
@@ -81,7 +82,6 @@ body {
     display: flex;
     height: 96px;
     align-items: center;
-    /* margin-bottom: 20px; */
   }
 
   /* .point-title {
@@ -109,6 +109,8 @@ body {
 
   .point-text {
     line-height: 1.6;
+    margin-top: 22px;
+    /* font-size: 15px; */
   }
 
   .text-block-02 {
@@ -254,7 +256,7 @@ body {
 
   .item-text {
     font-size: 14px;
-    line-height: 1.8em;
+    line-height: 1.8;
   }
 
   .step-line {
@@ -342,8 +344,16 @@ body {
   .sec-point .sec-title {
     display: flex;
     align-items: center;
-    margin: 410px 0 10px;
+    margin: 410px 0 56px;
+
+    /* 一緒 */
+    margin-bottom: 30px;
   }
+
+  /* 一緒 */
+  .movie-item.item-web {
+    margin-top: 0px;
+}
 
   .sec-title h1 {
     font-size: 26px;
@@ -356,13 +366,21 @@ body {
   }
 
   .point-box {
-    display: grid;
+    /* display: grid;
     grid-template-columns: 281px 1fr;
-    gap: 25px;
+    gap: 25px; */
+    letter-spacing: 0.1em;
+
+    /* 一緒 */
+    margin-bottom: 48px;
   }
 
   .point-img {
     margin-top: 30px;
+
+    /* 一緒 */
+    margin-top: 0px;
+
   }
 
   .point-title {
@@ -371,11 +389,16 @@ body {
 
   .point-title span {
     font-size: 70px;
-    margin-right: 15px;
+    margin-right: 16px;
   }
 
   .point-text {
-    font-size: 15px;
+    /* font-size: 15px; */
+    font-size: 16px;
+    line-height: 1.9;
+
+    /* 一緒 */
+    margin-top: 20px;
   }
 
 
@@ -441,6 +464,40 @@ body {
    margin: 0 auto;
   }
 
+  .point-box {
+    display: grid;
+    grid-template:
+      "point-02 point-01" auto
+      "point-02 point-03" auto
+    / 500px auto;
+
+    /* grid-template:
+      "point-02 point-01" auto
+      "point-02 point-03" auto
+    / 1fr auto; */
+    column-gap: 40px;
+    margin-bottom: 125px;
+    margin-right: 56px;
+
+  }
+
+  .point-box-01 {
+    grid-area: point-01;
+    align-self: self-end;
+    margin-bottom: 8px;
+  }
+  .point-box-02 {
+    grid-area: point-02;
+    align-self: center;
+
+  }
+  .point-box-03 {
+    grid-area: point-03;
+    /* margin-top: -10px; */
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+
   .sec-img {
     top: 0px;
     left: 50%;
@@ -451,33 +508,36 @@ body {
   }
 
   .sec-point .sec-title {
-    margin: 385px 0 30px 0;
+    margin: 385px 0 75px 0;
   }
 
   /* スタイル共通 point/flow */
   .sec-title h1 {
     font-size: 32px;
-    margin-right: 20px;
+    margin-right: 16px;
   }
 
   .sec-title p {
     font-size: 15px;
   }
 
-  .point-box {
+  /* .point-box {
     max-width: 960px;
     grid-template-columns: 340px 1fr;
     gap: 30px;
     align-items: center;
     margin-bottom: 20px;
-  }
+  } */
 
   .point-img {
-    height: 215px;
+    /* height: 215px; */
+    height: 100%;
+    max-height: 290px;
   }
 
   .point-box:nth-of-type(2) {
     margin-left: 95px;
+    margin-right: 0;
   }
   .point-box:nth-of-type(4) {
     margin-left: 95px;
@@ -489,13 +549,18 @@ body {
   }
 
   .point-text {
-    font-size: 15px;
+    font-size: 16px;
     line-height: 2;
+    margin-top: 0;
+    /* margin-bottom: 40px; */
   }
 
   .text-block-02 {
     margin-top: 0px;
   }
+
+
+  
 
   /* ==================== 支援の内容 ================== */
   /* 画像02 */
