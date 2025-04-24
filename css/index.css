@@ -147,14 +147,21 @@ body {
     font-size: 22px;
     line-height: 1.6;
     /* padding-top: 270px; */
-    padding-top: 205px;
-    margin-bottom: 32px;
+    /* margin-bottom: 32px; */
+
+    /* padding-top: 205px; */
 
 
+    /* 修正版2 */
+    /* margin-bottom: 30px; */
+
+    /* 修正版3 */
+    margin-bottom: 28px;
+
+    /* margin-bottom: 24px; */
 
 
-
-
+    padding-top: 209px;
   }
 
   .top-text {
@@ -172,6 +179,7 @@ body {
 
     /* 修正後2 */
     /* margin-bottom: 40px; */
+    /* margin-bottom: 32px; */
 
 
   }
@@ -825,10 +833,44 @@ body {
     font-weight: normal;
   }
 
+  /* SP調整用 */
+  .top-text-box .news-item p.top-news-tag {
+    font-size: 9px;
+    margin-bottom: 0px;
+    padding: 4px 8px;
+  }
+
+  /* SP調整用 */
+  .sec-top .news-time {
+    font-size: 13px;
+  }
+
+  /* SP調整用 */
+  .sec-top .news-text {
+    padding-bottom: 13px;
+  }
+
   .sec-top .news-item p {
     margin: 0 16px 1px;
     margin-bottom: 1.2px;
   }
+
+  /* SP調整用 */
+  .sec-top .news {
+    padding: 16px 20px 15px;
+    max-width: 355px;
+    font-size: 13px;
+  }
+
+  /* SP調整用 */
+  .sec-top .news .news-view p {
+    margin-top: 10px;
+    font-size: 12px;
+  }
+
+
+
+
 
   /* ==================== 企業アニメーション ================== */
   .company-logo {
