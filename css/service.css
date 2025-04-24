@@ -11,6 +11,9 @@ body {
   /*==============================================================
   　　Web開発の特徴
   ==============================================================*/
+  .main {
+    overflow: hidden;
+  }
   .sec-point {
     line-height: 1.5;
     padding: 0 16px;
@@ -193,17 +196,15 @@ body {
     position: relative;
     /* overflow: hidden; */
   }
+  /* .flow-clip {
+    height: 304px;
+  } */
 
   .flow-img {
     position: absolute;
-    /* top: -285px; */
     right: -16px;
     width: 304px;
-
-    /* 中央 */
-    /* top: -368px; */
     top: -384px;
-
   }
 
   .flow-img img {
