@@ -44,7 +44,7 @@ body {
 
   .top-content {
     position: relative;
-    margin-bottom: 18px;
+    margin-bottom: 8px;
   }
 
 
@@ -171,7 +171,7 @@ body {
     margin-bottom: 36px;
 
     /* 修正後2 */
-    margin-bottom: 40px;
+    /* margin-bottom: 40px; */
 
 
   }
