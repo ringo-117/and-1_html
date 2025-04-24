@@ -298,7 +298,8 @@ body {
     padding: 15px 0;
     margin-bottom: 20px;
     position: relative;
-    width: 100%;
+    white-space: nowrap;
+    /* width: 100%; */
   }
 
   .text_scroll {
