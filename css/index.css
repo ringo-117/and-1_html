@@ -298,12 +298,19 @@ body {
     padding: 15px 0;
     margin-bottom: 20px;
     position: relative;
-    white-space: nowrap;
+    /* white-space: nowrap; */
     /* width: 100%; */
+    /* gap: 80px; */
+    /* margin-right: 80px; */
+
   }
 
   .text_scroll {
+    /* display: flex; */
+
     animation: scroll 40s linear infinite;
+
+    /* width: max-content; */
   }
 
   /* .logos {
@@ -320,6 +327,7 @@ body {
     display: flex;
 
     align-items: center;
+    gap: 80px;
   }
 
   .company-logo ul li > a img {
@@ -334,6 +342,7 @@ body {
       transform: translateX(0%);
     }
     100% {
+      /* transform: translateX(-104%); */
       transform: translateX(-100%);
     }
   }
@@ -341,7 +350,7 @@ body {
 
   /* 組み替え版 */
   .logo-track li {
-    margin-right: 80px;
+    /* margin-right: 80px; */
     flex-shrink: 0;
   }
 
@@ -383,6 +392,7 @@ body {
 
   .logo-track .logo-10 img {
     height: 75px;
+    margin-right: 80px;
   }
 
 
