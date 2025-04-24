@@ -33,13 +33,18 @@ body {
     
 
     /* 修正後1 */
-    top: 120px;
+    top: 55px;
 
     width: 315px;
     height: 207px;
     right: 20px;
 
     /* left: 15px; */
+  }
+
+  .top-content {
+    position: relative;
+    margin-bottom: 18px;
   }
 
 
@@ -118,6 +123,9 @@ body {
     /* background-color: #FBF6EE; */
     /* background-color: #5ce0d8; */
     height: 100svh;
+
+    /* 修正後1 */
+    align-content: center;
   }
 
   .top-text-box {
@@ -138,7 +146,8 @@ body {
     /* 修正版1 */
     font-size: 22px;
     line-height: 1.6;
-    padding-top: 270px;
+    /* padding-top: 270px; */
+    padding-top: 205px;
     margin-bottom: 32px;
 
 
@@ -159,6 +168,9 @@ body {
 
     /* 修正後1 */
     font-size: 12px;
+    margin-bottom: 36px;
+
+    /* 修正後2 */
     margin-bottom: 40px;
 
 
@@ -199,9 +211,9 @@ body {
 
   /* 修正後1 */
   .top-text-box .news-item p.top-news-tag {
-    font-size: 6px;
+    font-size: 5px;
     margin-bottom: 0px;
-    padding: 3px 8px 2px;
+    padding: 2.5px 8px;
   }
 
   .sec-top .news-time {
