@@ -13,10 +13,10 @@ body {
 
 @media screen and (min-width: 320px) and (max-width: 600px) {
   /* スマホサイズのみ */
-  .top-hiro-text {
+  /* .top-hiro-text {
     height: 100svh;
     align-content: end;
-  }
+  } */
 }
 
 @media screen and (min-width: 320px) {
@@ -30,14 +30,16 @@ body {
     height: 220px;
     right: 10px;
     top: 75px;
+    
 
     /* 修正後1 */
-    top: 96px;
+    top: 120px;
 
-    /* width: 400px;
-    height: 263px;
-    left: 15px; */
-    /* overflow: hidden; */
+    width: 315px;
+    height: 207px;
+    right: 20px;
+
+    /* left: 15px; */
   }
 
 
@@ -46,6 +48,7 @@ body {
     height: 100%;
     object-fit: cover;
     overflow: hidden;
+    opacity: 0.8;
 
 
     /* object-position: 8% 50%; */
@@ -114,6 +117,7 @@ body {
     max-width: 100vw;
     /* background-color: #FBF6EE; */
     /* background-color: #5ce0d8; */
+    height: 100svh;
   }
 
   .top-text-box {
@@ -122,28 +126,25 @@ body {
 
   .top-text-box h1 {
     position: relative;
-    /* font-size: 45px; */
     font-weight: bold;
-    /* padding-top: 265px; */
-    /* padding-top: 83vh; */
-    /* padding-top: 100vh; */
     margin-bottom: 18px;
     letter-spacing: 0.1em;
-    /* line-height: 1.1em; */
     z-index: 3;
     padding-top: 270px;
-    /* font-size: 40px; */
     line-height: 1.2em;
+    /* font-size: 36px; */
+    /* line-height: 1.35; */
+
+    /* 修正版1 */
+    font-size: 22px;
+    line-height: 1.6;
+    padding-top: 270px;
+    margin-bottom: 32px;
 
 
-    /* 修正後1 */
-    font-size: 36px;
-    line-height: 1.35;
-    /* padding-top: 0px; */
 
 
-    /* 修正後2 */
-    /* font-size: 34px; */
+
 
   }
 
@@ -157,13 +158,9 @@ body {
 
 
     /* 修正後1 */
-    margin-bottom: 52px;
-    /* font-size: 15px; */
+    font-size: 12px;
+    margin-bottom: 40px;
 
-
-    /* 修正後2 */
-    /* margin-bottom: 64px; */
-    /* font-size: 16px; */
 
   }
 
@@ -185,8 +182,14 @@ body {
     background-color: #fff;
     border: 1px solid #DADADA;
     font-size: 13px;
-    /* font-weight: bold; */
     font-weight: 500;
+
+    /* 修正後1 */
+    max-width: 250px;
+    font-size: 9px;
+    padding: 12px 14px 10px;
+
+
   }
 
   .sec-top .news-item p {
@@ -194,30 +197,45 @@ body {
     margin-bottom: 0.5px;
   }
 
+  /* 修正後1 */
+  .top-text-box .news-item p.top-news-tag {
+    font-size: 6px;
+    margin-bottom: 0px;
+    padding: 3px 8px 2px;
+  }
+
   .sec-top .news-time {
     color: #A7A2A9;
     font-family: 'Noto Sans';
-    /* font-weight: bold;
-    font-size: 14px; */
     letter-spacing: 0.07em;
     font-weight: 500;
+
+    /* 修正後1 */
+    font-size: 9px;
   }
 
   .sec-top .news-text {
     border-bottom: solid 1px #E6E6E6;
     padding-bottom: 13px;
-    /* margin-top: 5px; */
     margin-top: 9px;
     letter-spacing: 0.09em;
+
+    /* 修正後1 */
+    padding-bottom: 10px;
+
   }
 
   .sec-top .news .news-view p {
     color: #39cac0;
     text-align: right;
     margin-top: 10px;
-    /* font-size: 15px; */
     font-size: 12px;
     letter-spacing: 0.1em;
+
+    /* 修正後1 */
+    font-size: 8px;
+    margin-top: 8px;
+
   }
 
   /* ==================== 企業アニメーション ================== */
