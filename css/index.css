@@ -293,15 +293,8 @@ body {
   }
 
   .company-logo img {
-    /* height: 87px; */
     height: 115px;
-
-    /* box-shadow: 0 10px 25px 0 rgba(126, 126, 126, 0.3); */
-    /* padding-top: 35px; */
-    /* background-color: #f4f8f9; */
     padding: 15px 0;
-
-    /* 提案 */
     margin-bottom: 20px;
   }
 
