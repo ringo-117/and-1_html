@@ -744,7 +744,7 @@ body {
     font-size: 50px;
     padding-top: 510px;
     /* 18px */
-    /* padding-top: 503px; */
+    padding-top: 503px;
 
 
     /* font-size: 52px;
@@ -779,9 +779,9 @@ body {
 
     /* font-size: 14px; */
 
-    font-size: 16px;
+    /* font-size: 16px; */
     /* font-size: 17px; */
-    /* font-size: 18px; */
+    font-size: 18px;
     line-height: 2.2;
     margin-bottom: 32px;
 
