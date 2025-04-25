@@ -1216,6 +1216,18 @@ body {
     /* margin-left: 355px; */
   }
 
+  .top-img img{
+    width: 100%; /* APNGのサイズに合わせる */
+    height: 100%;
+    object-fit: cover;
+    /* overflow: hidden; */
+    /* opacity: 0.85; */
+    /* width: 495px;
+    height: 325px;
+    left: -10px; */
+    padding-right: 0px;
+  }
+
   .top-img .top-01 {
     /* width: 215px;
     height: 193px;
