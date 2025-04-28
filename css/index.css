@@ -1320,13 +1320,20 @@ body {
   　　　TB_トップ−２
   ==============================================================*/
   .top-img {
-    width: 940px;
-    height: 651px;
+    width: 930px;
+    height: 610px;
     top: 95px;
     padding-right: 85px;
   }
 
-  .top-img .top-01 {
+  .top-img img {
+    width: 930px;
+    height: 610px;
+    top: 95px;
+    padding-right: 85px;
+  }
+
+  /* .top-img .top-01 {
     width: 245px;
     height: 219px;
   }
@@ -1353,7 +1360,7 @@ body {
     height: 530px;
     top: 120px;
     left: 332px;
-  }
+  } */
   
 
 
