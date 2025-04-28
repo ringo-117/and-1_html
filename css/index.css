@@ -382,11 +382,11 @@ body {
     letter-spacing: 0.09em;
   }
 
-  /* .company-logo img {
+  .company-logo img {
     height: 115px;
     padding: 15px 0;
     margin-bottom: 20px;
-  } */
+  }
 
   .company-logo .logo-slider {
     display: flex;
@@ -1002,6 +1002,7 @@ body {
     /* font-size: 16px; */
     /* font-size: 17px; */
     /* font-size: 18px; */
+    /* font-size: 19px; */
     font-size: 19.5px;
     line-height: 2.2;
     margin-bottom: 32px;
@@ -1017,7 +1018,10 @@ body {
   } */
 
   .top-contact .contact-link {
-    width: 355px;
+    /* width: 355px; */
+    width: 330px;
+    /* width: 400px; */
+    /* width: 470px; */
     margin-bottom: 48px;
     font-size: 20px;
     padding: 22px;
