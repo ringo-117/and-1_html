@@ -1217,6 +1217,8 @@ body {
 
   .sol-box {
     width: 305px;
+    margin-left: 100%;
+
   }
 
   .slider-item {
@@ -1231,9 +1233,9 @@ body {
 
     padding: 0 60px 0 20px;
     align-content: center;
-    width: 260px;
-    height: 110px;
-    margin: 0 15px 130px;
+    width: 265px;
+    height: 115px;
+    margin: 0 15px 120px;
   }
 
   .sol-box img {
@@ -1389,17 +1391,10 @@ body {
 
   .slider-item p {
     padding: 0 57px 0 20px;
-    width: 260px;
-    height: 130px;
+    width: 265px;
+    height: 115px;
     margin: 0 15px 130px;
   }
-
-  .slider-item {
-    margin: 0 100px 0 185px;
-  }
-
-  
-
 
 }
 
@@ -1708,6 +1703,7 @@ body {
 
   .sec-sol-title p {
     font-size: 20px;
+    margin: auto;
     margin-bottom: 60px;
   }
 
@@ -1724,7 +1720,11 @@ body {
     width: 300px;
     height: 280px;
     /* margin-left: 50px; */
-    margin-left: 22%;
+    /* margin: auto; */
+    /* margin-left: 22%; */
+    margin-left: -116%;
+    /* margin: 0 15px 0px; */
+
   }
 
   .slider-item p {
