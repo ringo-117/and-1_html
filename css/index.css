@@ -1722,7 +1722,7 @@ body {
     /* margin-left: 50px; */
     /* margin: auto; */
     /* margin-left: 22%; */
-    margin-left: -116%;
+    margin-left: -100%;
     /* margin: 0 15px 0px; */
 
   }
@@ -1771,6 +1771,8 @@ body {
     margin-top: 15px;
     /* margin-right: 55px; */
     border-radius: 50px;
+    margin-top:  10px;
+
   }
   .news-info-box p {
     font-size: 13px;
