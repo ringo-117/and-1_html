@@ -1135,6 +1135,11 @@ body {
     margin-top: 0;
   }
 
+  /* 改行高さ調整 */
+  .ser-text p.text-margin {
+    height: 75.56px;
+  }
+
   .ser-01 .ser-box {
     margin-top: 30px;
 }
@@ -1192,7 +1197,6 @@ body {
   .sol-bg {
     padding: 80px 20px;
   }
-  
 
   .sec-solutions {
     padding: 50px 0 65px;
@@ -1215,17 +1219,31 @@ body {
     width: 305px;
   }
 
+  .slider-item {
+    margin: 0 150px;
+  }
+
   .slider-item p {
     font-size: 13px;
-    width: 180px;
-    height: 220px;
-    padding: 23px 65px 25px 20px;
+    /* width: 180px; */
+    /* height: 220px; */
+    /* padding: 23px 65px 25px 20px; */
+
+    padding: 0 60px 0 20px;
+    align-content: center;
+    width: 260px;
+    height: 110px;
+    margin: 0 15px 130px;
   }
 
   .sol-box img {
-    height: 200px;
-    top: 35px;
-    left: 180px;
+    /* height: 200px; */
+    top: 25px;
+    /* left: 180px; */
+    left: 220px;
+
+    height: 170px;
+
   }
 
   /*==============================================================
@@ -1239,11 +1257,19 @@ body {
     padding: 83px 0 120px;
   }
 
+  .news-title-box {
+    align-items: center;
+
+  }
+
   /* 一覧ボタン */
   .news-title-box .news-btn {
     width: 180px;
     max-height: 55px;
-    margin-top: 10px;
+    height: 55px;
+    /* margin-top: 10px; */
+    margin-bottom: 25px;
+    margin-top:  2px;
     margin-right: 55px;
   }
   .news-title-box .news-info-box {
@@ -1314,7 +1340,7 @@ body {
     align-content: end;
   }
   /*==============================================================
-  　　　TB_トップ−２
+  　　　TB−２_トップ
   ==============================================================*/
   .top-img {
     width: 930px;
@@ -1352,9 +1378,6 @@ body {
     top: 112px;
     left: 332px;
   }
-  
-
-
 
   .top-contact .contact-link {
     width: 330px;
@@ -1363,6 +1386,21 @@ body {
     padding: 22px;
     border-radius: 50px;
   }
+
+  .slider-item p {
+    padding: 0 57px 0 20px;
+    width: 260px;
+    height: 130px;
+    margin: 0 15px 130px;
+  }
+
+  .slider-item {
+    margin: 0 100px 0 185px;
+  }
+
+  
+
+
 }
 
 @media screen and (min-width: 1081px) {
@@ -1591,6 +1629,11 @@ body {
     margin: 0 70px;
   }
 
+  /* 改行高さ調整 */
+  .ser-text p.text-margin {
+    height: auto;
+  }
+
   .sec-title h2 {
     font-size: 75px;
     margin: 0;
@@ -1696,7 +1739,7 @@ body {
 
   .sol-box img {
     top: 20px;
-    left: 230px;
+    left: 238px;
   }
 
   /*==============================================================
