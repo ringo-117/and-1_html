@@ -62,15 +62,12 @@ body {
 
     /* 再調整版 */
     /* top: 67px; */
-
-
   }
 
   .top-content {
     position: relative;
     margin-bottom: 8px;
   }
-
 
   .top-img img{
     width: 100%; /* APNGのサイズに合わせる */
@@ -1323,44 +1320,38 @@ body {
     width: 930px;
     height: 610px;
     top: 95px;
-    padding-right: 85px;
+    /* padding-right: 85px; */
   }
 
-  .top-img img {
-    width: 930px;
-    height: 610px;
-    top: 90px;
-    padding-right: 85px;
-  }
-
-  /* .top-img .top-01 {
-    width: 245px;
-    height: 219px;
+  .top-img .top-01 {
+    width: 231px;
+    height: 206.5px;
+    left: 233px;
   }
   .top-img .top-02 {
-    width: 409px;
-    height: 338px;
-    top: -7px;
-    left: 465px;
+    width: 377px;
+    height: 312px;
+    top: -0px;
+    left: 463px;
   }
   .top-img .top-03 {
-    width: 500px;
-    height: 500px;
-    top: -1px;
-    left: -60px;
+    width: 470px;
+    height: 470px;
+    top: 0px;
+    left: -35px;
   }
   .top-img .top-04 {
-    width: 238px;
-    height: 211px;
-    top: 440px;
-    left: 680px;
+    width: 217px;
+    height: 192.5px;
+    top: 417px;
+    left: 661px;
   }
   .top-img .top-05 {
-    width: 530px;
-    height: 530px;
-    top: 120px;
+    width: 500px;
+    height: 500px;
+    top: 112px;
     left: 332px;
-  } */
+  }
   
 
 
