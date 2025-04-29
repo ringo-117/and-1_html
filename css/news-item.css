@@ -152,7 +152,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: solid 1.5px #efefef;
+    border: solid 1.5px #dadada;
     background-color: #fff;
     border-radius: 25px;
     width: 210px;
@@ -165,7 +165,9 @@ body {
   }
 
   .news-all-btn .link-box {
-    border: solid 1px #39cac0;
+    /* border: solid 1px #39cac0; */
+    border: solid 1.5px #efefef;
+    /* border: solid 1px #DADADA; */
     margin-top: 50px;
   }
 

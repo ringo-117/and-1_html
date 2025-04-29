@@ -873,7 +873,7 @@ html {
 
   .con-box .con-box-title {
     font-size: 24px;
-    line-height: 1.5;
+    line-height: 1.48;
   }
 
   .con-box {
@@ -897,9 +897,21 @@ html {
     z-index: 3;
   }
 
-  .triangle-box {
-    margin-top: 20px;
+  .triangle-box .triangle {
+    border-width: 11px 0 11px 19.1px;
   }
+
+  .triangle-box {
+    grid-template-columns: 22px 22px;
+    margin-top: 24px;
+    margin-left: 24px;
+  }
+
+  /* .triangle-box {
+    grid-template-columns: 26px 26px;
+    margin-left: 15px;
+    margin-top: 10px;
+  } */
 
    /*==============================================================
   　　TB_フッター
@@ -1009,6 +1021,10 @@ html {
   .pc-nav, .sp-tb {
     display: block;
     display: inline-block;
+  }
+
+  .con-box-title .tb-br {
+    display: none;
   }
 
   html, #top, #main, #sec-service, #sec-solutions {
@@ -1142,6 +1158,7 @@ html {
   .con-box .con-box-title {
     font-size: 30px;
     margin-bottom: 80px;
+    line-height: 1.5;
   }
 
   .triangle-box .triangle {
