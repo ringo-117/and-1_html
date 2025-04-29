@@ -381,16 +381,22 @@ body {
   .company-logo {
     padding: 35px 0 0;
     background-color: #f4f8f9;
-    text-align: center;
-    margin-top: 40px;
+    position: relative;
     overflow: hidden;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 40px;
   }
-  
+
+  .company-logo-bg {
+    background-color: #f4f8f9;
+  }
+
   .company-logo h2 {
     font-size: 22px;
     margin-bottom: 10.5px;
   }
-  
+
   .company-logo p {
     font-size: 11px;
     color: #39cac0;
@@ -406,7 +412,7 @@ body {
   
   .logo-track {
     display: flex;
-    width: 200%; /* 無限ループ用：2セット分の幅 */
+    /* width: 200%; 無限ループ用：2セット分の幅 */
     animation: scroll 40s linear infinite;
   }
   
@@ -415,7 +421,7 @@ body {
       transform: translateX(0);
     }
     100% {
-      transform: translateX(-2477px); /* 2セット中の1セット分を左へ */
+      transform: translateX(-2040px); /* 2セット中の1セット分を左へ */
     }
   }
   
