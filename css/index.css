@@ -413,7 +413,7 @@ body {
   .logo-track {
     display: flex;
     /* width: 200%; 無限ループ用：2セット分の幅 */
-    animation: scroll 40s linear infinite;
+    animation: scroll 20s linear infinite;
     /* -webkit-backface-visibility:hidden;
     backface-visibility:hidden; */
   }
@@ -423,7 +423,7 @@ body {
       transform: translateX(0);
     }
     100% {
-      transform: translateX(-2040px); /* 2セット中の1セット分を左へ */
+      transform: translateX(-2041px); /* 2セット中の1セット分を左へ */
     }
   }
   
@@ -1573,7 +1573,7 @@ body {
     transform: translateX(0);
   }
   100% {
-    transform: translateX(-2477px); /* 2セット中の1セット分を左へ */
+    transform: translateX(-2160px); /* 2セット中の1セット分を左へ */
   }
 }
 
