@@ -404,11 +404,11 @@ body {
     letter-spacing: 0.09em;
   }
 
-  .company-logo img {
+  /* .company-logo img {
     height: 115px;
     padding: 15px 0;
     margin-bottom: 20px;
-  }
+  } */
 
   .company-logo .logo-slider {
     display: flex;
@@ -461,7 +461,7 @@ body {
 
 
   /* 組み替え版 */
-  /* .logo-track li {
+  .logo-track li {
     flex-shrink: 0;
   }
 
@@ -504,7 +504,7 @@ body {
   .logo-track .logo-10 img {
     height: 75px;
     margin-right: 80px;
-  } */
+  }
 
 
 
@@ -1606,9 +1606,61 @@ body {
   }
 
   /* 上下の線追加スタイル */
-  .company-logo img {
+  /* .company-logo img {
     height: 125px;
     padding: 16px 0;
+  } */
+
+  .company-logo .logo-slider {
+    padding: 0;
+    margin-top: 16px;
+    margin-bottom: 0;
+}
+
+/* .company-logo ul {
+  gap: 85px;
+} */
+
+  /* 組み替え版 */
+  .logo-track .logo-01 img {
+    height: 37px;
+  }
+
+  .logo-track .logo-02 img {
+    height: 75px;
+  }
+
+  .logo-track .logo-03 img {
+    height: 43px;
+  }
+
+  .logo-track .logo-04 img {
+    height: 45px;
+  }
+
+  .logo-track .logo-05 img {
+    height: 48px;
+  }
+
+  .logo-track .logo-06 img {
+    height: 60px;
+  }
+
+  .logo-track .logo-07 img {
+    height: 42px;
+  }
+
+  .logo-track .logo-08 img {
+    height: 30px;
+  }
+
+  .logo-track .logo-09 img {
+    height: 42px;
+  }
+
+  .logo-track .logo-10 img {
+    height: 82px;
+    margin-right: 80px;
   }
 
   /*==============================================================
