@@ -417,18 +417,18 @@ body {
 
     -webkit-backface-visibility:hidden;
     backface-visibility:hidden;
-    transform-style: preserve-3d;
+    /* transform-style: preserve-3d; */
     will-change: transform;
   }
   
-  /* @keyframes scroll {
+  @keyframes scroll {
     0% {
       transform: translateX(0);
     }
     100% {
-      transform: translateX(-2041px); 2セット中の1セット分を左へ
+      transform: translateX(-2041px); /* 2セット中の1セット分を左へ */
     }
-  } */
+  }
 
   .company-logo ul li > a img {
     transition: 0.4s;
@@ -437,14 +437,14 @@ body {
     max-width: 100% !important;
   }
 
-  @keyframes scroll {
+  /* @keyframes scroll {
     0% {
       transform: translate3d(0, 0, 0);
     }
     100% {
       transform: translate3d(-2041px, 0, 0);
     }
-  }
+  } */
 
   .logos {
     flex-shrink: 0;
