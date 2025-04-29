@@ -414,6 +414,8 @@ body {
     display: flex;
     /* width: 200%; 無限ループ用：2セット分の幅 */
     animation: scroll 40s linear infinite;
+    -webkit-backface-visibility:hidden;
+    backface-visibility:hidden;
   }
   
   @keyframes scroll {
