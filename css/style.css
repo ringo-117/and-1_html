@@ -859,6 +859,7 @@ html {
   .sec-con-title p {
     font-size: 15px;
     margin-bottom: 45px;
+
   }
 
   .con-box-all {
@@ -874,6 +875,11 @@ html {
   .con-box .con-box-title {
     font-size: 24px;
     line-height: 1.48;
+    letter-spacing: 0.05em;
+  }
+
+  .con-box .con-box-title span {
+    letter-spacing: 0.1em;
   }
 
   .con-box {
@@ -1159,6 +1165,7 @@ html {
     font-size: 30px;
     margin-bottom: 80px;
     line-height: 1.5;
+    letter-spacing: 0.03em;
   }
 
   .triangle-box .triangle {
