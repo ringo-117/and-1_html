@@ -411,24 +411,28 @@ body {
   } */
 
   .company-logo .logo-slider {
-    display: flex;
+    /* display: flex; */
 
     height: 115px;
     padding: 15px 0;
     margin-bottom: 20px;
     position: relative;
 
+    white-space: nowrap;
   }
 
   .text_scroll {
     /* animation: scroll 40s linear infinite; */
-    animation: scroll 20s linear infinite;
-    transform: translateX(0);
+    /* animation: scroll 20s linear infinite; */
+    /* transform: translateX(0); */
     will-change: transform;
-    animation-delay: 0.05s;
   }
 
   .logo-track {
+    display: flex;
+    
+    animation: scroll 20s linear infinite;
+
     backface-visibility: hidden;
     transform-style: preserve-3d;
     will-change: transform;
@@ -440,6 +444,9 @@ body {
 
   .company-logo ul li {
     display: inline-block;
+
+    flex-shrink: 0;
+    list-style: none;
   }
 
   .company-logo ul {
@@ -451,12 +458,12 @@ body {
     gap: 80px;
   }
 
-  .company-logo ul li > a img {
+  /* .company-logo ul li > a img {
     transition: 0.4s;
   }
   .company-logo ul li > a img {
     max-width: 100% !important;
-  }
+  } */
 
   /* @keyframes scroll {
     0% {
@@ -472,7 +479,7 @@ body {
       transform: translate3d(0, 0, 0);
     }
     100% {
-      transform: translate3d(-100%, 0, 0);
+      transform: translate3d(-50%, 0, 0);
     }
   }
 
