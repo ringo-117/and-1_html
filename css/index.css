@@ -421,9 +421,16 @@ body {
   }
 
   .text_scroll {
-    animation: scroll 40s linear infinite;
-    will-change: transform;
+    /* animation: scroll 40s linear infinite; */
+    animation: scroll 20s linear infinite;
     transform: translateX(0);
+    will-change: transform;
+  }
+
+  .logo-track {
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+    will-change: transform;
   }
 
   .logos {
