@@ -408,12 +408,15 @@ body {
     height: 115px;
     position: relative;
     white-space: nowrap;
+
+    overflow: hidden;
+    width: 100%;
   }
   
   .logo-track {
     display: flex;
     /* width: 200%; 無限ループ用：2セット分の幅 */
-    animation: scroll 20s linear infinite;
+    /* animation: scroll 20s linear infinite; */
 
     -webkit-backface-visibility:hidden;
     backface-visibility:hidden;
@@ -421,21 +424,21 @@ body {
     will-change: transform;
   }
   
-  @keyframes scroll {
+  /* @keyframes scroll {
     0% {
       transform: translateX(0);
     }
     100% {
-      transform: translateX(-2041px); /* 2セット中の1セット分を左へ */
+      transform: translateX(-2041px); 2セット中の1セット分を左へ
     }
-  }
+  } */
 
-  .company-logo ul li > a img {
+  /* .company-logo ul li > a img {
     transition: 0.4s;
   }
   .company-logo ul li > a img {
     max-width: 100% !important;
-  }
+  } */
 
   /* @keyframes scroll {
     0% {
@@ -455,13 +458,19 @@ body {
     margin: 0;
     display: flex;
     align-items: center;
-    gap: 80px;
+    /* gap: 80px; */
   }
   
   .company-logo ul li {
     display: inline-block;
     list-style: none;
     flex-shrink: 0;
+  }
+
+  .company-logo ul li img {
+    height: 100%;
+    width: auto;
+    margin-right: 80px;
   }
   
   /* ロゴごとの高さ調整 */
