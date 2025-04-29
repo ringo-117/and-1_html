@@ -414,8 +414,8 @@ body {
     display: flex;
     /* width: 200%; 無限ループ用：2セット分の幅 */
     animation: scroll 40s linear infinite;
-    -webkit-backface-visibility:hidden;
-    backface-visibility:hidden;
+    /* -webkit-backface-visibility:hidden;
+    backface-visibility:hidden; */
   }
   
   @keyframes scroll {
@@ -1567,6 +1567,15 @@ body {
 /* .company-logo ul {
   gap: 85px;
 } */
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-2477px); /* 2セット中の1セット分を左へ */
+  }
+}
 
   /* 組み替え版 */
   .logo-track .logo-01 img {
