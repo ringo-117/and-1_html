@@ -61,6 +61,7 @@ html {
     padding: 0 20px 0;
     top: 0;
     z-index: 20;
+    box-shadow: 0px 0px 15px -6px #777777;
   }
 
   .header.active {
