@@ -42,7 +42,7 @@
 const track = document.getElementById('logoTrack');
 
 // スクロール用の速度 (px / 秒)
-const SPEED = 40; // 100px per second
+const SPEED = 35; // 100px per second
 
 // 元の1セット分の幅（複製前に取得！）
 let trackWidth = 0;
