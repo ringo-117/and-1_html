@@ -110,7 +110,6 @@ html {
     background-color: #23221F;
     width: 25px;
     margin-right: 2.5px;
-
   }
 
   .btn.active i:nth-of-type(2){
@@ -122,8 +121,6 @@ html {
     background-color: #23221F;
     width: 25px;
     margin-right: 2.5px;
-
-
   }
 
   /* メニューのデザイン*/
@@ -690,9 +687,9 @@ html {
     padding: 0 20px 0 22px;
   }
 
-  .header.active {
+  /* .header.active {
     background-color: #4689E3;
-  }
+  } */
 
   /* .header-logo {
     font-size: 20px;
@@ -731,8 +728,23 @@ html {
     width: 35px;
   }
 
-  /* メニューのデザイン*/
+  .btn.active i:nth-of-type(1){
+    transform: translateY(8px) rotate(45deg);
+    width:30px;
+    margin-right: 0px;
+  }
 
+  .btn.active i:nth-of-type(2){
+    opacity: 0;
+  }
+
+  .btn.active i:nth-of-type(3){
+    transform: translateY(-8px) rotate(-45deg);
+    width: 30px;
+    margin-right: 0px;
+  }
+
+  /* メニューのデザイン*/
   .container {
     align-content: center;
   }
@@ -773,6 +785,10 @@ html {
     grid-area: box5;
   }
 
+  .nav-box {
+    border-bottom: none;
+  }
+
   .nav-box .title-text{
     font-size: 20px;
     margin-bottom: 10px;
@@ -783,7 +799,7 @@ html {
 
   .nav-link {
     font-size: 18px;
-    border-top: 1px solid #23221F;
+    border-top: solid 1px #DADADA;
     padding-top: 15px;
   }
 
@@ -812,9 +828,9 @@ html {
     display: none;
   }
 
-  .btn.active + .header {
+  /* .btn.active + .header {
     background-color: #4689E3;
-  }
+  } */
 
   .nav-btn {
     padding: 20px 0;
