@@ -64,7 +64,8 @@ html {
   }
 
   .header.active {
-    background-color: #4cd5cc !important;
+    /* background-color: #4cd5cc !important; */
+    border-bottom: solid 1px #DADADA;
   }
 
   .logo-img {
@@ -107,6 +108,9 @@ html {
   .btn.active i:nth-of-type(1){
     transform: translateY(8px) rotate(45deg);
     background-color: #23221F;
+    width: 25px;
+    margin-right: 2.5px;
+
   }
 
   .btn.active i:nth-of-type(2){
@@ -116,6 +120,10 @@ html {
   .btn.active i:nth-of-type(3){
     transform: translateY(-8px) rotate(-45deg);
     background-color: #23221F;
+    width: 25px;
+    margin-right: 2.5px;
+
+
   }
 
   /* メニューのデザイン*/
@@ -126,7 +134,7 @@ html {
     top: 0;
     left: 0;
     z-index: 9;
-    background: #4cd5cc;
+    background: #ffffff;
     transition: .5s;
     opacity: 0;
     overflow: hidden;
@@ -141,43 +149,48 @@ html {
 
   /* メニュー黒ポチを消す */
   .sp-nav .nav-list {
-    margin: 70px 40px 30px 0;
-    padding: 60px 30px 50px 20px;
+    /* margin: 70px 40px 30px 0; */
+    padding: 56px 16px 0;
     list-style: none;
-    background-color: #fff;
-    border-radius: 0 20px 20px 0;
+    /* background-color: #f3e4b7; */
+    /* border-radius: 0 20px 20px 0; */
   }
 
   .nav-box {
-    margin-bottom: 30px;
-    margin-right: 3px;
+    /* margin-bottom: 30px;
+    margin-right: 3px; */
+    border-bottom: solid 1px #DADADA;
   }
 
   .nav-box .title-text,
   .nav-btn .title-text {
-    font-size: 15px;
+    font-size: 16px;
     color: #23221F;
     font-weight: bold;
     letter-spacing: 0.12em;
   }
 
-  .nav-btn .title-text {
-    font-size: 13px;
-    color: #fff;
-    font-weight: normal;
-    font-weight: bolder;
-  }
+  
 
   .nav-link {
-    padding: 13px 0 0;
     font-size: 14px;
     color: #23221F;
-    line-height: 2.5em;
+    /* line-height: 2.5em; */
+    font-weight: bold;
+    padding: 0 16px 40px;
   }
 
   .nav-link a {
+    padding: 12px 0;
     display: block;
     display: flex;
+    align-items: center;
+  }
+
+  .nav-link .nav-arrow {
+    width: 14px;
+    height: 11px;
+    margin-left: 8px;
   }
 
   .toggle {
@@ -193,8 +206,8 @@ html {
   }
 
   .nav-title {
-    border-bottom: solid 1px #23221F;
-    padding: 0 10px 12px 7px;
+    /* border-bottom: solid 1px #23221F; */
+    padding: 24px 16px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -202,7 +215,7 @@ html {
 
   .icon_toggle {
     width: 15px;
-    height: 15px;
+    /* height: 15px; */
     transition: all 0.3s;
   }
 
@@ -223,31 +236,44 @@ html {
 
   .nav-btn {
     position: relative;
-    padding: 11px 0;
+    padding: 14px 50px 14px 40px;
     display: flex;
     justify-content: center;
     border-radius: 25px;
-    margin: 20px 25px 0;
+    /* margin: 20px 25px 0; */
     align-items: center;
     background-color: #4cd5cc;
   }
 
-  .nav-btn .nav-arrow {
-    position: absolute;
-    width: 16px;
-    height: 16px;
-    right: 16px;
-  }
-
-  .nav-btn .nav-arrow.mail {
-    width: 16px;
-    height: 12px;
-    right: 16px;
+  .nav-btn .title-text {
+    font-size: 16px;
+    color: #fff;
+    font-weight: normal;
+    font-weight: 500;
   }
 
   .nav-contact-btn {
-    margin-top: 75px;
-    margin-bottom: 30px;
+    /* margin-top: 75px;
+    margin-bottom: 30px; */
+    display: flex;
+    flex-direction: column;
+    padding: 32px 0;
+    gap: 20px;
+  }
+
+  .nav-btn .nav-arrow-bg {
+    position: absolute;
+    right: 20px;
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: grid;
+    place-content: center;
+  }
+
+  .nav-btn .nav-arrow {
+    width: 12px;
   }
 
 
