@@ -1169,7 +1169,7 @@ body {
   .ser-img-box {
     margin: 0 auto;
     justify-items: center;
-    padding-right: 8px;
+    /* padding-right: 8px; */
   }
 
   .ser-img-box p {
@@ -1216,7 +1216,8 @@ body {
   }
 
   .ser-img-box img {
-    margin-left: 20px;
+    /* margin-left: 20px; */
+    margin-left: 0px;
   }
 
   /*==============================================================
