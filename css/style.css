@@ -837,10 +837,6 @@ html {
     display: none;
   }
 
-  /* .btn.active + .header {
-    background-color: #4689E3;
-  } */
-
   .nav-btn {
     /* padding: 20px 0; */
     border-radius: 50px;
@@ -869,26 +865,8 @@ html {
     width: 14.5px;
   }
 
-  /* .nav-btn .nav-arrow.mail {
-    width: 22px;
-    height: 17px;
-    right: 40px;
-  } */
-
   .nav-contact-btn {
-    /* margin-top: 85px; */
-    /* 提案１ */
-    margin-top: 56px;
-
-    /* 提案2 */
     margin-top: 52px;
-
-    /* 提案3 */
-    /* margin-top: 48px; */
-
-
-
-    /* margin-bottom: 20px; */
     max-width: 650px;
     /* position: relative; */
     justify-self: center;
@@ -944,7 +922,6 @@ html {
   .sec-con-title p {
     font-size: 15px;
     margin-bottom: 45px;
-
   }
 
   .con-box-all {
@@ -1179,6 +1156,7 @@ html {
     grid-template-rows: auto;
     gap:28px;
     list-style: none;
+    margin-right: -28px;
   }
 
   .nav-item {
@@ -1420,6 +1398,53 @@ html {
 
   .footer-copy {
     margin-top: 0;
+  }
+
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1400px) {
+  /* パソコン用レイアウト 1024px以上の範囲に収めるデザインはこの中に記述 */
+
+  .header {
+    height: 110px;
+    padding: 0 40px 0 50px;
+  }
+  /*==============================================================
+  　　TB横_CONTACT お問い合わせ
+  ==============================================================*/
+  .sec-con-title h2 {
+    /* top: -35px; */
+    font-size: 75px;
+  }
+
+  .sec-con-title p {
+    /* font-size: 15px; */
+    /* margin-bottom: 45px; */
+    padding-top: 57px;
+  }
+
+  .con-box-all {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    /* margin: 0 20px; */
+    /* max-width: 1300px; */
+    /* padding: 50px 20px; */
+  }
+
+  .con-box {
+    margin: 0;
+    padding: 55px 30px 65px 35px;
+  }
+
+  .sec-contact img {
+    width: 190px;
+  }
+
+  .con-box .con-img {
+    top: 135px;
+    left: 60%;
+    z-index: 3;
   }
 
 }

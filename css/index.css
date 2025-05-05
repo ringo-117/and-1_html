@@ -994,14 +994,14 @@ body {
     /* line-height: 1.3em; */
     /* margin-bottom: 17px; */
 
-    font-size: 50px;
-    padding-top: 510px;
+    /* font-size: 50px; */
+    /* padding-top: 510px; */
     /* 18px */
-    padding-top: 503px;
+    /* padding-top: 503px; */
 
 
     font-size: 52px;
-    padding-top: 505px;
+    /* padding-top: 505px; */
     /* 18px */
     /* padding-top: 500px; */
     /* 17px */
@@ -1358,7 +1358,7 @@ body {
 }
 
 @media screen and (min-width: 820px) {
-  /* タブレット（ipad Air 820×1180）用レイアウト 820px以上の範囲に収めるデザインはこの中に記述 */
+  /* タブレット縦（ipad Air 820×1180）用レイアウト 820px以上の範囲に収めるデザインはこの中に記述 */
   .top-hiro-text {
     height: 100svh;
     align-content: end;
@@ -1366,11 +1366,23 @@ body {
   /*==============================================================
   　　　TB−２_トップ
   ==============================================================*/
+  
   .top-img {
     width: 930px;
+    /* width: 1000px; */
     height: 610px;
     top: 95px;
     /* padding-right: 85px; */
+    right: 0px;
+    /* padding-right: 0px; */
+
+  }
+
+  .top-img img {
+    width: 100%; /* APNGのサイズに合わせる */
+    height: 100%;
+    object-fit: cover;
+    padding-right: 0px;
   }
 
   .top-img .top-01 {
@@ -1420,8 +1432,11 @@ body {
 
 }
 
-@media screen and (min-width: 1081px) {
+@media screen and (min-width: 1024px) {
   /* パソコン用レイアウト 1081px以上の範囲に収めるデザインはこの中に記述 */
+  .sec-top {
+    height: 100vh;
+  }
   /*==============================================================
   　　PC_トップ
   ==============================================================*/
@@ -1529,7 +1544,7 @@ body {
     /* max-width: 1504px; */
 
     /* 提案1 */
-    max-width: 1780px;
+    /* max-width: 1780px; */
 
     /* 小さいやつ */
     max-width: 1760px;
@@ -1542,7 +1557,8 @@ body {
     font-size: 62px;
     margin-bottom: 50px;
     line-height: 1.57;
-    padding-top: 248px;
+    /* padding-top: 248px; */
+    padding-top: 148px;
   }
 
   .top-text {
@@ -1571,9 +1587,10 @@ body {
     margin-bottom: 47px;
   }
 
-  .sec-top {
+  /* .sec-top {
     height: calc(100vh - 100px);
-  }
+    height: 100vh;
+  } */
 
   .sec-top .news {
     padding: 20px 22px;
@@ -1614,7 +1631,7 @@ body {
   .company-logo {
     /* padding: 60px 0 30px; */
     padding: 60px 0 34px;
-    margin-top: 100px;
+    margin-top: 0px;
   }
 
   .company-logo h2 {
@@ -1936,6 +1953,202 @@ body {
     width: 250px;
   }
 
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1400px) {
+  /* パソコン用レイアウト 1081px以上の範囲に収めるデザインはこの中に記述 */
+  /*==============================================================
+  　　　TB横_トップ
+  ==============================================================*/
+  .top-contact {
+    display: none;
+  }
+
+  .sec-top {
+    height: 100svh;
+    /* align-content: end; */
+  }
+
+  /* イラスト */
+  .top-img {
+    width: 52.5%; /* APNGのサイズに合わせる */
+    height: 100%;
+    /* top: 16%; */
+    top: 125px;
+    margin-left: 280px;
+
+  }
+  .top-img .top-01 {
+    width: 215px;
+    height: 193px;
+  }
+  .top-img .top-02 {
+    width:360px;
+    height: 288px;
+  }
+  .top-img .top-03 {
+    width: 437px;
+    height: 437px;
+  }
+  .top-img .top-04 {
+    width: 204px;
+    height: 181px;
+  }
+  .top-img .top-05 {
+    width: 458px;
+    height: 458px;
+  }
+
+  /* テキスト */
+  .top-text-box {
+    padding: 0 64px 45px;
+  }
+
+  .top-text-box h1 {
+    padding-top: 170px;
+    font-size: 50px;
+    line-height: 1.5;
+    /* margin-bottom: 34px; */
+    margin-bottom: 34px;
+  }
+
+  .top-text {
+    margin-bottom: 25px;
+    font-size: 16px;
+    line-height: 2.2;
+    margin-bottom: 32px;
+    margin-bottom: 44px;
+  }
+
+  /* TOPニュース */
+  .top-text-box .news-item p.top-news-tag {
+    font-size: 9px;
+    margin-bottom: 0px;
+    padding: 4px 8px;
+  }
+
+  .sec-top .news-time {
+    font-size: 13px;
+  }
+
+  .sec-top .news-text {
+    padding-bottom: 13px;
+  }
+
+  .sec-top .news-item p {
+    margin: 0 16px 1px;
+    margin-bottom: 1.2px;
+  }
+
+  .sec-top .news {
+    padding: 16px 20px 15px;
+    max-width: 355px;
+    font-size: 13px;
+    margin-top: 8px;
+  }
+
+  .sec-top .news .news-view p {
+    margin-top: 10px;
+    font-size: 12px;
+  }
+
+  /* ==================== 企業アニメーション ================== */
+  .company-logo {
+    margin-top: 0px;
+  }
+
+
+  /*==============================================================
+  　　TB横_SERVICE サービス紹介
+  ==============================================================*/
+  .sec-service {
+    padding: 120px 30px 130px;
+  }
+  .sec-title h2 {
+    font-size: 70px;
+  }
+
+  .sec-title p {
+    font-size: 18px;
+    margin-left: 32px;
+  }
+
+  .ser-img-box p {
+    font-size: 110px;
+  }
+
+  .ser-img-box .ser-img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .ser-text h3 {
+    font-size: 22px;
+    margin: 20px 0 16px;
+  }
+
+  .ser-text p {
+    font-size: 15px;
+  }
+
+  /*==============================================================
+  　　TB横_SOLUTIONS ソリューション
+  ==============================================================*/
+  .slider {
+    gap: 200px;
+  }
+  .sol-bg {
+    padding: 100px 20px;
+    justify-items: center;
+  }
+
+  .sec-sol-title h2 {
+    font-size: 70px;
+  }
+
+  .sec-sol-title p {
+    font-size: 18px;
+    margin-bottom: 56px;
+  }
+
+  .sol-text {
+    font-size: 16px;
+    margin-bottom: 52px;
+  }
+
+  .sol-box {
+    margin-left: 0px;
+  }
+
+  .slider-item {
+    margin: 0;
+  }
+
+  /* .slider-item p {
+    margin-right: 100px;
+    width: 400px;
+  } */
+
+  /* slickファイル内 */
+  /* .slick-list {
+    max-height: 280px;
+    margin: 0 100px;
+  } */
+
+  /* .slider-item {
+    padding: 0 50px;
+  } */
+
+ /*==============================================================
+  　　TB_NEWS ニュース
+  ==============================================================*/
+  .news-box {
+    padding: 60px 70px 55px 50px;
+  }
+
+
 
 
 }
+
+
