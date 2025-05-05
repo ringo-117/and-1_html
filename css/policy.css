@@ -87,6 +87,7 @@ body {
   　　PC_トップ
   ==============================================================*/
   .text-box {
+    margin: 0 auto;
     margin-top: 123px;
     max-width: 1060px;
     justify-self: center;
