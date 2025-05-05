@@ -1839,12 +1839,7 @@ body {
   .sol-box {
     width: 300px;
     height: 280px;
-    /* margin-left: 50px; */
-    /* margin: auto; */
-    /* margin-left: 22%; */
     margin-left: -100%;
-    /* margin: 0 15px 0px; */
-
   }
 
   .slider-item p {
@@ -2106,7 +2101,7 @@ body {
   /*==============================================================
   　　TB横_SOLUTIONS ソリューション
   ==============================================================*/
-  .slider {
+  /* .slider {
     gap: 200px;
   }
   .sol-bg {
@@ -2134,7 +2129,57 @@ body {
 
   .slider-item {
     margin: 0;
+  } */
+
+  /* .slider {
+    gap: 200px;
+  } */
+
+  /* .slider-item .slider-tb-margin {
+    margin: 0 220px 0 220px;
+    width: 300px;
+  } */
+
+  .slider {
+    width: 100%;
+    box-sizing: border-box;
+    overflow: visible;
   }
+
+  .sol-box {
+    /* padding: 0 100px; */
+    /* width: 300px; */
+    margin-left: 0;
+    margin-top: 0;
+    /* margin: 0 220px 0 220px; */
+    box-sizing: border-box;
+    padding: 0; /* 必要なら余白をここでつける */
+    margin: 0 auto;  /* 中央寄せ */
+
+  }
+
+  .slider-item {
+    margin: 0 300px;
+  }
+
+  .slider .slick-slide {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  .slick-track {
+    display: flex;
+    align-items: stretch;
+  }
+
+  /* .slider-img-01 .sol-box {
+    margin-left: 280px;
+  } */
+
+  /* .slick-dots {
+    margin-top: 60px;
+  } */
 
   /* .slider-item p {
     margin-right: 100px;
@@ -2143,8 +2188,7 @@ body {
 
   /* slickファイル内 */
   /* .slick-list {
-    max-height: 280px;
-    margin: 0 100px;
+    height: 290px;
   } */
 
   /* .slider-item {
