@@ -489,6 +489,7 @@ body {
     padding: 80px 57px 48px;
     width: 1060px;
     margin: 0 auto;
+    justify-items: center;
   }
 
   .sol-title {
