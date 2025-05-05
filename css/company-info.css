@@ -181,8 +181,8 @@ body {
   .map {
     max-width: 1060px;
     justify-self: center;
-    justify-items: center;
     padding: 0;
+    margin: 0 auto;
     margin-top: 60px;
   }
 
@@ -190,10 +190,10 @@ body {
   .company-link-box {
     max-width: 1060px;
     justify-self: center;
-    justify-items: center;
     grid-template-columns: 515px 515px;
     gap: 30px;
     padding: 0;
+    margin: 0 auto;
     margin: 85px 0 225px;
   }
 
