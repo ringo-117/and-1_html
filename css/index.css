@@ -2091,7 +2091,7 @@ body {
   .ser-img-box .ser-img {
     width: 200px;
     height: 200px;
-    margin-right: 6px;
+    margin-left: -6px;
   }
 
   .ser-text h3 {
