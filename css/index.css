@@ -2082,6 +2082,11 @@ body {
     font-size: 110px;
   }
 
+  .ser-img-box {
+   margin: 0 auto;
+   justify-items: center;
+}
+
   .ser-img-box .ser-img {
     width: 200px;
     height: 200px;
