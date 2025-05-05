@@ -2085,7 +2085,8 @@ body {
   .ser-img-box {
    margin: 0 auto;
    justify-items: center;
-}
+   padding-right: 6px;
+  }
 
   .ser-img-box .ser-img {
     width: 200px;
