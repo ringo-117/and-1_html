@@ -88,11 +88,13 @@ body {
   ==============================================================*/
   .text-box {
     margin: 0 auto;
-    margin-top: 123px;
+    /* margin-top: 123px; */
+    margin-top: 116px;
     max-width: 1060px;
     justify-self: center;
     padding: 0;
-    margin-bottom: 230px;
+    /* margin-bottom: 230px; */
+    margin-bottom: 200px;
   }
 
   .text-box h2 {
