@@ -2085,13 +2085,13 @@ body {
   .ser-img-box {
    margin: 0 auto;
    justify-items: center;
-   padding-right: 4px;
+   padding-right: 8px;
   }
 
   .ser-img-box .ser-img {
     width: 200px;
     height: 200px;
-    margin-right: 8px;
+    margin-right: 6px;
   }
 
   .ser-text h3 {

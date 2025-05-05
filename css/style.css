@@ -1456,6 +1456,19 @@ html {
     padding: 55px 30px 65px 35px;
   }
 
+  .con-box .con-box-title {
+    font-size: 27px;
+  }
+
+  .triangle-box {
+    margin-top: 8.5px;
+    gap: 5px;
+  }
+
+  .triangle-box .triangle {
+    border-width: 12px 0 12px 20px;
+  }
+
   .sec-contact img {
     width: 190px;
   }
