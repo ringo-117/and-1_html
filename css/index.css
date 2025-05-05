@@ -1776,6 +1776,8 @@ body {
   .ser-img-box .ser-img {
     width: 210px;
     height: 210px;
+    padding-right: 0px;
+    margin-left: 4px;
   }
 
   .ser-text h3 {
@@ -2092,7 +2094,8 @@ body {
   .ser-img-box .ser-img {
     width: 200px;
     height: 200px;
-    margin-left: -6px;
+    /* margin-left: -6px; */
+    margin-left: -4px;
   }
 
   .ser-text h3 {
