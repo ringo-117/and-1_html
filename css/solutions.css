@@ -488,6 +488,7 @@ body {
   .content-bg-02 {
     padding: 80px 57px 48px;
     width: 1060px;
+    margin: 0 auto;
   }
 
   .sol-title {
