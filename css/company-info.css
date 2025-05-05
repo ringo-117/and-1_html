@@ -193,7 +193,7 @@ body {
     grid-template-columns: 515px 515px;
     gap: 30px;
     padding: 0;
-    margin: 85px auto 225px;
+    margin: 85px 60px 225px;
   }
 
   .company-link {
