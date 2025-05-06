@@ -1181,10 +1181,10 @@ html {
     flex-shrink: 0;
   }
 
-  .top .nav-contact {
+  /* .top .nav-contact {
     padding: 21.5px 38px;
     height: 63px;
-  }
+  } */
 
   /*==============================================================
   　　PC_ページタイトル・パンクズリスト
@@ -1444,7 +1444,7 @@ html {
     height: 57px;
   }
 
-  .pc-nav .nav-list.top {
+  /* .pc-nav .nav-list.top {
     transform: scale(1.02);
     margin-right: -22px;
   }
@@ -1454,9 +1454,6 @@ html {
     font-size: 14.4px;
   }
 
-  /* .pc-nav .nav-list.top {
-    margin-top: 2px;
-  } */
 
   .top .nav-contact {
     padding: 20px 38px;
@@ -1467,7 +1464,7 @@ html {
 
   .top .nav-item {
     margin: 1px 0 0 3px;
-  }
+  } */
 
    /*==============================================================
   　　TB横_ページタイトル・パンクズリスト
