@@ -1161,6 +1161,10 @@ html {
     margin-right: -28px;
   }
 
+  .pc-nav .nav-list.top {
+    transform: scale(1.01);
+  }
+
   .nav-item {
     font-size: 14px;
     font-weight: bold;
@@ -1432,19 +1436,19 @@ html {
     height: 57px;
   }
 
-  .pc-nav .nav-list.top {
+  /* .pc-nav .nav-list.top {
     margin-top: 2px;
-  }
+  } */
 
-  .pc-nav .nav-list.top .nav-contact {
+  /* .pc-nav .nav-list.top .nav-contact {
     margin-top: -2px;
     padding: 20px 38px;
   }
 
   .top .nav-item {
-    font-size: 14px;
+    font-size: 15px;
     font-weight: bold;
-  }
+  } */
 
    /*==============================================================
   　　TB横_ページタイトル・パンクズリスト
