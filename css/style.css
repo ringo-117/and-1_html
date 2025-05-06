@@ -1443,11 +1443,11 @@ html {
 
   .pc-nav .nav-list.top {
     transform: scale(1.02);
-    margin-right: -20px;
+    margin-right: -23px;
   }
 
   .top .nav-item {
-    font-weight: 700;
+    font-weight: 800;
     font-size: 14.5px;
   }
 
@@ -1457,7 +1457,9 @@ html {
 
   .pc-nav .nav-list.top .nav-contact {
     font-size: 14.5px;
-    font-weight: 700;
+    font-weight: 800;
+    padding: 16.5px 38px;
+    height: 54px;
   }
 
   /* .top .nav-item {
