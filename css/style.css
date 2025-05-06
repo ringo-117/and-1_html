@@ -1442,12 +1442,13 @@ html {
   }
 
   .pc-nav .nav-list.top {
-    transform: scale(1.04);
+    transform: scale(1.03);
     margin-right: -15px;
   }
 
   .top .nav-item {
     font-weight: bolder;
+    font-size: 14.5px;
   }
 
   /* .pc-nav .nav-list.top {
