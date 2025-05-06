@@ -1137,6 +1137,8 @@ html {
     padding: 0 40px 0 50px;
     display: grid;
     grid-template-columns: auto auto;
+    /* border-bottom: solid 1px #DADADA; */
+
   }
 
   /* .header-logo {
@@ -1425,14 +1427,24 @@ html {
   /*==============================================================
   　　TB横_ヘッダー
   ==============================================================*/
-  /* .nav-contact {
+  .nav-contact {
     padding: 18.5px 38px;
     height: 57px;
-  } */
+  }
 
-  /* .nav-contact.top {
+  .pc-nav .nav-list.top {
+    margin-top: 2px;
+  }
+
+  .pc-nav .nav-list.top .nav-contact {
+    margin-top: -2px;
     padding: 20px 38px;
-  } */
+  }
+
+  .top .nav-item {
+    font-size: 14px;
+    font-weight: bold;
+  }
 
    /*==============================================================
   　　TB横_ページタイトル・パンクズリスト
