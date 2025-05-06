@@ -1161,13 +1161,12 @@ html {
     margin-right: -28px;
   }
 
-  .pc-nav .nav-list.top {
-    transform: scale(1.01);
-  }
+  
 
   .nav-item {
     font-size: 14px;
     font-weight: bold;
+    flex-shrink: 0;
   }
 
   .nav-contact {
@@ -1176,6 +1175,12 @@ html {
     border-radius: 30px;
     background-color: #4cd5cc;
     color: #FFFFFF;
+    flex-shrink: 0;
+  }
+
+  .top .nav-contact {
+    padding: 21.5px 38px;
+    height: 63px;
   }
 
   /*==============================================================
@@ -1434,6 +1439,11 @@ html {
   .nav-contact {
     padding: 18.5px 38px;
     height: 57px;
+  }
+
+  .pc-nav .nav-list.top {
+    transform: scale(1.05);
+    margin-right: -15px;
   }
 
   /* .pc-nav .nav-list.top {
