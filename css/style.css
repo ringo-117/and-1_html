@@ -1442,8 +1442,8 @@ html {
   }
 
   .pc-nav .nav-list.top {
-    transform: scale(1.03);
-    margin-right: -20px;
+    transform: scale(1.02);
+    margin-right: -22px;
   }
 
   .top .nav-item {
