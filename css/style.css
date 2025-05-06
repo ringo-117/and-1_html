@@ -1130,6 +1130,9 @@ html {
   ==============================================================*/
   header {
     height: 0px;
+
+    font-family: 'Noto Sans JP';
+
   }
 
   .header {
