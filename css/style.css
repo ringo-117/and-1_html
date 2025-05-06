@@ -1334,7 +1334,6 @@ html {
     padding: 20px 110px;
     max-width: 345px;
     border-radius: 30px;
-  
     margin-top: 15px;
   }
 
@@ -1348,8 +1347,6 @@ html {
 
     /* margin-bottom: 25px; */
   }
-
- 
 
   .footer-link-box {
     /* grid-template-columns: 232px auto; */
@@ -1411,15 +1408,31 @@ html {
   }
 
   /*==============================================================
-  　　TB横_ヘッダー
+    　　共通（タブレット横）
   ==============================================================*/
-  .nav-contact {
-    padding: 18.5px 38px;
+  #sec-service {
+    scroll-margin-top: 10px;
   }
 
-  .nav-contact.top {
-    padding: 20px 38px;
+  #sec-news {
+    scroll-margin-top: 80px;
   }
+
+  #sec-contact {
+    scroll-margin-top: 5px;
+  }
+
+  /*==============================================================
+  　　TB横_ヘッダー
+  ==============================================================*/
+  /* .nav-contact {
+    padding: 18.5px 38px;
+    height: 57px;
+  } */
+
+  /* .nav-contact.top {
+    padding: 20px 38px;
+  } */
 
    /*==============================================================
   　　TB横_ページタイトル・パンクズリスト
