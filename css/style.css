@@ -1442,25 +1442,25 @@ html {
   }
 
   .pc-nav .nav-list.top {
-    transform: scale(1.03);
+    transform: scale(1.02);
     margin-right: -20px;
   }
 
   .top .nav-item {
-    font-weight: 900;
-    font-size: 15px;
+    font-weight: 700;
+    font-size: 14.5px;
   }
 
   /* .pc-nav .nav-list.top {
     margin-top: 2px;
   } */
 
-  /* .pc-nav .nav-list.top .nav-contact {
-    margin-top: -2px;
-    padding: 20px 38px;
+  .pc-nav .nav-list.top .nav-contact {
+    font-size: 14.5px;
+    font-weight: 700;
   }
 
-  .top .nav-item {
+  /* .top .nav-item {
     font-size: 15px;
     font-weight: bold;
   } */
