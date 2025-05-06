@@ -397,6 +397,7 @@ body {
   /* ==================== 課題 ================== */
   .problem {
     margin-top: 48px;
+    width: 100%;
   }
 
   .problem .sol-heading {
@@ -411,6 +412,7 @@ body {
   .suggestion {
     margin-top: 64px;
     margin-bottom: 48px;
+    width: 100%;
   }
 
   .sug-title, .pro-title {
