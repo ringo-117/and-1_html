@@ -813,6 +813,7 @@ html {
 
   .nav-contact-btn {
     margin-top: 52px;
+    padding-top: 32px;
     max-width: 650px;
     justify-self: center;
   }
