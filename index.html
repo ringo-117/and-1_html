@@ -554,6 +554,22 @@
     <!-- jQuery Migrate（互換性を保つため） -->
     <script src="https://code.jquery.com/jquery-migrate-3.3.2.min.js"></script>
 
+    <script>
+      window.addEventListener('load', function () {
+        const hash = location.hash;
+        if (hash) {
+          // hash が #sec-contact のようなときのみ処理
+          const target = document.querySelector(hash);
+          if (target) {
+            // 一旦スクロールをキャンセルしてから再スクロール
+            setTimeout(() => {
+              target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }, 200); // 調整可能（遅すぎるなら100〜150でもOK）
+          }
+        }
+      });
+    </script>
+
     <!-- Slick -->
     <script type="text/javascript" src="slick/slick.min.js"></script>
     <script>
