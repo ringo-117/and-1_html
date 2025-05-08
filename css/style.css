@@ -223,12 +223,9 @@ html {
 
   .nav-btn {
     position: relative;
-    /* padding: 14px 50px 14px 40px; */
     padding: 16px 50px 16px 40px;
-    /* padding: 18px 50px 18px 40px; */
     display: flex;
     justify-content: center;
-    /* border-radius: 25px; */
     border-radius: 50px;
     align-items: center;
     background-color: #4cd5cc;
@@ -244,36 +241,22 @@ html {
   .nav-contact-btn {
     display: flex;
     flex-direction: column;
-    /* padding: 32px 0; */
-    gap: 20px;
-
-    /* padding: 40px 0 32px; */
-    /* gap: 22px; */
-    /* gap: 24px; */
-
-    /* padding: 44px 0 32px; */
     padding: 48px 0 32px;
-
-
+    gap: 20px;
   }
 
   .nav-btn .nav-arrow-bg {
     position: absolute;
     right: 20px;
-    width: 20px;
-    height: 20px;
+    width: 19px;
+    height: 19px;
     background-color: #fff;
     border-radius: 50%;
     display: grid;
     place-content: center;
-
-    width: 19px;
-    height: 19px;
   }
 
   .nav-btn .nav-arrow {
-    width: 12px;
-
     width: 11px;
     height: 9.8px;
   }
