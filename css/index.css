@@ -1580,6 +1580,14 @@ body {
   /*==============================================================
   　　TB横_SOLUTIONS ソリューション
   ==============================================================*/
+  /* .sec-sol-title {
+    padding: 75px 60px 60px;
+  } */
+
+  .sol-bg {
+    padding: 130px 32px;
+  }
+
   .slider {
     width: 100%;
     box-sizing: border-box;
@@ -1617,8 +1625,13 @@ body {
     padding: 60px 70px 55px 50px;
   }
 
+  .news-bg {
+    padding: 130px 32px 0;
+  }
 
-
+  .sec-news {
+    padding: 90px 88px 120px;
+  }
 
 }
 
