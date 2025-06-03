@@ -12,13 +12,6 @@ document.addEventListener("DOMContentLoaded", function () {
     container.classList.toggle('active');
     header.classList.toggle('active');
 
-    // ロゴ画像の切り替え
-    // if (header.classList.contains('active')) {
-    //   logoImg.src = 'img/logo_white.png';
-    // } else {
-    //   logoImg.src = 'img/logo.png';
-    // }
-
     // スクロール制御（あれば）
     const bodyStyle = document.body.style;
     if (bodyStyle.overflow === "hidden") {
@@ -47,5 +40,8 @@ document.addEventListener("DOMContentLoaded", function () {
 		});
 	});
 });
+
+
+
 
 
