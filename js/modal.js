@@ -13,7 +13,14 @@ document.addEventListener("DOMContentLoaded", () => {
       modal.classList.add("active");
       modalWrapper.classList.add("active");
       bg.classList.add("active");
+
+      document.body.style.position = 'fixed';
+      document.body.style.top = `-${window.scrollY}px`;
+      document.body.style.left = '0';
+      document.body.style.right = '0';
       document.body.style.overflow = 'hidden';
+      document.body.style.overflow = 'hidden';
+
       hasShownModal = true;
     }
   }
@@ -23,7 +30,15 @@ document.addEventListener("DOMContentLoaded", () => {
     modal.classList.remove("active");
     modalWrapper.classList.remove("active");
     bg.classList.remove("active");
+
+    // スクロール位置を戻す
+    const scrollY = document.body.style.top;
+    document.body.style.position = '';
+    document.body.style.top = '';
+    document.body.style.left = '';
+    document.body.style.right = '';
     document.body.style.overflow = '';
+    window.scrollTo(0, parseInt(scrollY || '0') * -1);
   }
 
   // --- 閉じるボタン ---
