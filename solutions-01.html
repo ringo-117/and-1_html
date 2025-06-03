@@ -25,6 +25,7 @@
     <link rel="stylesheet" href="css/destyle.css">
     <link rel="stylesheet" href="css/style.css?v=3.6">
     <link rel="stylesheet" href="css/solutions.css?v=1.9">
+    <link rel="stylesheet" href="css/modal.css">
   </head>
 
   <body>
@@ -276,6 +277,49 @@
           </article>
         </div>
       </div>
+      <!-- {{-- モーダル --}} -->
+      <div class="modal-bg"></div>
+      <div class="modal-wrapper sol-modal">
+        <article id="modal-container" class="modal-scroll-container">
+          <div class="container-bg">
+            <div class="close-btn close-btn-bg">
+              <span class="btn">&times;</span>
+            </div>
+            <div class="modal-title">
+              <p class="main-title">SOLUTIONS</p>
+              <p class="sub-title">その他の事例</p>
+            </div>
+            <div class="sol-box-all">
+              <a href="#">
+                <div class="sol-box">
+                  <p>
+                    商品の魅力を沢山の人に伝えるにはどうしたらいいの？<br><span class="sol-more">詳しく見る</span>
+                  </p>
+                  <img src="#" alt="スーツのイラスト">
+                </div>
+              </a>
+              <a href="#">
+                <div class="sol-box margin-top">
+                  <p>
+                    イベントに沢山のお客さんを呼ぶにはどうしたらいいの？
+                    <br><span class="sol-more">詳しく見る</span>
+                  </p>
+                  <img src="#" alt="料理人のイラスト">
+                </div>
+              </a>
+              <a href="#">
+                <div class="sol-box margin-top">
+                  <p>
+                    競合店が多い地域で新規オープン店舗の集客はどうすればいいの？
+                    <br><span class="sol-more">詳しく見る</span>
+                  </p>
+                  <img src="#" alt="料理人のイラスト">
+                </div>
+              </a>
+            </div>
+          </div>
+        </article>
+      </div>
     </main>
 
     <section id="sec-contact" class="sec-contact">
@@ -397,6 +441,8 @@
         </div>
       <article>
     </footer>
+
+    <script src="js/modal.js"></script>
 
     <script src="js/main.js"></script>
   </body>

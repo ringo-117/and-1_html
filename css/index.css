@@ -60,65 +60,35 @@ body {
   }
 
   .top-img .top-01 {
-    width: 85px;
-    height: 76px;
-    top: -5px;
-    left: 98px;
-
     width: 121px;
     height: 108px;
+    top: -5px;
     left: 133px;
   }
   .top-img .top-02 {
-    /* width: 145px;
-    height: 120px; */
-    top: -5px;
-    top: -2px;
-    left: 180px;
-
-    width: 205px;
-    height: 168px;
-    left: 252px;
-
     width: 208px;
-    /* height: 178px; */
-    /* overflow: auto; */
-
+    height: 168px;
+    top: -2px;
+    left: 252px;
   }
   .top-img .top-03 {
-    width: 172px;
-    height: 172px;
-    top: 0px;
-    left: 0px;
-
     width: 250px;
     height: 250px;
     top: 0px;
     left: -11px;
   }
   .top-img .top-04 {
-    width: 80px;
-    height: 71px;
-    top: 150px;
-    left: 255px;
-    z-index: 2;
-
     width: 116px;
     height: 103px;
     top: 222px;
     left: 360px;
+    z-index: 2;
   }
   .top-img .top-05 {
-    width: 180px;
-    height: 180px;
-    top: 42px;
-    left: 136px;
-
     width: 265px;
     height: 265px;
-    left: 141px;
-    left: 185px;
     top: 60px;
+    left: 185px;
   }
 
   .apng-graph {
@@ -129,7 +99,6 @@ body {
     height: 100%;
     z-index: 1;
   }
-
 
   .sec-top {
     font-family: 'Noto Sans JP';
@@ -514,7 +483,6 @@ body {
     font-size: 12px;
     font-weight: bold;
     width: 110px;
-    /* max-height: 45px; */
     margin-top: 10px;
     margin-right: 10px;
     align-content: center;
@@ -522,10 +490,7 @@ body {
   .news-btn.sp {
     margin: 0;
     width: 180px;
-    /* max-height: 52px; */
-    /* height: 52px; */
     margin: 0 auto;
-    /* margin-top: 64px; */
     margin-top: 66px;
     justify-items: center;
   }
@@ -650,13 +615,10 @@ body {
     left: 225px;
   }
   .top-img .top-02 {
-    width: 373px;
-    height: 306px;
-    top: -6px;
-    left: 443px;
-
     width: 380px;
     height: 304px;
+    top: -6px;
+    left: 443px;
   }
   .top-img .top-03 {
     width: 455px;
@@ -709,7 +671,6 @@ body {
     border-radius: 50px;
   }
 
-
   /* SP調整用 */
   .top-text-box .news-item p.top-news-tag {
     font-size: 9px;
@@ -745,9 +706,6 @@ body {
     margin-top: 10px;
     font-size: 12px;
   }
-
-
-
 
 
   /* ==================== 企業アニメーション ================== */
@@ -914,7 +872,6 @@ body {
 
   .news-title-box {
     align-items: center;
-
   }
 
   /* 一覧ボタン */
@@ -927,7 +884,6 @@ body {
     margin-right: 55px;
   }
   .news-title-box .news-info-box {
-    /* width: 150px; */
     width: 180px;
     border-radius: 25px;
     margin: 0 auto;
@@ -1565,7 +1521,6 @@ body {
     width: 200px;
     height: 200px;
     margin-left: -6px;
-    /* margin-left: -4px; */
   }
 
   .ser-text h3 {

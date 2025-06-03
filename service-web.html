@@ -25,6 +25,7 @@
     <link rel="stylesheet" href="css/destyle.css">
     <link rel="stylesheet" href="css/style.css?v=3.6">
     <link rel="stylesheet" href="css/service.css?v=2.6">
+    <link rel="stylesheet" href="css/modal.css">
   </head>
 
   <body>
@@ -181,6 +182,42 @@
         <div class="link-arrow"></div>
         <p>Web開発</p>
       </div>
+
+      <!-- {{-- モーダル --}} -->
+      <div class="modal-bg"></div>
+      <div class="modal-wrapper">
+        <article id="modal-container" class="modal-scroll-container">
+          <div class="container-bg">
+            <div class="close-btn close-btn-bg">
+              <span class="btn">&times;</span>
+            </div>
+            <div class="modal-title">
+              <p class="main-title">SOLUTIONS</p>
+              <p class="sub-title">Web開発事例</p>
+            </div>
+            <div class="sol-box-all">
+              <a href="#">
+                <div class="sol-box">
+                  <p>
+                    サービスの信頼性を高めお客様に安心して利用してもらうにはどうしたらいいの？<br><span class="sol-more">詳しく見る</span>
+                  </p>
+                  <img src="#" alt="スーツのイラスト">
+                </div>
+              </a>
+              <a href="#">
+                <div class="sol-box">
+                  <p>
+                    競合店が多い地域で新規オープン店舗の集客はどうすればいいの？
+                    <br><span class="sol-more">詳しく見る</span>
+                  </p>
+                  <img src="#" alt="料理人のイラスト">
+                </div>
+              </a>
+            </div>
+          </div>
+        </article>
+      </div>
+
       <section class="sec-point">
         <div class="sec-title">
           <h1>開発の特徴</h1>
@@ -419,6 +456,8 @@
         </div>
       <article>
     </footer>
+
+    <script src="js/modal.js"></script>
 
     <!-- 動画モーダルのスクリプト -->
     <script src="js/movie.js" type="module"></script>

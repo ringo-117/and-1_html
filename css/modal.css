@@ -1,0 +1,407 @@
+/* ==================== モーダル ================== */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+
+@media screen and (min-width: 320px) {
+  /* スマホ用レイアウト 320px以上の範囲に収めるデザインはこの中に記述 */
+  .modal-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100%;
+    height: calc(var(--vh, 1vh) * 100 + env(safe-area-inset-bottom, 0px));
+    box-sizing: border-box;
+    z-index: 997;
+    padding: 60px 32px;
+    align-content: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.6s ease, visibility 0.5s ease;
+    overflow: hidden;
+    overflow-y: scroll;
+  }
+
+  .modal-wrapper.active {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .modal-scroll-container {
+    background-color: #4cd5cc;
+    width: 100%;
+    height: 100%;
+    max-height: 545px;
+    margin: auto;
+    padding: 14px;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transition: opacity 0.6s ease, visibility 0.5s ease;
+  }
+
+  .modal-scroll-container.active{
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+  }
+
+  .modal-scroll-container .container-bg {
+    background-color: #fff;
+    padding: 46px 0 12px;
+    border-radius: 15px;
+    padding-bottom: 16px;
+    position: relative;
+    height: 100%;
+  }
+
+  .modal-scroll-container .modal-title {
+    text-align: center;
+    font-weight: bold;
+    margin: 0;
+  }
+
+  .modal-scroll-container .main-title {
+    font-size: 36px;
+    text-align: center;
+    letter-spacing: 0.08em;
+    margin-bottom: 12px;
+  }
+
+  .modal-scroll-container .sub-title {
+    font-size: 12px;
+    color: #39cac0;
+    margin-bottom: 40px;
+  }
+
+  .modal-scroll-container .close-btn {
+    position: absolute;
+    top: -28px;
+    right: -25px;
+    background-color: #fff;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+  }
+
+  .modal-scroll-container .close-btn .btn {
+    font-size: 23px;
+    align-content: center;
+    text-align: center;
+    color: #4d4d4d;
+    position: absolute;
+    top: 0.7px;
+    left: 0.5px;
+    cursor: pointer;
+  }
+
+  .modal-scroll-container .sol-box {
+    position: relative;
+    display: flex;
+    width: 280px;
+    justify-content: center;
+    margin: 0 auto;
+  }
+
+  .modal-scroll-container .sol-box p {
+    font-size: 11.1px;
+    background-color: #ffffff;
+    padding: 16px 50px 8px 18px;
+    border-radius: 10px;
+    line-height: 2em;
+    letter-spacing: 0.1em;
+    font-weight: bold;
+    margin: 0 auto;
+    margin: 0 26px 50px;
+    border: 1.5px solid #f8f8f8;
+    box-shadow: 5px 5px 8px 5px rgba(230, 230, 230, 0.5);
+  }
+
+  .modal-scroll-container .sol-box .sol-more {
+    color: #39cac0;
+    font-weight: 600;
+    line-height: 3;
+    font-size: 10.8px;
+    letter-spacing: 0.13em;
+  }
+
+  .modal-scroll-container .sol-box img {
+    position: absolute;
+    height: 135px;
+    top: 25px;
+    left: 201px;
+  }
+
+  .modal-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: calc(100vh + 60px);
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 996;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.6s ease, visibility 0.5s ease;
+
+  }
+
+  .modal-bg.active {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  /* 映像制作 03 */
+  .sol-box.sol-03 {
+    margin-top: 25px;
+  }
+
+  /* ==================== ソリューションズ ================== */
+  .modal-wrapper {
+    overflow-y: auto;
+    height: 100vh;
+  }
+  .sol-modal .modal-scroll-container {
+    height: auto;
+    max-height: none;
+    overflow: visible;
+  }
+  .sol-box.margin-top {
+    margin-top: 21px;
+  }
+
+  /* sol-04 */
+  .sol-modal .sol-box.margin-bottom {
+    margin-bottom: 22px;
+  }
+
+}
+
+@media screen and (min-width: 601px) {
+  /* タブレット用レイアウト 601px以上の範囲に収めるデザインはこの中に記述 */
+  .modal-bg-bottom {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    opacity: 0.5;
+    height: 50px;
+  }
+
+  .modal-wrapper {
+    padding: 40px 120px 35px;
+  }
+
+  .modal-scroll-container {
+    max-height: 767px;
+    padding: 26px;
+    max-width: 590px;
+  }
+
+  .modal-scroll-container .container-bg {
+    border-radius: 50px;
+    padding-top: 70px;
+  }
+
+  .modal-scroll-container .main-title {
+    font-size: 55px;
+    margin-bottom: 18px;
+  }
+
+  .modal-scroll-container .sub-title {
+    font-size: 15px;
+    margin-bottom: 60px;
+  }
+
+  .modal-scroll-container .close-btn {
+    width: 37px;
+    height: 37px;
+    top: -42px;
+    right: -43px;
+  }
+
+  .modal-scroll-container .close-btn .btn {
+    font-size: 24px;
+    top: 3.3px;
+    left: 1.7px;
+  }
+
+  .modal-scroll-container .sol-box {
+    width: 305px;
+  }
+
+  .modal-scroll-container .sol-box p {
+    font-size: 13px;
+    margin: 0 15px 88px;
+    padding: 20px 60px 10px 25px;
+  }
+
+  .modal-scroll-container .sol-box .sol-more {
+    font-size: 12px;
+  }
+
+  .modal-scroll-container .sol-box img {
+    height: 170px;
+    top: 34px;
+    left: 223px;
+  }
+
+  .modal-bg {
+    inset: 0;
+  }
+
+  /* 映像制作 03 */
+  .sol-box.sol-03 {
+    margin-top: 25px;
+  }
+
+  /* ==================== ソリューションズ ================== */
+  .sol-box.margin-top {
+    margin-top: 4px;
+  }
+
+  /* sol-02,03,04 */
+  .sol-modal .sol-box.margin-min {
+    margin-top: -14px;
+  }
+
+  .sol-box.margin-top {
+    margin-top: 12px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  /* パソコン用レイアウト 1081px以上の範囲に収めるデザインはこの中に記述 */
+  .modal-scroll-container {
+    height: 590px;
+    max-width: 870px;
+  }
+
+  .sol-box-all {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+  }
+
+  .modal-scroll-container .container-bg {
+    position: relative;
+    padding-top: 75px;
+  }
+
+  .modal-scroll-container .main-title {
+    font-size: 56px;
+    margin-bottom: 20px;
+  }
+
+  .modal-scroll-container .sub-title {
+    margin-bottom: 90px;
+  }
+
+  .modal-scroll-container .close-btn .btn {
+    position: absolute;
+    margin-right: -19.8px;
+  }
+
+  .modal-scroll-container .sol-box {
+    height: 235px;
+  }
+
+  .modal-scroll-container .sol-box p {
+    padding: 7px 60px 0 25px;
+    align-content: center;
+  }
+
+  /* 映像制作 03 */
+  .sol-box.sol-03 {
+    margin-top: 0px;
+  }
+
+  /* ==================== ソリューションズ ================== */
+  .modal-wrapper.sol-modal {
+    padding: 40px 20px 35px;
+  }
+  .sol-modal .modal-scroll-container {
+    height: 600px;
+    max-width: 1050px;
+
+  }
+  .sol-modal .sol-box-all {
+    gap: 20px;
+  }
+  .sol-box.margin-top {
+    margin-top: 0px;
+  }
+  .sol-modal .modal-scroll-container .close-btn .btn {
+    right: 20px;
+  }
+
+  /* sol-02,03,04 */
+  .sol-modal .sol-box.margin-min {
+    margin-top: 0px;
+  }
+
+  /* sol-04 */
+  .sol-modal .sol-box.margin-bottom {
+    margin-bottom: 0px;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  /* pc版用 */
+  .sol-box-all {
+    gap: 90px;
+  }
+
+  .modal-scroll-container {
+    height: 640px;
+    max-width: 960px;
+  }
+
+  .modal-scroll-container .container-bg {
+    padding-top: 84px;
+  }
+
+  .modal-scroll-container .main-title {
+    font-size: 60px;
+    margin-bottom: 20px;
+  }
+
+  .modal-scroll-container .sub-title {
+    font-size: 17px;
+    margin-bottom: 110px;
+  }
+
+  .modal-scroll-container .sol-box p {
+    font-size: 13.5px;
+    width: 290px;
+    height: 165px;
+    padding: 10px 60px 0 30px;
+    margin: 0;
+  }
+
+  .modal-scroll-container .sol-box .sol-more {
+    font-size: 12.5px;
+    font-weight: 600;
+    line-height: 3.3;
+  }
+
+  .modal-scroll-container .sol-box img {
+    top: 45px;
+    left: 233px;
+  }
+
+  /* ==================== ソリューションズ ================== */
+  .sol-modal .modal-scroll-container {
+    height: 650px;
+    max-width: 1200px;
+  }
+
+  .sol-modal .sol-box-all {
+    gap: 50px;
+  }
+}
