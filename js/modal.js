@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", () => {
       modal.classList.add("active");
       modalWrapper.classList.add("active");
       bg.classList.add("active");
-      document.body.style.overflow = 'hidden';
+      // document.body.style.overflow = 'hidden';
 
       hasShownModal = true;
     }
@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", () => {
     modal.classList.remove("active");
     modalWrapper.classList.remove("active");
     bg.classList.remove("active");
-    document.body.style.overflow = '';
+    // document.body.style.overflow = '';
 
     // スクロール位置を戻す
     // document.body.classList.remove('modal-open');
