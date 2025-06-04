@@ -22,25 +22,21 @@ document.addEventListener("DOMContentLoaded", () => {
   // --- モーダル表示処理 ---
   function openModal() {
     if (!hasShownModal) {
-      // scrollY = window.scrollY;
+      scrollY = window.scrollY;
 
       // 背景固定用の処理
-      // document.body.style.position = 'fixed';
-      // document.body.style.top = `-${scrollY}px`;
-      // document.body.style.left = '0';
-      // document.body.style.right = '0';
-      // document.body.style.width = '100%';
+      document.body.style.position = 'fixed';
+      document.body.style.top = `-${scrollY}px`;
+      document.body.style.left = '0';
+      document.body.style.right = '0';
+      document.body.style.width = '100%';
       document.documentElement.classList.add('modal-open');
       document.body.classList.add('modal-open');
-      document.body.style.top = `-${scrollY}px`;
 
       modal.classList.add("active");
       modalWrapper.classList.add("active");
       bg.classList.add("active");
       // document.body.style.overflow = 'hidden';
-
-      // ページ最上部に見せかけて、バーが出ないようにする
-      window.scrollTo(0, 0);
 
       hasShownModal = true;
     }
@@ -57,10 +53,14 @@ document.addEventListener("DOMContentLoaded", () => {
     document.documentElement.classList.remove('modal-open');
     document.body.classList.remove('modal-open');
 
+    // body位置を戻す前にスクロール位置を復元
+    const currentScrollY = parseInt(document.body.style.top || "0") * -1;
+
     document.body.style.position = '';
     document.body.style.top = '';
     document.body.style.left = '';
     document.body.style.right = '';
+    document.body.style.width = '';
 
     // scroll復元
     window.scrollTo(0, scrollY);
