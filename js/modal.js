@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", () => {
       // document.body.classList.add('modal-open');
 
 
-      // document.body.style.overflow = 'hidden';
+      document.body.style.overflow = 'hidden';
 
       hasShownModal = true;
     }
@@ -37,7 +37,7 @@ document.addEventListener("DOMContentLoaded", () => {
     modal.classList.remove("active");
     modalWrapper.classList.remove("active");
     bg.classList.remove("active");
-    // document.body.style.overflow = '';
+    document.body.style.overflow = '';
 
     // 背景固定解除
     // document.documentElement.classList.remove('modal-open');
