@@ -14,6 +14,11 @@ document.addEventListener("DOMContentLoaded", () => {
       scrollY = window.scrollY;
 
       // 背景固定用の処理
+      document.body.style.position = 'fixed';
+      document.body.style.top = `-${scrollY}px`;
+      document.body.style.left = '0';
+      document.body.style.right = '0';
+      document.body.style.width = '100%';
       document.documentElement.classList.add('modal-open');
       document.body.classList.add('modal-open');
       document.body.style.top = `-${scrollY}px`;
