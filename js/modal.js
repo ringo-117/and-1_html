@@ -6,24 +6,24 @@ document.addEventListener("DOMContentLoaded", () => {
   const bg = document.querySelector(".modal-bg");
 
   let hasShownModal = false;
-  let scrollY = 0;
+  // let scrollY = 0;
 
   // --- モーダル表示処理 ---
   function openModal() {
     if (!hasShownModal) {
-      scrollY = window.scrollY || window.pageYOffset;
-      document.body.style.position = 'fixed';
-      document.body.style.top = `-${scrollY}px`;
-      document.body.style.left = '0';
-      document.body.style.right = '0';
-      document.body.style.overflow = 'hidden';
-      document.body.style.width = '100%';
+      // scrollY = window.scrollY || window.pageYOffset;
+      // document.body.style.position = 'fixed';
+      // document.body.style.top = `-${scrollY}px`;
+      // document.body.style.left = '0';
+      // document.body.style.right = '0';
+      // document.body.style.overflow = 'hidden';
+      // document.body.style.width = '100%';
 
       modal.classList.add("active");
       modalWrapper.classList.add("active");
       bg.classList.add("active");
 
-      document.body.classList.add('modal-open');
+      // document.body.classList.add('modal-open');
 
 
       // document.body.style.overflow = 'hidden';
@@ -37,23 +37,23 @@ document.addEventListener("DOMContentLoaded", () => {
     modal.classList.remove("active");
     modalWrapper.classList.remove("active");
     bg.classList.remove("active");
-    document.body.style.overflow = '';
+    // document.body.style.overflow = '';
 
     // 背景固定解除
     // document.documentElement.classList.remove('modal-open');
-    document.body.classList.remove('modal-open');
+    // document.body.classList.remove('modal-open');
 
     // body位置を戻す前にスクロール位置を復元
     // const currentScrollY = parseInt(document.body.style.top || "0") * -1;
 
-    document.body.style.position = '';
-    document.body.style.top = '';
-    document.body.style.left = '';
-    document.body.style.right = '';
-    document.body.style.overflow = '';
-    document.body.style.width = '';
+    // document.body.style.position = '';
+    // document.body.style.top = '';
+    // document.body.style.left = '';
+    // document.body.style.right = '';
+    // document.body.style.overflow = '';
+    // document.body.style.width = '';
 
-    window.scrollTo(0, scrollY);
+    // window.scrollTo(0, scrollY);
   }
 
   // --- 閉じるボタン ---
