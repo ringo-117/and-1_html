@@ -5,6 +5,15 @@ html, body {
   padding: 0;
 }
 
+/* モーダルを開いているときに、背景を固定 */
+html.modal-open,
+body.modal-open {
+  position: fixed;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+
 @media screen and (min-width: 320px) {
   /* スマホ用レイアウト 320px以上の範囲に収めるデザインはこの中に記述 */
   .modal-wrapper {
