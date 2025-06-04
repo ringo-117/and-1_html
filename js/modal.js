@@ -1,3 +1,14 @@
+function setVh() {
+  const vh = (window.visualViewport?.height || window.innerHeight) * 0.01;
+  document.documentElement.style.setProperty('--vh', `${vh}px`);
+}
+
+window.addEventListener('load', setVh);
+window.addEventListener('resize', setVh);
+
+// 関数呼び出し名を正しく統一
+setVh();
+
 // 数値
 document.addEventListener("DOMContentLoaded", () => {
   const modal = document.getElementById("modal-container");
@@ -11,14 +22,14 @@ document.addEventListener("DOMContentLoaded", () => {
   // --- モーダル表示処理 ---
   function openModal() {
     if (!hasShownModal) {
-      scrollY = window.scrollY;
+      // scrollY = window.scrollY;
 
       // 背景固定用の処理
-      document.body.style.position = 'fixed';
-      document.body.style.top = `-${scrollY}px`;
-      document.body.style.left = '0';
-      document.body.style.right = '0';
-      document.body.style.width = '100%';
+      // document.body.style.position = 'fixed';
+      // document.body.style.top = `-${scrollY}px`;
+      // document.body.style.left = '0';
+      // document.body.style.right = '0';
+      // document.body.style.width = '100%';
       document.documentElement.classList.add('modal-open');
       document.body.classList.add('modal-open');
       document.body.style.top = `-${scrollY}px`;
@@ -27,6 +38,9 @@ document.addEventListener("DOMContentLoaded", () => {
       modalWrapper.classList.add("active");
       bg.classList.add("active");
       // document.body.style.overflow = 'hidden';
+
+      // ページ最上部に見せかけて、バーが出ないようにする
+      window.scrollTo(0, 0);
 
       hasShownModal = true;
     }
@@ -147,13 +161,3 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 });
 
-function setVh() {
-  const vh = (window.visualViewport?.height || window.innerHeight) * 0.01;
-  document.documentElement.style.setProperty('--vh', `${vh}px`);
-}
-
-window.addEventListener('load', setVh);
-window.addEventListener('resize', setVh);
-
-// 関数呼び出し名を正しく統一
-setVh();
