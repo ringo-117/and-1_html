@@ -5,6 +5,10 @@ html, body {
   padding: 0;
 }
 
+body.modal-open {
+  overflow: hidden;
+}
+
 
 @media screen and (min-width: 320px) {
   /* スマホ用レイアウト 320px以上の範囲に収めるデザインはこの中に記述 */
