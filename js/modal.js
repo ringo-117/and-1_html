@@ -6,20 +6,17 @@ document.addEventListener("DOMContentLoaded", () => {
   const bg = document.querySelector(".modal-bg");
 
   let hasShownModal = false;
-  // let scrollY = 0;
+  let scrollY = 0;
 
   // --- モーダル表示処理 ---
   function openModal() {
     if (!hasShownModal) {
-      // 今のスクロール位置を保存
-      // scrollY = window.scrollY;
+      scrollY = window.scrollY;
 
-      // スクロールを止める
-      // document.body.style.position = 'fixed';
-      // document.body.style.top = `-${scrollY}px`;
-      // document.body.style.left = '0';
-      // document.body.style.right = '0';
-      // document.body.classList.add('modal-open');
+      // 背景固定用の処理
+      document.documentElement.classList.add('modal-open');
+      document.body.classList.add('modal-open');
+      document.body.style.top = `-${scrollY}px`;
 
       modal.classList.add("active");
       modalWrapper.classList.add("active");
@@ -37,16 +34,17 @@ document.addEventListener("DOMContentLoaded", () => {
     bg.classList.remove("active");
     // document.body.style.overflow = '';
 
-    // スクロール位置を戻す
-    // document.body.classList.remove('modal-open');
-    // document.body.style.position = '';
-    // document.body.style.top = '';
-    // document.body.style.left = '';
-    // document.body.style.right = '';
+    // 背景固定解除
+    document.documentElement.classList.remove('modal-open');
+    document.body.classList.remove('modal-open');
 
-    // スクロールを元に戻す（ここが大事）
-    // window.scrollTo(0, scrollY);
+    document.body.style.position = '';
+    document.body.style.top = '';
+    document.body.style.left = '';
+    document.body.style.right = '';
 
+    // scroll復元
+    window.scrollTo(0, scrollY);
   }
 
   // --- 閉じるボタン ---
