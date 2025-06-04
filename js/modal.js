@@ -1,13 +1,16 @@
-function setVh() {
-  const vh = (window.visualViewport?.height || window.innerHeight) * 0.01;
-  document.documentElement.style.setProperty('--vh', `${vh}px`);
-}
 
-window.addEventListener('load', setVh);
-window.addEventListener('resize', setVh);
 
-// 関数呼び出し名を正しく統一
-setVh();
+
+
+// 初回実行＋リサイズ対応
+// function setVh() {
+//   const vh = window.innerHeight * 0.01;
+//   document.documentElement.style.setProperty('--vh', `${vh}px`);
+// }
+// window.addEventListener('resize', setVh);
+// setVh();
+
+
 
 // 数値
 document.addEventListener("DOMContentLoaded", () => {
@@ -17,25 +20,32 @@ document.addEventListener("DOMContentLoaded", () => {
   const bg = document.querySelector(".modal-bg");
 
   let hasShownModal = false;
-  let scrollY = 0;
+  // let scrollY = 0;
 
   // --- モーダル表示処理 ---
   function openModal() {
     if (!hasShownModal) {
-      scrollY = window.scrollY;
+      // scrollY = window.scrollY;
 
-      // 背景固定用の処理
-      document.body.style.position = 'fixed';
-      document.body.style.top = `-${scrollY}px`;
-      document.body.style.left = '0';
-      document.body.style.right = '0';
-      document.body.style.width = '100%';
+      // document.body.style.position = 'fixed';
+      // document.body.style.top = `-${scrollY}px`;
+      // document.body.style.left = '0';
+      // document.body.style.right = '0';
+      // document.body.style.width = '100%';
+
       document.documentElement.classList.add('modal-open');
       document.body.classList.add('modal-open');
 
-      modal.classList.add("active");
-      modalWrapper.classList.add("active");
-      bg.classList.add("active");
+
+      requestAnimationFrame(() => {
+        modal.classList.add("active");
+        modalWrapper.classList.add("active");
+        bg.classList.add("active");
+      });
+      // modal.classList.add("active");
+      // modalWrapper.classList.add("active");
+      // bg.classList.add("active");
+
       // document.body.style.overflow = 'hidden';
 
       hasShownModal = true;
@@ -54,16 +64,16 @@ document.addEventListener("DOMContentLoaded", () => {
     document.body.classList.remove('modal-open');
 
     // body位置を戻す前にスクロール位置を復元
-    const currentScrollY = parseInt(document.body.style.top || "0") * -1;
+    // const currentScrollY = parseInt(document.body.style.top || "0") * -1;
 
-    document.body.style.position = '';
-    document.body.style.top = '';
-    document.body.style.left = '';
-    document.body.style.right = '';
-    document.body.style.width = '';
+    // document.body.style.position = '';
+    // document.body.style.top = '';
+    // document.body.style.left = '';
+    // document.body.style.right = '';
+    // document.body.style.width = '';
 
     // scroll復元
-    window.scrollTo(0, scrollY);
+    // window.scrollTo(0, scrollY);
   }
 
   // --- 閉じるボタン ---
@@ -161,3 +171,13 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 });
 
+function setVh() {
+  const vh = (window.visualViewport?.height || window.innerHeight) * 0.01;
+  document.documentElement.style.setProperty('--vh', `${vh}px`);
+}
+
+window.addEventListener('load', setVh);
+window.addEventListener('resize', setVh);
+
+// 関数呼び出し名を正しく統一
+setVh();
