@@ -1,17 +1,3 @@
-
-
-
-
-// 初回実行＋リサイズ対応
-// function setVh() {
-//   const vh = window.innerHeight * 0.01;
-//   document.documentElement.style.setProperty('--vh', `${vh}px`);
-// }
-// window.addEventListener('resize', setVh);
-// setVh();
-
-
-
 // 数値
 document.addEventListener("DOMContentLoaded", () => {
   const modal = document.getElementById("modal-container");
@@ -25,28 +11,20 @@ document.addEventListener("DOMContentLoaded", () => {
   // --- モーダル表示処理 ---
   function openModal() {
     if (!hasShownModal) {
-      // scrollY = window.scrollY;
-
-      // document.body.style.position = 'fixed';
-      // document.body.style.top = `-${scrollY}px`;
-      // document.body.style.left = '0';
-      // document.body.style.right = '0';
-      // document.body.style.width = '100%';
-
-      document.documentElement.classList.add('modal-open');
-      document.body.classList.add('modal-open');
+      // document.documentElement.classList.add('modal-open');
+      // document.body.classList.add('modal-open');
 
 
-      requestAnimationFrame(() => {
-        modal.classList.add("active");
-        modalWrapper.classList.add("active");
-        bg.classList.add("active");
-      });
-      // modal.classList.add("active");
-      // modalWrapper.classList.add("active");
-      // bg.classList.add("active");
+      // requestAnimationFrame(() => {
+      //   modal.classList.add("active");
+      //   modalWrapper.classList.add("active");
+      //   bg.classList.add("active");
+      // });
+      modal.classList.add("active");
+      modalWrapper.classList.add("active");
+      bg.classList.add("active");
 
-      // document.body.style.overflow = 'hidden';
+      document.body.style.overflow = 'hidden';
 
       hasShownModal = true;
     }
@@ -57,7 +35,7 @@ document.addEventListener("DOMContentLoaded", () => {
     modal.classList.remove("active");
     modalWrapper.classList.remove("active");
     bg.classList.remove("active");
-    // document.body.style.overflow = '';
+    document.body.style.overflow = '';
 
     // 背景固定解除
     document.documentElement.classList.remove('modal-open');
