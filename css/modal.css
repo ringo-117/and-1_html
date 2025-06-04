@@ -16,6 +16,12 @@ body.modal-open {
   touch-action: none;
 } */
 
+body.modal-open {
+  position: fixed;
+  width: 100%;
+  overflow: hidden;
+}
+
 /*
 body.modal-open {
   position: fixed;
