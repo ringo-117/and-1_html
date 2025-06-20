@@ -25,7 +25,7 @@
     <link rel="stylesheet" href="slick/slick.css">
     <link rel="stylesheet" href="slick/slick-theme.css">
     <link rel="stylesheet" href="css/destyle.css">
-    <link rel="stylesheet" href="css/style.css?v=6.8">
+    <link rel="stylesheet" href="css/style.css?v=6.9">
     <link rel="stylesheet" href="css/index.css?v=12.6">
   </head>
 
@@ -41,9 +41,9 @@
           <ul id="nav_list" class="nav-list top">
             <li class="nav-item min"><a href="index.html#sec-service">サービス</a></li>
             <li class="nav-item min"><a href="index.html#sec-solutions">ソリューションズ</a></li>
-            <li class="nav-item min"><a href="company-info.html">会社情報</a></li>
-            <li class="nav-item min"><a href="#sec-news">ニュース</a></li>
             <li class="nav-item min"><a href="faq.html">よくある質問</a></li>
+            <li class="nav-item min"><a href="#sec-news">ニュース</a></li>
+            <li class="nav-item min"><a href="company-info.html">会社情報</a></li>
             <li class="nav-item min"><a href="#sec-contact" class="nav-contact">お問い合わせ</a></li>
           </ul>
         </div>
@@ -66,8 +66,8 @@
         <div class="container">
           <ul id="nav-list" class="nav-list">
             <li class="nav-box img-items box_01">
-              <input type="checkbox" id="toggle2" class="toggle">
-              <label class="title" for="toggle2">
+              <input type="checkbox" id="toggle1" class="toggle">
+              <label class="title" for="toggle1">
                 <div class="nav-title">
                   <p class="title-text">サービス</p>
                   <img class="icon_toggle" src="img/nav_toggle.png" alt="トグルアイコン">
@@ -92,8 +92,8 @@
             </li>
 
             <li class="nav-box img-items box_02">
-              <input type="checkbox" id="toggle3" class="toggle">
-              <label class="title" for="toggle3">
+              <input type="checkbox" id="toggle2" class="toggle">
+              <label class="title" for="toggle2">
                 <div class="nav-title">
                   <p class="title-text">ソリューションズ</p>
                   <img class="icon_toggle" src="img/nav_toggle.png" alt="トグルアイコン">
@@ -110,6 +110,24 @@
             </li>
 
             <li class="nav-box img-items box_03">
+              <input type="checkbox" id="toggle3" class="toggle">
+              <label class="title" for="toggle3">
+                <div class="nav-title">
+                  <p class="title-text">ニュース</p>
+                  <img class="icon_toggle" src="img/nav_toggle.png" alt="トグルアイコン">
+                </div>
+              </label>
+              <div class="content">
+                <p class="nav-link">
+                  <a href="news.html">
+                    一覧
+                    <img class="nav-arrow" src="img/nav_arrow.png" alt="矢印">
+                  </a>
+                </p>
+              </div>
+            </li>
+
+            <li class="nav-box img-items box_04">
               <input type="checkbox" id="toggle4" class="toggle">
               <label class="title" for="toggle4">
                 <div class="nav-title">
@@ -135,27 +153,44 @@
               </div>
             </li>
 
-            <li class="nav-box img-items box_04">
+            <li class="nav-box img-items box_05">
               <input type="checkbox" id="toggle5" class="toggle">
               <label class="title" for="toggle5">
                 <div class="nav-title">
-                  <p class="title-text">ニュース</p>
+                  <p class="title-text">よくある質問</p>
                   <img class="icon_toggle" src="img/nav_toggle.png" alt="トグルアイコン">
                 </div>
               </label>
               <div class="content">
-                <p class="nav-link">
-                  <a href="news.html">
-                    一覧
+                <p class="nav-link faq">
+                  <a href="faq.html#faq-01">
+                    エリアについて
+                    <img class="nav-arrow" src="img/nav_arrow.png" alt="矢印">
+                  </a>
+                  <a href="faq.html#faq-02">
+                    業種について
+                    <img class="nav-arrow" src="img/nav_arrow.png" alt="矢印">
+                  </a>
+                  <a href="faq.html#faq-03">
+                    制作について
+                    <img class="nav-arrow" src="img/nav_arrow.png" alt="矢印">
+                  </a>
+                  <a href="faq.html#faq-04">
+                    料金について
+                    <img class="nav-arrow" src="img/nav_arrow.png" alt="矢印">
+                  </a>
+                  <a href="faq.html#faq-05">
+                    集客について
                     <img class="nav-arrow" src="img/nav_arrow.png" alt="矢印">
                   </a>
                 </p>
               </div>
             </li>
-            <div class="nav-btn"><li class="nav-item min"><a href="faq.html">よくある質問</a></li></div>
+
+            
             
 
-            <li class="box_05 nav-contact-btn">
+            <li class="box_06 nav-contact-btn">
               <a class="sp" href="contact-phone.html">
                 <div class="nav-btn">
                   <p class="title-text">電話でお問い合わせ</p>
@@ -515,8 +550,12 @@
               <p>ソリューションズ</p>
               <a href="index.html#sec-solutions"><span class="link-line">-</span> ご提案</a>
             </div>
+            <div class="footer-link news">
+              <p>ニュース</p>
+              <a href="news.html"><span class="link-line">-</span> 一覧</a>
+            </div>
           </div>
-            <dev>
+          <dev>
             <div class="footer-link min">
               <p>会社情報</p>
               <div>
@@ -525,9 +564,16 @@
                 <a href="company-message.html"><span class="link-line">-</span> 社長挨拶</a>
               </div>
             </div>
+            
             <div class="footer-link min">
-              <p>ニュース</p>
-              <a href="news.html"><span class="link-line">-</span> 一覧</a>
+              <p>よくある質問</p>
+              <div>
+                <a href="faq.html#faq-01"><span class="link-line">-</span> エリアについて</a>
+                <a href="faq.html#faq-02"><span class="link-line">-</span> 業種について</a>
+                <a href="faq.html#faq-03"><span class="link-line">-</span> 制作について</a>
+                <a href="faq.html#faq-04"><span class="link-line">-</span> 料金について</a>
+                <a href="faq.html#faq-05"><span class="link-line">-</span> 集客について</a>
+              </div>
             </div>
           </dev>
         </article>

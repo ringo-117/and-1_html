@@ -722,9 +722,10 @@ html {
     place-content: center;
     /* 2行×2列にする */
     grid-template:
-      "box1 box3" auto
-      "box2 box4" auto
-      "box5 box5" auto
+      "box1 box4" auto
+      "box2 box5" auto
+      "box3 box5" auto
+      "box6 box6" auto
       / 1fr 1fr;
     column-gap: 72px;
     row-gap: 20px;
@@ -749,6 +750,9 @@ html {
   }
   .box_05 {
     grid-area: box5;
+  }
+  .box_06 {
+    grid-area: box6;
   }
 
   .nav-box {
@@ -825,7 +829,8 @@ html {
   }
 
   .nav-contact-btn {
-    margin-top: 52px;
+    /* margin-top: 52px; */
+    margin-top: 24px;
     padding-top: 32px;
     max-width: 650px;
     justify-self: center;
@@ -999,6 +1004,10 @@ html {
 
   .footer-link .link-line {
     transform: translateY(-1.4px);
+  }
+
+  .footer-link.news {
+    margin-top: 42px;
   }
 
   .foot-bottom {
@@ -1191,15 +1200,16 @@ html {
   }
 
   .footer {
-    padding: 20px auto 50px;
+    padding: 32px 40px 40px 65px;
+
     font-size: 14px;
     display: grid;
     grid-template:
       "foot-01 foot-03" 80px
-      "foot-02 foot-03" auto
+      "foot-02 foot-03" 340px
       "foot-04 foot-04" auto
     / 345px auto;
-    column-gap: 200px;
+    column-gap: 164px;
     justify-self: center;
     overflow: hidden;
   }
@@ -1239,6 +1249,7 @@ html {
     grid-template-columns: auto;
     gap: 75px;
     row-gap: 0px;
+    max-height: 270px;
   }
 
   .contact-link {
@@ -1257,7 +1268,8 @@ html {
     display: flex;
     justify-content: right;
     column-gap: 72px;
-    margin-top: 83px;
+    /* margin-top: 83px; */
+    margin-top: 40px;
     margin-right: 25px;
   }
 
