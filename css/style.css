@@ -990,7 +990,9 @@ html {
     margin-top: 60px;
     font-size: 16px;
     justify-items: center;
-    margin-bottom: 60px;
+    /* margin-bottom: 60px; */
+    margin-bottom: 48px;
+
     margin-right: 15px;
   }
 
@@ -1206,7 +1208,7 @@ html {
     display: grid;
     grid-template:
       "foot-01 foot-03" 80px
-      "foot-02 foot-03" 340px
+      "foot-02 foot-03" 370px
       "foot-04 foot-04" auto
     / 345px auto;
     column-gap: 164px;
